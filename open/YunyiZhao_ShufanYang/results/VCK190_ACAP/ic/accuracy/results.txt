@@ -1,0 +1,10 @@
+0508.211132 ulp-mlperf: Top 1% = 85.0
+0508.211720 ulp-mlperf: Top 1% = 85.0
+0508.212309 ulp-mlperf: Top 1% = 85.0
+0508.212857 ulp-mlperf: Top 1% = 85.0
+0508.213446 ulp-mlperf: Top 1% = 85.0
+0508.211132 ulp-mlperf: AUC = 0.984
+0508.211720 ulp-mlperf: AUC = 0.984
+0508.212309 ulp-mlperf: AUC = 0.984
+0508.212857 ulp-mlperf: AUC = 0.984
+0508.213446 ulp-mlperf: AUC = 0.984

@@ -1,0 +1,2 @@
+0522.164358 ulp-mlperf: Top 1% = 85.5
+0522.164358 ulp-mlperf: AUC = 0.966

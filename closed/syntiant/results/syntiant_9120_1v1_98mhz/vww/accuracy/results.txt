@@ -1,0 +1,2 @@
+0531.214849 ulp-mlperf: Top 1% = 84.3
+0531.214849 ulp-mlperf: AUC = 0.937

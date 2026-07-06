@@ -1,0 +1,92 @@
+Logging initialized. Writing output to sessions/20260531_175556/log.txt
+Initializing SerialDevice on port: /dev/cu.usbserial-140 at 230400 baud
+Device discovery results:
+Detected device: dut
+SerialDevice entering port /dev/cu.usbserial-140, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: syntiant
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: vww01
+SerialDevice exiting port /dev/cu.usbserial-140, entry_count (before decrement) = 1
+SerialDevice entering port /dev/cu.usbserial-140, entry_count (before increment) = 0
+0531.175558 ulp-mlperf: Loading file 000000343218.bin segment 0
+0531.175604 ulp-mlperf: Load complete.
+Running inference with 5/400 (warmup/measured) iterations ...
+done
+0531.175611 ulp-mlperf: Performance results for window 1:
+0531.175611 ulp-mlperf:   # Inferences :           400
+0531.175611 ulp-mlperf:   Runtime      :      6.713 sec.
+0531.175611 ulp-mlperf:   Throughput   :     59.584 inf./sec.
+0531.175611 ulp-mlperf:   m-results    : [27.314, 37.137]
+0531.175611 ulp-mlperf: Loading file 000000332570.bin segment 0
+0531.175617 ulp-mlperf: Load complete.
+Running inference with 5/400 (warmup/measured) iterations ...
+done
+0531.175624 ulp-mlperf: Performance results for window 2:
+0531.175624 ulp-mlperf:   # Inferences :           400
+0531.175624 ulp-mlperf:   Runtime      :      6.714 sec.
+0531.175624 ulp-mlperf:   Throughput   :     59.573 inf./sec.
+0531.175624 ulp-mlperf:   m-results    : [34.949, 29.118]
+0531.175624 ulp-mlperf: Loading file 000000352684.bin segment 0
+0531.175631 ulp-mlperf: Load complete.
+Running inference with 5/400 (warmup/measured) iterations ...
+done
+0531.175638 ulp-mlperf: Performance results for window 3:
+0531.175638 ulp-mlperf:   # Inferences :           400
+0531.175638 ulp-mlperf:   Runtime      :      6.715 sec.
+0531.175638 ulp-mlperf:   Throughput   :     59.570 inf./sec.
+0531.175638 ulp-mlperf:   m-results    : [31.941, 32.118]
+0531.175638 ulp-mlperf: Loading file 000000003934.bin segment 0
+0531.175644 ulp-mlperf: Load complete.
+Running inference with 5/400 (warmup/measured) iterations ...
+done
+0531.175650 ulp-mlperf: Performance results for window 4:
+0531.175650 ulp-mlperf:   # Inferences :           400
+0531.175650 ulp-mlperf:   Runtime      :      6.715 sec.
+0531.175650 ulp-mlperf:   Throughput   :     59.564 inf./sec.
+0531.175650 ulp-mlperf:   m-results    : [30.043, 34.133]
+0531.175650 ulp-mlperf: Loading file 000000272566.bin segment 0
+0531.175656 ulp-mlperf: Load complete.
+Running inference with 5/400 (warmup/measured) iterations ...
+done
+0531.175703 ulp-mlperf: Performance results for window 5:
+0531.175703 ulp-mlperf:   # Inferences :           400
+0531.175703 ulp-mlperf:   Runtime      :      6.715 sec.
+0531.175703 ulp-mlperf:   Throughput   :     59.568 inf./sec.
+0531.175703 ulp-mlperf:   m-results    : [30.745, 33.408]
+SerialDevice exiting port /dev/cu.usbserial-140, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 400
+Runtime: 6.713166 sec.
+Throughput: 59.58440473541098 inf./sec.
+JHDBG: (before norm) results for file 000000343218.bin: [27.314, 37.137]
+JHDBG: (after norm) results for file 000000343218.bin: [0.42379482087167, 0.5762051791283301]
+Performance results for window 2
+# Inferences : 400
+Runtime: 6.714483 sec.
+Throughput: 59.572717661210845 inf./sec.
+JHDBG: (before norm) results for file 000000332570.bin: [34.949, 29.118]
+JHDBG: (after norm) results for file 000000332570.bin: [0.5455070473098476, 0.4544929526901525]
+Performance results for window 3
+# Inferences : 400
+Runtime: 6.714757 sec.
+Throughput: 59.57028675795714 inf./sec.
+JHDBG: (before norm) results for file 000000352684.bin: [31.941, 32.118]
+JHDBG: (after norm) results for file 000000352684.bin: [0.49861846110616775, 0.5013815388938323]
+Performance results for window 4
+# Inferences : 400
+Runtime: 6.715489 sec.
+Throughput: 59.5637934929236 inf./sec.
+JHDBG: (before norm) results for file 000000003934.bin: [30.043, 34.133]
+JHDBG: (after norm) results for file 000000003934.bin: [0.4681345051109449, 0.5318654948890551]
+Performance results for window 5
+# Inferences : 400
+Runtime: 6.715043 sec.
+Throughput: 59.56774960339048 inf./sec.
+JHDBG: (before norm) results for file 000000272566.bin: [30.745, 33.408]
+JHDBG: (after norm) results for file 000000272566.bin: [0.4792449300890059, 0.520755069910994]
+0531.175704 ulp-mlperf: ---------------------------------------------------------
+0531.175704 ulp-mlperf: Median throughput is     59.570 inf./sec.
+0531.175704 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260531_175556/log.txt

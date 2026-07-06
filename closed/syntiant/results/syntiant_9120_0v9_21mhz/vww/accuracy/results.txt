@@ -1,0 +1,2 @@
+0531.194332 ulp-mlperf: Top 1% = 84.4
+0531.194332 ulp-mlperf: AUC = 0.937

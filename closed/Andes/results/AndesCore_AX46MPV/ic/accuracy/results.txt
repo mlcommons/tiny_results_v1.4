@@ -1,0 +1,2 @@
+0528.164855 ulp-mlperf: Top 1% = 87.0
+0528.164855 ulp-mlperf: AUC = 0.988

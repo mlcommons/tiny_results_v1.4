@@ -1,0 +1,2 @@
+0508.003001 ulp-mlperf: Top 1% = 87.0
+0508.003001 ulp-mlperf: AUC = 0.988

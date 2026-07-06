@@ -1,0 +1,221 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=2.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue!60!black,
+    linkcolor=black,
+    pdftitle={MLPerf Tiny Submission Checklist --- VCK190 ACAP, v1.0},
+    pdfauthor={Mr Yunyi Zhao, Dr Shufan Yang}
+}
+
+% Header on every page (mirrors the official checklist)
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{\textcolor{red}{\textit{This checklist must be submitted as a PDF as part of your submission.}}}
+
+% Checkbox commands
+\newcommand{\cb}{$\square$~}            % unchecked
+\newcommand{\cbx}{$\boxtimes$~}         % checked
+\newcommand{\cbline}[1]{\cb #1\\}
+\newcommand{\cbxline}[1]{\cbx #1\\}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\begin{document}
+
+\vspace*{1.5em}
+
+% --- Identity ---
+Name of Certifying Engineer(s): \textbf{Mr Yunyi Zhao, Dr Shufan Yang}\\
+Email of Certifying Engineer(s): \textbf{yunyi.zhao15@gmail.com, shufan.yang.napier@gmail.com}\\
+Name(s) of System Under Test:   \textbf{VCK190 ACAP}
+
+% --- Division ---
+Division (check one):
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Open
+\item \cb  Closed
+\end{list}
+
+% --- Category ---
+Category (check one):
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Available
+\item \cb  Preview
+\item \cb  Research, Development, and Internal (RDI)
+\end{list}
+
+% --- Benchmark(s) ---
+Benchmark(s) (check all that apply):
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb  Visual Wake Words
+\item \cb  Keyword Spotting
+\item \cb  Anomaly Detection
+\item \cbx Image Classification
+\end{list}
+
+Please fill in the following table adding lines as necessary:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|l|l|}
+\hline
+\textbf{System Under Test Name} & \textbf{Benchmark} & \textbf{Accuracy/AUC} \\
+\hline
+VCK190 ACAP & ic-int8 & 85.0\% / 0.984 \\
+\hline
+\end{tabularx}
+\end{center}
+
+\textit{Performance: median throughput 1849.722 inf./sec.\ (5 windows
+$\times$ 20\,000 iterations, $\sim$10.8\,s per window).}
+
+\clearpage
+
+% --- Target met ---
+For each SUT, is the benchmark Accuracy/AUC target met? (Not a requirement
+for the Open division) (check all that apply):
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb  Yes (Visual Wake Words \dots\ 80\% Accuracy)
+\item \cb  Yes (Keyword Spotting \dots\ 90\% Accuracy)
+\item \cb  Yes (Anomaly Detection \dots\ 0.85 AUC)
+\item \cbx Yes (Image Classification \dots\ 85\% Accuracy)
+\item \cb  No, for some combination of benchmark, scenario and SUT
+\end{list}
+
+% --- Whole validation set ---
+For each SUT and benchmark, did the submission run on the whole validation
+set in accuracy mode? (check one):
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Yes
+\item \cb  No
+\end{list}
+
+% --- EEMBC / MLCommons Runner ---
+For each SUT and benchmark, does the submission use the EEMBC Runner?
+(check one)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb  Yes
+\item \cbx No --- the submission uses the official \textbf{MLCommons Runner}
+            (\texttt{tiny/benchmark/runner/main.py} from
+            \href{https://github.com/mlcommons/tiny}{\texttt{mlcommons/tiny}}
+            @ commit \texttt{5dae329}, master), reused verbatim except for a
+            thin wrapper that bypasses the upstream USB auto-discovery.
+\end{list}
+
+% --- Same code ---
+For each SUT and benchmark, is the same code run in accuracy and
+performance modes? (check one)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Yes
+\item \cb  No
+\end{list}
+
+% --- Calibration set ---
+Are the weights calibrated using data outside of the official calibration
+set? (check one)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb  Yes
+\item \cbx No
+\end{list}
+
+% --- Numerics ---
+What numerics does the submission use? (check all that apply)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb  INT4
+\item \cbx INT8
+\item \cb  INT16
+\item \cb  UINT8
+\item \cb  UINT16
+\item \cb  FP11
+\item \cb  FP16
+\item \cb  BF16
+\item \cb  FP32
+\item \cb  Other, please specify:
+\end{list}
+
+% --- Backend ---
+What backend does the submission use? (check all that apply)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Vendor backend, please name:\ \textbf{Xilinx Vitis-AI Runtime (VART) 3.0}
+\item \cb  TF-Lite Micro
+\item \cb  Micro TVM
+\item \cb  Other, please specify:
+\end{list}
+
+\clearpage
+
+% --- Caching ---
+Which of the following caching techniques does the submission use? (check
+all that apply, ideally none):
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb Caching Inputs between iterations
+\item \cb Caching responses between iterations
+\item \cb Caching intermediate computations between iterations
+\end{list}
+
+% --- Other techniques ---
+Which of the following techniques does the submission use? (check all that
+apply, ideally none if submitting to the closed division.)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cb  Quantization aware training
+\item \cb  Wholesale weight replacement
+\item \cb  Weight supplements
+\item \cb  Discarding non-zero weight elements
+\item \cb  Pruning
+\item \cb  Modifying weights during the timed portion of an inference run
+\item \cb  Hard coding the total number of queries
+\item \cbx None of the above
+\end{list}
+
+% --- Congruent ---
+Is the submission congruent with all relevant MLPerf rules?
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Yes
+\item \cb  No
+\end{list}
+
+If the answer to the above question is no, please explain:
+
+\vspace{2em}
+
+% --- JSON file ---
+For each SUT, have you filled out the JSON system description file?
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Yes
+\item \cb  No
+\end{list}
+
+% --- Real-world performance ---
+For each SUT, does the submission accurately reflect the real-world
+performance of the SUT?
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx Yes
+\item \cb  No
+\end{list}
+
+% --- Submission contents ---
+Does your submission include the following: (check all that apply)
+\begin{list}{}{\leftmargin=2em \itemsep=0em \topsep=0em}
+\item \cbx System description file
+\item \cbx Code that implements the benchmarks
+\item \cbx Code/scripts that train the model(s) (Open Division)
+\item \cbx Metadata that describes each system-implementation combination tested
+\item \cbx Scripts that set up and execute each system implementation tested
+\item \cbx Result logs for each system implementation tested
+\item \cbx This Checklist
+\end{list}
+
+\end{document}

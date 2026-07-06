@@ -1,0 +1,2 @@
+0528.233622 ulp-mlperf: Top 1% = 84.3
+0528.233622 ulp-mlperf: AUC = 0.937

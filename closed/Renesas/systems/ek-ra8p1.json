@@ -1,0 +1,14 @@
+{
+  "Board Name": "ek-ra8p1",
+  "Status": "available",
+  "Processor(s) Name": "Arm Cortex-M85 + Cortex-M33",
+  "Processor(s) Frequencies": "1000 MHz",
+  "Processor memory type and capacity": "2 MB internal SRAM",
+  "Accelerator": "Arm Ethos-U55 NPU",
+  "Accelerator(s) Frequencies": "500 MHz",
+  "Accelerator memory type and capacity": "",
+  "Inference Framework": "RUHMI Framework",
+  "Software Libraries": "Renesas FSP v6.2.0, Arm CMSIS-NN, Ethos-U55 core driver v25.2.0+fsp.6.2.0",
+  "Hardware Notes": "EK-RA8P1 evaluation kit. Dual-core Cortex-M85/M33. Ethos-U55 NPU.",
+  "Software Notes": "M33 not used for benchmark"
+}

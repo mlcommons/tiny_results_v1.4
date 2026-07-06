@@ -1,0 +1,2 @@
+0527.165013 ulp-mlperf: Top 1% = 91.5
+0527.165013 ulp-mlperf: AUC = 0.987

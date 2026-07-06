@@ -1,0 +1,2545 @@
+Logging initialized. Writing output to sessions/20260601_161106/log.txt
+Initializing SerialDevice on port: /dev/cu.usbmodem11203 at 115200 baud
+Initializing SerialDevice on port: /dev/cu.usbmodem2061398A4D431 at 3686400 baud
+SerialDevice entering port /dev/cu.usbmodem2061398A4D431, entry_count (before increment) = 0
+Device discovery results:
+Detected device: interface
+Detected device: power
+SerialDevice entering port /dev/cu.usbmodem11203, entry_count (before increment) = 0
+setbaud 115200%
+RX:set baud to: 115200
+RX:m-ready
+Retrieving name from DUT ...
+dut name%
+RX:m-dut-passthrough(name)
+RX:m-ready
+RX:[dut]: m-name-dut-[syntiant]
+RX:[dut]: m-ready
+Device name retrieved: syntiant
+dut profile%
+RX:m-dut-passthrough(profile)
+RX:m-ready
+RX:[dut]: m-profile-[ULPMark for tinyML Firmware V0.0.1]
+RX:[dut]: m-model-[ic01]
+RX:[dut]: m-ready
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: ic01
+0601.161133 ulp-mlperf: Loading file emu_s_002009.bin segment 0
+dut db load 3072%
+RX:m-dut-passthrough(db load 3072)
+RX:m-ready
+RX:[dut]: m-[Expecting 3072 bytes]
+RX:[dut]: m-ready
+dut db a5d5f0aadaf2a7d8ee9ed3f09ed4f09fd6eea0d7eda1d8eea1d8%
+RX:m-dut-passthrough(db a5d5f0aadaf2a7d8ee9ed3f09ed4f09fd6eea0d7eda1d8eea1d8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db efa3daf1a5dcf3a9ddf5ace1f2ade2f4ade0f9aaddf4ade0f5b0%
+RX:m-dut-passthrough(db efa3daf1a5dcf3a9ddf5ace1f2ade2f4ade0f9aaddf4ade0f5b0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e3f7acdff6afe1f7b7e8f6bbe9f6b4e1f7addefaabdffba8e2fb%
+RX:m-dut-passthrough(db e3f7acdff6afe1f7b7e8f6bbe9f6b4e1f7addefaabdffba8e2fb)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ace0fa7c98aa393e42282424323134393939a7d6efabdbf0a8d9%
+RX:m-dut-passthrough(db ace0fa7c98aa393e42282424323134393939a7d6efabdbf0a8d9)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ed9ed5ee9dd5ee9ed7ec9fd8eba3d8eda4d8eda5d9efa6daf1a7%
+RX:m-dut-passthrough(db ed9ed5ee9dd5ee9ed7ec9fd8eba3d8eda4d8eda5d9efa6daf1a7)
+RX:m-ready
+RX:[dut]: m-ready
+dut db dcf5aae0f3abe1f5ace0faade0f4abdef0a9dcf0abddf0afdff2%
+RX:m-dut-passthrough(db dcf5aae0f3abe1f5ace0faade0f4abdef0a9dcf0abddf0afdff2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db aee0f4aee2f6b1e2fab1ddfbabdff8ace3f99ec5d7454f53201f%
+RX:m-dut-passthrough(db aee0f4aee2f6b1e2fab1ddfbabdff8ace3f99ec5d7454f53201f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1d231f1f3c3b3e444242a8d9efa8d8eba8d9eaa3d7efa3d7efa5%
+RX:m-dut-passthrough(db 1d231f1f3c3b3e444242a8d9efa8d8eba8d9eaa3d7efa3d7efa5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db daeea6dbeda9dbefa9dbefaadbf0abddf2acddf4afe1f1afe1f3%
+RX:m-dut-passthrough(db daeea6dbeda9dbefa9dbefaadbf0abddf2acddf4afe1f1afe1f3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db afe1f8afe2f3acdff0aee1f2aee1f2afe0f2afe0f6b0e2f5b2e2%
+RX:m-dut-passthrough(db afe1f8afe2f3acdff0aee1f2aee1f2afe0f2afe0f6b0e2f5b2e2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db f4b5e3f9b0e6f6b6e5f478919b2c2e2c12110e302e2f48454841%
+RX:m-dut-passthrough(db f4b5e3f9b0e6f6b6e5f478919b2c2e2c12110e302e2f48454841)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3c3eabdbf0a9daebaadbeaa9d8f0aad8f0acdaeeafddf0afdef1%
+RX:m-dut-passthrough(db 3c3eabdbf0a9daebaadbeaa9d8f0aad8f0acdaeeafddf0afdef1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db abdbeeacdcf0afddf1b2def0bce8f3b7e4f0b2dff1aee0efaee2%
+RX:m-dut-passthrough(db abdbeeacdcf0afddf1b2def0bce8f3b7e4f0b2dff1aee0efaee2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db f0aee2f0afe3f1afe1f2b4e2f8acd5e46c969e9dd2deb7f0f5ba%
+RX:m-dut-passthrough(db f0aee2f0afe3f1afe1f2b4e2f8acd5e46c969e9dd2deb7f0f5ba)
+RX:m-ready
+RX:[dut]: m-ready
+dut db dfe543505514181824262839383a413c3e312b2daddef2a8dceb%
+RX:m-dut-passthrough(db dfe543505514181824262839383a413c3e312b2daddef2a8dceb)
+RX:m-ready
+RX:[dut]: m-ready
+dut db abdde9acd8eeadd8eeacd8eab2dfedb6e4f1b1e0eeaeddeeaddd%
+RX:m-dut-passthrough(db abdde9acd8eeadd8eeacd8eab2dfedb6e4f1b1e0eeaeddeeaddd)
+RX:m-ready
+RX:[dut]: m-ready
+dut db efb1dfefbbe7f4bde8f4b7e0edb9e3eebee9f3bee8f2b9e4f0b8%
+RX:m-dut-passthrough(db efb1dfefbbe7f4bde8f4b7e0edb9e3eebee9f3bee8f2b9e4f0b8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e5f4c0e9f9aed3df4a6f778dbfc6b6eaec8facaf171b20161819%
+RX:m-dut-passthrough(db e5f4c0e9f9aed3df4a6f778dbfc6b6eaec8facaf171b20161819)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2d2f313535362f2c2d1a1718aad4dfb3e1e9aad3d4b5d5d8b7d5%
+RX:m-dut-passthrough(db 2d2f313535362f2c2d1a1718aad4dfb3e1e9aad3d4b5d5d8b7d5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d7b3d2d0b1d0cbadc8c6a7c7cab3dde5afdeeab6e4eeaad6dea4%
+RX:m-dut-passthrough(db d7b3d2d0b1d0cbadc8c6a7c7cab3dde5afdeeab6e4eeaad6dea4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ccd3bbe3e8bce6ecb2dce2aad5dbb8e2e8acd4d99fc5c984a6ab%
+RX:m-dut-passthrough(db ccd3bbe3e8bce6ecb2dce2aad5dbb8e2e8acd4d99fc5c984a6ab)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3353586085874d74722d404107070b1212122424242525252e2d%
+RX:m-dut-passthrough(db 3353586085874d74722d404107070b1212122424242525252e2d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2d1513146887838eaba56d807571786a6c71625f65545b5f4e64%
+RX:m-dut-passthrough(db 2d1513146887838eaba56d807571786a6c71625f65545b5f4e64)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 604f7a82769bb8b479a3a39ac1c176999771918d98b8b48bb1b2%
+RX:m-dut-passthrough(db 604f7a82769bb8b479a3a39ac1c176999771918d98b8b48bb1b2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 577b7c3a5d5e6a8f8e36584e24433a2f4b440b231e152e27051d%
+RX:m-dut-passthrough(db 577b7c3a5d5e6a8f8e36584e24433a2f4b440b231e152e27051d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 15050f0a0604042424242a2b2b1111110c0c0c080607243a283b%
+RX:m-dut-passthrough(db 15050f0a0604042424242a2b2b1111110c0c0c080607243a283b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 493732331e2f28182e261a2e251b33291d41331c6665505d7062%
+RX:m-dut-passthrough(db 493732331e2f28182e261a2e251b33291d41331c6665505d7062)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3c5b53637e7881999292a79e7c908642544d16272014231c1e32%
+RX:m-dut-passthrough(db 3c5b53637e7881999292a79e7c908642544d16272014231c1e32)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 27163019172f1b0d1f1307180d0e1f110b180b0e130b0b0a0714%
+RX:m-dut-passthrough(db 27163019172f1b0d1f1307180d0e1f110b180b0e130b0b0a0714)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 14141313131212120c0b0b0a0809384b312c301b342913292111%
+RX:m-dut-passthrough(db 14141313131212120c0b0b0a0809384b312c301b342913292111)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2c261b1b150f221b143632216e725e7d8a7c75887e99a9a3b1bf%
+RX:m-dut-passthrough(db 2c261b1b150f221b143632216e725e7d8a7c75887e99a9a3b1bf)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b8bec9c0b2bdb05f6f5845553d4857403f50373f523533442c11%
+RX:m-dut-passthrough(db b8bec9c0b2bdb05f6f5845553d4857403f50373f523533442c11)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1b0e0f1a0e2536232833251b20181516130404040a0a0a1a1a1a%
+RX:m-dut-passthrough(db 1b0e0f1a0e2536232833251b20181516130404040a0a0a1a1a1a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 111011080607576c474853304e4d26434a254f58343c4725333f%
+RX:m-dut-passthrough(db 111011080607576c474853304e4d26434a254f58343c4725333f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 205764478b9682a6afa4acb5aeb0b9b5b1bdb7bbc2bcb4b8ae87%
+RX:m-dut-passthrough(db 205764478b9682a6afa4acb5aeb0b9b5b1bdb7bbc2bcb4b8ae87)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 967d697c5e6e8662728b65758a6a71826c67756967756c6e7d72%
+RX:m-dut-passthrough(db 967d697c5e6e8662728b65758a6a71826c67756967756c6e7d72)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 69736b3e423f080a080100000807071717160a0909030203576d%
+RX:m-dut-passthrough(db 69736b3e423f080a080100000807071717160a0909030203576d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3d5f733d687639637438586c33566d34546d355b704692a18bb5%
+RX:m-dut-passthrough(db 3d5f733d687639637438586c33566d34546d355b704692a18bb5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bcb6a9aca99ea4a0a9b5aeafb6b29f9d9a7f837964705a566c48%
+RX:m-dut-passthrough(db bcb6a9aca99ea4a0a9b5aeafb6b29f9d9a7f837964705a566c48)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5571445a764e627c5c6b846b7c937d8a998998a197686a660302%
+RX:m-dut-passthrough(db 5571445a764e627c5c6b846b7c937d8a998998a197686a660302)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 020000000a09081412110403020404045e71425f713c66723663%
+RX:m-dut-passthrough(db 020000000a09081412110403020404045e71425f713c66723663)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 703455662d53663051663463744fa3b09db5bdb7949b968a928d%
+RX:m-dut-passthrough(db 703455662d53663051663463744fa3b09db5bdb7949b968a928d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9da7a1969c97454645484b4b919b8d728565516a3e40602a4364%
+RX:m-dut-passthrough(db 9da7a1969c97454645484b4b919b8d728565516a3e40602a4364)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2944662b4d6b33586c3c6471525d60530b0a090000000807060d%
+RX:m-dut-passthrough(db 2944662b4d6b33586c3c6471525d60530b0a090000000807060d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0c0b0504030404046172435f6f3b666e336973355a662d566431%
+RX:m-dut-passthrough(db 0c0b0504030404046172435f6f3b666e336973355a662d566431)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 556337707c5fa8b2a3a4aea7859089747f798d94907a7e7a1113%
+RX:m-dut-passthrough(db 556337707c5fa8b2a3a4aea7859089747f798d94907a7e7a1113)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 13282c31a6aea7b9c5af92a5814c69314968234a6a214e6b2855%
+RX:m-dut-passthrough(db 13282c31a6aea7b9c5af92a5814c69314968234a6a214e6b2855)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b315967416164551615130000000706050d0b0a0a0a09040404%
+RX:m-dut-passthrough(db 6b315967416164551615130000000706050d0b0a0a0a09040404)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6170425c6a3760672c6a70315f672d555f2e5c663e858d75a8b1%
+RX:m-dut-passthrough(db 6170425c6a3760672c6a70315f672d555f2e5c663e858d75a8b1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a69ba7a17280776f7c758e928f5e5f5c0d1210272d2fa0a7a4cc%
+RX:m-dut-passthrough(db a69ba7a17280776f7c758e928f5e5f5c0d1210272d2fa0a7a4cc)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d2cabec8b86b7c574e622c5366315c6e466b7c5d7f8a767d7f77%
+RX:m-dut-passthrough(db d2cabec8b86b7c574e622c5366315c6e466b7c5d7f8a767d7f77)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1f1e1c05040206050411100f0e0e0d0f0f0f5a68385764305f64%
+RX:m-dut-passthrough(db 1f1e1c05040206050411100f0e0e0d0f0f0f5a68385764305f64)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 29696c2e686e335e6638737a5b9da492a6aea6949f9979877e76%
+RX:m-dut-passthrough(db 29696c2e686e335e6638737a5b9da492a6aea6949f9979877e76)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 837d8688865b5b5b1f26244f5552b1b3b1c6cac8d9dcd8a8ae9d%
+RX:m-dut-passthrough(db 837d8688865b5b5b1f26244f5552b1b3b1c6cac8d9dcd8a8ae9d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7a8469858f77949c9095a19a9fa7a28989862725240605050907%
+RX:m-dut-passthrough(db 7a8469858f77949c9095a19a9fa7a28989862725240605050907)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 051d1c1819181515151556672e5564295f652a6d6e316e733572%
+RX:m-dut-passthrough(db 051d1c1819181515151556672e5564295f652a6d6e316e733572)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 794e9ba293a5aca39da49c818880717a727b848079797a7d7d7f%
+RX:m-dut-passthrough(db 794e9ba293a5aca39da49c818880717a727b848079797a7d7d7f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 656c6b878982b9b0aca2a89fced0c7cbccc3a0a9a59ba4a0a6ae%
+RX:m-dut-passthrough(db 656c6b878982b9b0aca2a89fced0c7cbccc3a0a9a59ba4a0a6ae)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a7a4b0a7a9aea897949028232300000213120e2f2c221f1d1509%
+RX:m-dut-passthrough(db a7a4b0a7a9aea897949028232300000213120e2f2c221f1d1509)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0908596a2d5b6a2b64692c716d3078773c8f916cabada4979d96%
+RX:m-dut-passthrough(db 0908596a2d5b6a2b64692c716d3078773c8f916cabada4979d96)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 818880676e66626a626771686666618f8d88b0b3accbc4bec6b4%
+RX:m-dut-passthrough(db 818880676e66626a626771686666618f8d88b0b3accbc4bec6b4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b2808078b2b0a8c6c7bf9fa9a79ba5a4a9b0aaa8b4aaaab0a8a4%
+RX:m-dut-passthrough(db b2808078b2b0a8c6c7bf9fa9a79ba5a4a9b0aaa8b4aaaab0a8a4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a49e353331000101201e1a312d2412100a050505626f39616c35%
+RX:m-dut-passthrough(db a49e353331000101201e1a312d2412100a050505626f39616c35)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b6c358078428b8555a6a387a6a59e848a836a71694b524a4a52%
+RX:m-dut-passthrough(db 6b6c358078428b8555a6a387a6a59e848a836a71694b524a4a52)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4a4b574c58584f928e83a4a296d8c8c5bfa6a78a8680a9a69ec4%
+RX:m-dut-passthrough(db 4a4b574c58584f928e83a4a296d8c8c5bfa6a78a8680a9a69ec4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c5bd9fa8a69ca6a4a7aea8a5afa9a6ada8abafab5b5e5a0a0b08%
+RX:m-dut-passthrough(db c5bd9fa8a69ca6a4a7aea8a5afa9a6ada8abafab5b5e5a0a0b08)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 25241f231e18100d0a0a0a0a78805e7f8561928f6ba19978a59f%
+RX:m-dut-passthrough(db 25241f231e18100d0a0a0a0a78805e7f8561928f6ba19978a59f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 84b0af9ea7a9a07e857d60675f474e463841393f4a435150499c%
+RX:m-dut-passthrough(db 84b0af9ea7a9a07e857d60675f474e463841393f4a435150499c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9289b7afa3ddc9c8cab1b1b7b5aeb4b4abc3c5bc9ea8a69ba5a3%
+RX:m-dut-passthrough(db 9289b7afa3ddc9c8cab1b1b7b5aeb4b4abc3c5bc9ea8a69ba5a3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a7ada8a7b0ada7afaca5aeab858b8725272123221d1f1a161714%
+RX:m-dut-passthrough(db a7ada8a7b0ada7afaca5aeab858b8725272123221d1f1a161714)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 11080807989c8ea3a495aea898aca597a6a398acaea39da3967c%
+RX:m-dut-passthrough(db 11080807989c8ea3a495aea898aca597a6a398acaea39da3967c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8378525950454c443b433d424d4b524f4d988c85d1c5bbe8d7d3%
+RX:m-dut-passthrough(db 8378525950454c443b433d424d4b524f4d988c85d1c5bbe8d7d3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d9c5c4bdc0b7abb0a5c4c6bda3aca999a3a19fa6a2a2aba9a1ab%
+RX:m-dut-passthrough(db d9c5c4bdc0b7abb0a5c4c6bda3aca999a3a19fa6a2a2aba9a1ab)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a999a5a28e979335373122201b1d18151814130505059da29d9f%
+RX:m-dut-passthrough(db a999a5a28e979335373122201b1d18151814130505059da29d9f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a299a4a397a6a095a39e94a29f94908d7f7e7e69555b4e424944%
+RX:m-dut-passthrough(db a299a4a397a6a095a39e94a29f94908d7f7e7e69555b4e424944)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 42474358615e5f5e5991857cd9c9bce4d4c8c9bbb595958c9097%
+RX:m-dut-passthrough(db 42474358615e5f5e5991857cd9c9bce4d4c8c9bbb595958c9097)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 88caccc1aeb3ad9aa09e9aa1a09aa4a19aa4a196a09d8b949246%
+RX:m-dut-passthrough(db 88caccc1aeb3ad9aa09e9aa1a09aa4a19aa4a196a09d8b949246)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 49483b37331f1a171716150405039a9f9c9da097a2a295a6a295%
+RX:m-dut-passthrough(db 49483b37331f1a171716150405039a9f9c9da097a2a295a6a295)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a6a094a0998e8c857779715c5c5d504c544f4d534e7679748986%
+RX:m-dut-passthrough(db a6a094a0998e8c857779715c5c5d504c544f4d534e7679748986)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7eab9e94d8c7b9dbcbbcada29b76756c858a7bcaccbfbfc2b99f%
+RX:m-dut-passthrough(db 7eab9e94d8c7b9dbcbbcada29b76756c858a7bcaccbfbfc2b99f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a4a1999f9f97a09d959e9b949d9a798280686d6a79767125221f%
+RX:m-dut-passthrough(db a4a1999f9f97a09d959e9b949d9a798280686d6a79767125221f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2629282b322e999c999b9c949f9e92a5a094a6a0949e988d8880%
+RX:m-dut-passthrough(db 2629282b322e999c999b9c949f9e92a5a094a6a0949e988d8880)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 736f6453525045515851595e569c968f8d837c786b62c3b2a4d1%
+RX:m-dut-passthrough(db 736f6453525045515851595e569c968f8d837c786b62c3b2a4d1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bfb1817a715f6157888a7cc2c4b5c6c9bea9afa9949a98949a98%
+RX:m-dut-passthrough(db bfb1817a715f6157888a7cc2c4b5c6c9bea9afa9949a98949a98)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9197958f95937078758d958d9d9d932a2926383f3e7f8d889191%
+RX:m-dut-passthrough(db 9197958f95937078758d958d9d9d932a2926383f3e7f8d889191)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8f99978fa09c91a59f93a49d929792868881757c73644e4c4354%
+RX:m-dut-passthrough(db 8f99978fa09c91a59f93a49d929792868881757c73644e4c4354)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 565078746bbeaea56b5b53332520c3b3a6cab6a97370655f6258%
+RX:m-dut-passthrough(db 565078746bbeaea56b5b53332520c3b3a6cab6a97370655f6258)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8e8d7fb8baa8c2c6b9bac1b8969c998f93928c908f8c8f8f8a91%
+RX:m-dut-passthrough(db 8e8d7fb8baa8c2c6b9bac1b8969c998f93928c908f8c8f8f8a91)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8ca7b2a49ca09232342f4a53538e9c999d9c9ba5a29ba7a297a3%
+RX:m-dut-passthrough(db 8ca7b2a49ca09232342f4a53538e9c999d9c9ba5a29ba7a297a3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9e92a39d919f998d9994878f8d7f6f706763605a807169b1998f%
+RX:m-dut-passthrough(db 9e92a39d919f998d9994878f8d7f6f706763605a807169b1998f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 867167685951c3b3a7baa59861605552574c828173a9ab98adb1%
+RX:m-dut-passthrough(db 867167685951c3b3a7baa59861605552574c828173a9ab98adb1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a2c3cac0a6aca68f9190909291919392a2aaa2abb8a49ba09049%
+RX:m-dut-passthrough(db a2c3cac0a6aca68f9190909291919392a2aaa2abb8a49ba09049)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4d4762696b929c9d9f9f9ea5a39da5a29b9f9e95a1a097a3a29a%
+RX:m-dut-passthrough(db 4d4762696b929c9d9f9f9ea5a39da5a29b9f9e95a1a097a3a29a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a2a198999d94848f855c5e5667564f9e897da69488beafa5c4b8%
+RX:m-dut-passthrough(db a2a198999d94848f855c5e5667564f9e897da69488beafa5c4b8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db aca49b884d4d43444841696c6296998b9fa396bcc0b5c0c3bb97%
+RX:m-dut-passthrough(db aca49b884d4d43444841696c6296998b9fa396bcc0b5c0c3bb97)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 99969193939a9c98b7bbafb4baa9a4a89c6267617e858690999b%
+RX:m-dut-passthrough(db 99969193939a9c98b7bbafb4baa9a4a89c6267617e858690999b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 999b999d9d98a09e999f9f99a0a19ba1a29c9fa09b9ba09c94a2%
+RX:m-dut-passthrough(db 999b999d9d98a09e999f9f99a0a19ba1a29c9fa09b9ba09c94a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 99656d636a5e57b4a496b0a295b1a79cc5bdb189887447483e43%
+RX:m-dut-passthrough(db 99656d636a5e57b4a496b0a295b1a79cc5bdb189887447483e43)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 464153595082867b94978ca1a499cbcec4aaaca7909291a5a7a1%
+RX:m-dut-passthrough(db 464153595082867b94978ca1a499cbcec4aaaca7909291a5a7a1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bcbfb0b6b8a8afb2a8868c868991908d9799989a989c9b979f9d%
+RX:m-dut-passthrough(db bcbfb0b6b8a8afb2a8868c868991908d9799989a989c9b979f9d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 989e9e999e9f999f9f999c9d989ba09ba0aba3797e76625b52a8%
+RX:m-dut-passthrough(db 989e9e999e9f999f9f999c9d989ba09ba0aba3797e76625b52a8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9d8eada395b3aca0c1bdb07c7d6b4b4c4342433d484b41707368%
+RX:m-dut-passthrough(db 9d8eada395b3aca0c1bdb07c7d6b4b4c4342433d484b41707368)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 898c8185897dc4c7bdcccec89a9c99b3b6adc1c4b4b8bbabb6ba%
+RX:m-dut-passthrough(db 898c8185897dc4c7bdcccec89a9c99b3b6adc1c4b4b8bbabb6ba)
+RX:m-ready
+RX:[dut]: m-ready
+dut db af9aa09a8b93928d9799989a989a99959d9b969c9c979d9e989d%
+RX:m-dut-passthrough(db af9aa09a8b93928d9799989a989a99959d9b969c9c979d9e989d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9e989d9e989ca09ba0a6a08589815252468b8574afab9bbcbbad%
+RX:m-dut-passthrough(db 9e989d9e989ca09ba0a6a08589815252468b8574afab9bbcbbad)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b5b6a8898d7c57595146463e4a4b3f64675b8083797c7f74afb2%
+RX:m-dut-passthrough(db b5b6a8898d7c57595146463e4a4b3f64675b8083797c7f74afb2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a6d9dcd2bec0bac5c9bdcacdbbbcbfafabaea49298928a92918b%
+RX:m-dut-passthrough(db a6d9dcd2bec0bac5c9bdcacdbbbcbfafabaea49298928a92918b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9597989a989a9a969e9c979f9f9a9e9f999d9d979c9e989fa19d%
+RX:m-dut-passthrough(db 9597989a989a9a969e9c979f9f9a9e9f999d9d979c9e989fa19d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a1a49f8c90884c5043757360a8a896b1b4a4a2a798909789777a%
+RX:m-dut-passthrough(db a1a49f8c90884c5043757360a8a896b1b4a4a2a798909789777a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 725b59515756485e61567c7f7486897fa1a498ced2c6dcdfd7d2%
+RX:m-dut-passthrough(db 725b59515756485e61567c7f7486897fa1a498ced2c6dcdfd7d2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d6c8cdd1bdc7c9baaaaea38d938d88908f8993959d9c989f9d97%
+RX:m-dut-passthrough(db d6c8cdd1bdc7c9baaaaea38d938d88908f8993959d9c989f9d97)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9e9d999d9e9b9b9d999b9c989b9d999d9f9c9fa29d949a93535c%
+RX:m-dut-passthrough(db 9e9d999d9e9b9b9d999b9c989b9d999d9f9c9fa29d949a93535c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 52595d508b8b7b9293828f948492998f8f938e7d7d7579786a7b%
+RX:m-dut-passthrough(db 52595d508b8b7b9293828f948492998f8f938e7d7d7579786a7b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7c6e8f90849192878b8c81a8aaa2d0d5cfd0d4c8cacbbcc3c4b9%
+RX:m-dut-passthrough(db 7c6e8f90849192878b8c81a8aaa2d0d5cfd0d4c8cacbbcc3c4b9)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a1a59d8a908c8a90908c9294a19d97a39f979e9f9c9c9e9d9a9c%
+RX:m-dut-passthrough(db a1a59d8a908c8a90908c9294a19d97a39f979e9f9c9c9e9d9a9c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9b989a999b9d9c9d9f9ca0a4a098a09b54605a4a524c6b6b5c6e%
+RX:m-dut-passthrough(db 9b989a999b9d9c9d9f9ca0a4a098a09b54605a4a524c6b6b5c6e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6d597478689ba29b9ba09e92938d848576858472878577767368%
+RX:m-dut-passthrough(db 6d597478689ba29b9ba09e92938d848576858472878577767368)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 615e56767773b1b6b4cccfc7cccac0b8b8b29396918d93908f93%
+RX:m-dut-passthrough(db 615e56767773b1b6b4cccfc7cccac0b8b8b29396918d93908f93)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 94919294%
+RX:m-dut-passthrough(db 94919294)
+RX:m-ready
+RX:[dut]: m-load-done
+RX:[dut]: m-ready
+0601.161135 ulp-mlperf: Load complete.
+dut infer 2000 5%
+RX:m-dut-passthrough(infer 2000 5)
+RX:m-ready
+RX:[dut]: m-warmup-start-5
+RX:[dut]: m-warmup-done
+RX:[dut]: m-infer-start-2000
+RX:[dut]: m-infer-done
+RX:[dut]: m-results-[17.894,18.125,8.867,19.545,12.863,29.408,5.016,28.082,10.086,19.455]
+RX:[dut]: m-ready
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+Captured samples:38019 timestamps:3
+0601.161147 ulp-mlperf: Loading file taxi_s_001241.bin segment 0
+dut db load 3072%
+RX:m-dut-passthrough(db load 3072)
+RX:m-ready
+RX:[dut]: m-[Expecting 3072 bytes]
+RX:[dut]: m-ready
+dut db 401f09411d08441d09461f0e461f0f451e0b441e08461f0a441b%
+RX:m-dut-passthrough(db 401f09411d08441d09461f0e461f0f451e0b441e08461f0a441b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0b451b0b461c0b461c0a50240d5022085222065826075b27045c%
+RX:m-dut-passthrough(db 0b451b0b461c0b461c0a50240d5022085222065826075b27045c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 28065f2a0a5d28084e1c093c0d05360a03320804300b03381403%
+RX:m-dut-passthrough(db 28065f2a0a5d28084e1c093c0d05360a03320804300b03381403)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 461b064b18044a15034517034516064111062f0c05320b04350c%
+RX:m-dut-passthrough(db 461b064b18044a15034517034516064111062f0c05320b04350c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 05360c06370e063911073d14073f16073f15063f15063f150541%
+RX:m-dut-passthrough(db 05360c06370e063911073d14073f16073f15063f15063f150541)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1606471b084f20085726095f2c0d5f2e135e2e165726124a1a09%
+RX:m-dut-passthrough(db 1606471b084f20085726095f2c0d5f2e135e2e165726124a1a09)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3e0e043b0b03360903320804300703330a033c0f054311034a18%
+RX:m-dut-passthrough(db 3e0e043b0b03360903320804300703330a033c0f054311034a18)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 05461e07451d0b350b053413043712033b14053e150442170347%
+RX:m-dut-passthrough(db 05461e07451d0b350b053413043712033b14053e150442170347)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1d064b21084d22094e210a4d20084f210851210a4f1d094b1908%
+RX:m-dut-passthrough(db 1d064b21084d22094e210a4d20084f210851210a4f1d094b1908)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 471907532d1550341c4d2d18401706451807491a064a1a044517%
+RX:m-dut-passthrough(db 471907532d1550341c4d2d18401706451807491a064a1a044517)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 034216044013033f0f033f10043b1102452309482b0f43220f2c%
+RX:m-dut-passthrough(db 034216044013033f0f033f10043b1102452309482b0f43220f2c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0703310e03310c02340b02340a01340b01360c01360c00350c01%
+RX:m-dut-passthrough(db 0703310e03310c02340b02340a01340b01360c01360c00350c01)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 350c01370b013d0d043d0c033a0700380301370a054f311f4e3b%
+RX:m-dut-passthrough(db 350c01370b013d0d043d0c033a0700380301370a054f311f4e3b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 224e311d3c11063b0c033e11043d11023b0f013a0e01360a0135%
+RX:m-dut-passthrough(db 224e311d3c11063b0c033e11043d11023b0f013a0e01360a0135)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0500360400390e014c2f124b36184827143108042e08022e0500%
+RX:m-dut-passthrough(db 0500360400390e014c2f124b36184827143108042e08022e0500)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3104002f04002d04002e05002e05002f06002f07013207013708%
+RX:m-dut-passthrough(db 3104002f04002d04002e05002e05002f06002f07013207013708)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 03380703360301360002360906543625543e275432223c0c0636%
+RX:m-dut-passthrough(db 03380703360301360002360906543625543e275432223c0c0636)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0300380701360700360700360700330400330101360001390a01%
+RX:m-dut-passthrough(db 0300380701360700360700360700330400330101360001390a01)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 49290f4d37194e2a193509053006013104003303003105003007%
+RX:m-dut-passthrough(db 49290f4d37194e2a193509053006013104003303003105003007)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 012e05002f05003108023109023409033a0b063a090538050237%
+RX:m-dut-passthrough(db 012e05002f05003108023109023409033a0b063a090538050237)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0003360806533523573e285732233e0b053a03023c07043a0502%
+RX:m-dut-passthrough(db 0003360806533523573e285732233e0b053a03023c07043a0502)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3905023905023703003701023900023b090147230a4b30145129%
+RX:m-dut-passthrough(db 3905023905023703003701023900023b090147230a4b30145129)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1839090631070132050033040033060132080232050133040233%
+RX:m-dut-passthrough(db 1839090631070132050033040033060132080232050133040233)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 06023507023b07033d0a043a0b023b05013a00033b09074e2b19%
+RX:m-dut-passthrough(db 06023507023b07033d0a043a0b023b05013a00033b09074e2b19)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 50331a57311f400e073c02013e05043d05033d04033d04033a04%
+RX:m-dut-passthrough(db 50331a57311f400e073c02013e05043d05033d04033d04033a04)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 023902033b01043b08024d28104c2b0d4a220e390b0533080134%
+RX:m-dut-passthrough(db 023902033b01043b08024d28104c2b0d4a220e390b0533080134)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 05003505003507013608023707023a07043706033905023f0502%
+RX:m-dut-passthrough(db 05003505003507013608023707023a07043706033905023f0502)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 420c033d0d003e06013c00013f0c075b35215f3e235b34204412%
+RX:m-dut-passthrough(db 420c033d0d003e06013c00013f0c075b35215f3e235b34204412)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0a3e01024002043f04033f03033f03033c04033a03043c01043e%
+RX:m-dut-passthrough(db 0a3e01024002043f04033f03033f03033c04033a03043c01043e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0b04552f165632125029123a0d06370801370600390400380603%
+RX:m-dut-passthrough(db 0b04552f165632125029123a0d06370801370600390400380603)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3807033a0600430d053f0b053b040046090350170b441202430b%
+RX:m-dut-passthrough(db 3807033a0600430d053f0b053b040046090350170b441202430b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 013d0200400d05633e276542285d3221420b0740000144020443%
+RX:m-dut-passthrough(db 013d0200400d05633e276542285d3221420b0740000144020443)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 02034302034302034002023d01033f0004410a045b31195d3a1a%
+RX:m-dut-passthrough(db 02034302034302034002023d01033f0004410a045b31195d3a1a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5730193a0d063a08023a06003d04003c05033c05023d09036f3d%
+RX:m-dut-passthrough(db 5730193a0d063a08023a06003d04003c05033c05023d09036f3d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2e6731243d0302490a0660210c4b1202440d033e0403400d0657%
+RX:m-dut-passthrough(db 2e6731243d0302490a0660210c4b1202440d033e0403400d0657)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 31185732165a2d1954201b46080c450006440104440104440104%
+RX:m-dut-passthrough(db 31185732165a2d1954201b46080c450006440104440104440104)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4102043e0205410205420905542813552f135129123a0c053c07%
+RX:m-dut-passthrough(db 4102043e0205410205420905542813552f135129123a0c053c07)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 023b04013d02003c06033d020047180cad8b6fa16d504307075c%
+RX:m-dut-passthrough(db 023b04013d02003c06033d020047180cad8b6fa16d504307075c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1d10a95e1a76310e470c083e03083e090751230d50230a724830%
+RX:m-dut-passthrough(db 1d10a95e1a76310e470c083e03083e090751230d50230a724830)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ad8d877244494e0907530f05520f04541004521105500f07520b%
+RX:m-dut-passthrough(db ad8d877244494e0907530f05520f04541004521105500f07520b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 045111065822134a1e0c471b063c0b043b06013b03003c020039%
+RX:m-dut-passthrough(db 045111065822134a1e0c471b063c0b043b06013b03003c020039)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0604430303591b0eb4815ba5653e4d0e04763013c26916a05013%
+RX:m-dut-passthrough(db 0604430303591b0eb4815ba5653e4d0e04763013c26916a05013)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 50130a561d0e6b381486571b915d13b28b47e5d6a5c0975e9b57%
+RX:m-dut-passthrough(db 50130a561d0e6b381486571b915d13b28b47e5d6a5c0975e9b57)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0aa56210a76515ac691aac681daa6726a563309f6336a16b4685%
+RX:m-dut-passthrough(db 0aa56210a76515ac691aac681daa6726a563309f6336a16b4685)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5b4755240f430c063a04003b03003d0200370200601311752518%
+RX:m-dut-passthrough(db 5b4755240f430c063a04003b03003d0200370200601311752518)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9b582fa55c34652013782810a3370896370a642b207e4c338659%
+RX:m-dut-passthrough(db 9b582fa55c34652013782810a3370896370a642b207e4c338659)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2b997235c4a262d9b673dcc47ee1bc5ce0b14cdeb460e0b566df%
+RX:m-dut-passthrough(db 2b997235c4a262d9b673dcc47ee1bc5ce0b14cdeb460e0b566df)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b36bddb066d6ab67caa97dc0a684cfb394be98806f3821470b07%
+RX:m-dut-passthrough(db b36bddb066d6ab67caa97dc0a684cfb394be98806f3821470b07)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3a03003e02003d02003403007c37217e3b23a26335b17742853d%
+RX:m-dut-passthrough(db 3a03003e02003d02003403007c37217e3b23a26335b17742853d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 238326129c2e069035107b4e31683a23623829b39a8ccac0b8d0%
+RX:m-dut-passthrough(db 238326129c2e069035107b4e31683a23623829b39a8ccac0b8d0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db beb0c7b290d1b98ad3ba97ccb69ad3bca1c8b09cc0a58ec8a781%
+RX:m-dut-passthrough(db beb0c7b290d1b98ad3ba97ccb69ad3bca1c8b09cc0a58ec8a781)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c6aaa1b6a6a3c6afa6c9a397864b324b0b053c03004101013d00%
+RX:m-dut-passthrough(db c6aaa1b6a6a3c6afa6c9a397864b324b0b053c03004101013d00)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 00410b03964f27773d22a56837b28044863c1c83240ca1420d9f%
+RX:m-dut-passthrough(db 00410b03964f27773d22a56837b28044863c1c83240ca1420d9f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 531f784a234e1e08845f58d0c3bdc5bfb9baaea8b8a98ec1ac92%
+RX:m-dut-passthrough(db 531f784a234e1e08845f58d0c3bdc5bfb9baaea8b8a98ec1ac92)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b39b8eb49e8ac7b299b7a18fb09785c2a373c7a495b8a39cc1a5%
+RX:m-dut-passthrough(db b39b8eb49e8ac7b299b7a18fb09785c2a373c7a495b8a39cc1a5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9fccafa79e694a5412083f04014101003c00005313059c4b1b5d%
+RX:m-dut-passthrough(db 9fccafa79e694a5412083f04014101003c00005313059c4b1b5d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2410935331ac74478038137c270a9e51219c60216a2e106a3728%
+RX:m-dut-passthrough(db 2410935331ac74478038137c270a9e51219c60216a2e106a3728)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c6aaa1c5bdb8bab0adad9b99b19e84bba2869e8276a18773c1a9%
+RX:m-dut-passthrough(db c6aaa1c5bdb8bab0adad9b99b19e84bba2869e8276a18773c1a9)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8eaf9680ad9280bb996bc19c86b49c93ba9c9ec9b2acb27f655f%
+RX:m-dut-passthrough(db 8eaf9680ad9280bb996bc19c86b49c93ba9c9ec9b2acb27f655f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1a174006024101013c0000571607a1582f733e38671a1375301b%
+RX:m-dut-passthrough(db 1a174006024101013c0000571607a1582f733e38671a1375301b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8a451f6e200c9755428f6038672d1f9a6d64c3aa9fc0b3a8b5a7%
+RX:m-dut-passthrough(db 8a451f6e200c9755428f6038672d1f9a6d64c3aa9fc0b3a8b5a7)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a2a4908db49d84ad9079a28476977c63b2977b9c7f6a9d7c71b4%
+RX:m-dut-passthrough(db a2a4908db49d84ad9079a28476977c63b2977b9c7f6a9d7c71b4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8b67caa180c0a586c9a58be0b983dea163732c1b3e0601400403%
+RX:m-dut-passthrough(db 8b67caa180c0a586c9a58be0b983dea163732c1b3e0601400403)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 400203460503b1967db6958b540a0e612118874427782c0ca461%
+RX:m-dut-passthrough(db 400203460503b1967db6958b540a0e612118874427782c0ca461)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2aac7d34a57b45b99565b19470c1a795b4a095ab9680ad927397%
+RX:m-dut-passthrough(db 2aac7d34a57b45b99565b19470c1a795b4a095ab9680ad927397)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7360c6a68b9e7e59b08962b08657b68546ca923adba342dda63d%
+RX:m-dut-passthrough(db 7360c6a68b9e7e59b08962b08657b68546ca923adba342dda63d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e2a83be0a22cda95327632153c04003e0402430404370000ad9b%
+RX:m-dut-passthrough(db e2a83be0a22cda95327632153c04003e0402430404370000ad9b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8eccad996e2e10884a0fb6701dc5780fdd990ce1aa0de4ad1ae0%
+RX:m-dut-passthrough(db 8eccad996e2e10884a0fb6701dc5780fdd990ce1aa0de4ad1ae0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ac20dbab30d9ad47d1b266d1b279c6a16cba9351e5b960d6a344%
+RX:m-dut-passthrough(db ac20dbab30d9ad47d1b266d1b279c6a16cba9351e5b960d6a344)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d9a141dca439dc9e2dd49127c38024bc7a2baf6d2a9955208d45%
+RX:m-dut-passthrough(db d9a141dca439dc9e2dd49127c38024bc7a2baf6d2a9955208d45)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 185c170d3a03013e04024206034d1301b68454d3a351bd820dda%
+RX:m-dut-passthrough(db 185c170d3a03013e04024206034d1301b68454d3a351bd820dda)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 980ae29e06e39d04e6a106eaa609f1ac07f1b207f0b80eedb919%
+RX:m-dut-passthrough(db 980ae29e06e39d04e6a106eaa609f1ac07f1b207f0b80eedb919)
+RX:m-ready
+RX:[dut]: m-ready
+dut db f0c238f2c64ee7b64adaa939ce9727c58927b27129a7622a9b56%
+RX:m-dut-passthrough(db f0c238f2c64ee7b64adaa939ce9727c58927b27129a7622a9b56)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 298a43227e36257d3729833e279046199c5118661f0c3b05013e%
+RX:m-dut-passthrough(db 298a43227e36257d3729833e279046199c5118661f0c3b05013e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 040049110a8f5726ca8d29dca61ce5ab11ecab0beaac03e9aa01%
+RX:m-dut-passthrough(db 040049110a8f5726ca8d29dca61ce5ab11ecab0beaac03e9aa01)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e8ab03ecaf09f0b610f3bc17efbf1de1b31dd6a227c38d26ab74%
+RX:m-dut-passthrough(db e8ab03ecaf09f0b610f3bc17efbf1de1b31dd6a227c38d26ab74)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 26945c28834626763423722d22752e207f361c9041149e50109f%
+RX:m-dut-passthrough(db 26945c28834626763423722d22752e207f361c9041149e50109f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5713b76f09d48904d78c18792e134a1f124a1d15593424bc9e7e%
+RX:m-dut-passthrough(db 5713b76f09d48904d78c18792e134a1f124a1d15593424bc9e7e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b69567bf9958cea34fd2a33dd8a930dfae23e6b310f1be10e6b8%
+RX:m-dut-passthrough(db b69567bf9958cea34fd2a33dd8a930dfae23e6b310f1be10e6b8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 19d4a41cbe872aa86b3b8d4f2f84453280403862241a7331168a%
+RX:m-dut-passthrough(db 19d4a41cbe872aa86b3b8d4f2f84453280403862241a7331168a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4213a15811b56a06c57b08da8909d8890b924e10b86a0eee9e06%
+RX:m-dut-passthrough(db 4213a15811b56a06c57b08da8909d8890b924e10b86a0eee9e06)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ce8415722d1a8a78678a796d948571cec5b6a79e92a49584b29d%
+RX:m-dut-passthrough(db ce8415722d1a8a78678a796d948571cec5b6a79e92a49584b29d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8aad9178b99d78cbb280c59b56a86c2099612d864b2482412680%
+RX:m-dut-passthrough(db 8aad9178b99d78cbb280c59b56a86c2099612d864b2482412680)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3b27742f1691491cb1671ab86e05cd8509dc9407e69c07e99d05%
+RX:m-dut-passthrough(db 3b27742f1691491cb1671ab86e05cd8509dc9407e69c07e99d05)
+RX:m-ready
+RX:[dut]: m-ready
+dut db eda009f09e08ce802074302388370de6960fbf8330895f53c0c3%
+RX:m-dut-passthrough(db eda009f09e08ce802074302388370de6960fbf8330895f53c0c3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b9c6c4b6cdbda6d0bfa3a59681a49186ae9992a58982b49d97d9%
+RX:m-dut-passthrough(db b9c6c4b6cdbda6d0bfa3a59681a49186ae9992a58982b49d97d9)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d3d0c9aea55f1f126b220e843e11a5652aa36516c88809e09d0b%
+RX:m-dut-passthrough(db d3d0c9aea55f1f126b220e843e11a5652aa36516c88809e09d0b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e8a007f0a30bf0a40ceda207ea9f06e59a04e69909e29507c988%
+RX:m-dut-passthrough(db e8a007f0a30bf0a40ceda207ea9f06e59a04e69909e29507c988)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4b9e6a676c280cae7028cdab91c7bcb9d6e1d9daded4d7c3b5bc%
+RX:m-dut-passthrough(db 4b9e6a676c280cae7028cdab91c7bcb9d6e1d9daded4d7c3b5bc)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8f58b68348b88d76ba9a8ea98c7dac9c8ccdd2cdd6c1a5b47814%
+RX:m-dut-passthrough(db 8f58b68348b88d76ba9a8ea98c7dac9c8ccdd2cdd6c1a5b47814)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d99903d3900f73330e580e08ad640cf2ad09efa304ea9b0ce79e%
+RX:m-dut-passthrough(db d99903d3900f73330e580e08ad640cf2ad09efa304ea9b0ce79e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 02e59a02e29408e7990aed9905d9890cb57e56aa7d8344090488%
+RX:m-dut-passthrough(db 02e59a02e29408e7990aed9905d9890cb57e56aa7d8344090488)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5c51e5d8d0dadfd0dce6dce0e6deb8aba184552fb0742bbf872d%
+RX:m-dut-passthrough(db 5c51e5d8d0dadfd0dce6dce0e6deb8aba184552fb0742bbf872d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c68e3ec28a4cb68e4ebea165ce8e59dc7b27f0a7199b560d5e1e%
+RX:m-dut-passthrough(db c68e3ec28a4cb68e4ebea165ce8e59dc7b27f0a7199b560d5e1e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1f580d12782b08e09712ed9f03ea9b09ed9d02ed9902e59103d9%
+RX:m-dut-passthrough(db 1f580d12782b08e09712ed9f03ea9b09ed9d02ed9902e59103d9)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8308ce750ba3540f935c4dab7e8162342b96756be0d6c7d9dccc%
+RX:m-dut-passthrough(db 8308ce750ba3540f935c4dab7e8162342b96756be0d6c7d9dccc)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e1e9e0e4e7dfe1dfcfb2a19a87695f865936a16738ad6d32b178%
+RX:m-dut-passthrough(db e1e9e0e4e7dfe1dfcfb2a19a87695f865936a16738ad6d32b178)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 30b67e36b5682daf4e28ce822b6d2f1a8d6263793f3865180ad4%
+RX:m-dut-passthrough(db 30b67e36b5682daf4e28ce822b6d2f1a8d6263793f3865180ad4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8a11efa203e29206d78708c87906b0620b8d3d0d691e094b0b02%
+RX:m-dut-passthrough(db 8a11efa203e29206d78708c87906b0620b8d3d0d691e094b0b02)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5f2625805652a08378c8b3aedbd1c9ddddd0e6ece4e7eae3eaee%
+RX:m-dut-passthrough(db 5f2625805652a08378c8b3aedbd1c9ddddd0e6ece4e7eae3eaee)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e0eef0e6cfc7c19f86788e644a733e1a834b2b824c2980491895%
+RX:m-dut-passthrough(db e0eef0e6cfc7c19f86788e644a733e1a834b2b824c2980491895)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 542c9b57225d2d27b49f998b6055560d08af6711c3780ba7580a%
+RX:m-dut-passthrough(db 542c9b57225d2d27b49f998b6055560d08af6711c3780ba7580a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 893f0d6925064f0f05430806450f0f4c1b1c5e302d81625abfb1%
+RX:m-dut-passthrough(db 893f0d6925064f0f05430806450f0f4c1b1c5e302d81625abfb1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a6d7cecae0d9d2e1dfd1e8ede6e7ece5e7ece4ebefe3ddddd1ab%
+RX:m-dut-passthrough(db a6d7cecae0d9d2e1dfd1e8ede6e7ece5e7ece4ebefe3ddddd1ab)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9c9098756260321aaa7c60b28461844d2288461c64200a5b2c28%
+RX:m-dut-passthrough(db 9c9098756260321aaa7c60b28461844d2288461c64200a5b2c28)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c0aca48c635b4c08086a260f652409510d08480a0c4e18186235%
+RX:m-dut-passthrough(db c0aca48c635b4c08086a260f652409510d08480a0c4e18186235)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 347b575291736ca48b85b3a199cbc3b7e0dfd2e6e3d8e9e6d9ea%
+RX:m-dut-passthrough(db 347b575291736ca48b85b3a199cbc3b7e0dfd2e6e3d8e9e6d9ea)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e9d7e7ece5e5eae3e6ebe4e7ebe5e5e4dc8b78715b2d294b1c17%
+RX:m-dut-passthrough(db e9d7e7ece5e5eae3e6ebe4e7ebe5e5e4dc8b78715b2d294b1c17)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8a6f6388685d57251f4c0c06430200552222b499938056513f02%
+RX:m-dut-passthrough(db 8a6f6388685d57251f4c0c06430200552222b499938056513f02)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 03440a084d1913683738855e61a18685bdada8d0ccc3dbdcd0e2%
+RX:m-dut-passthrough(db 03440a084d1913683738855e61a18685bdada8d0ccc3dbdcd0e2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e3d5e4e5d7e5e6d8e4e5d7e9e7dbebe9daeae9d6eaefe7e6ebe4%
+RX:m-dut-passthrough(db e3d5e4e5d7e5e6d8e4e5d7e9e7dbebe9daeae9d6eaefe7e6ebe4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e7ebe4e4ebe5e4ebe3afa89f573832451a144821183f160f4008%
+RX:m-dut-passthrough(db e7ebe4e4ebe5e4ebe3afa89f573832451a144821183f160f4008)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 084102033e030146110f85635c633b38542d257e6255a28e80c1%
+RX:m-dut-passthrough(db 084102033e030146110f85635c633b38542d257e6255a28e80c1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b6a8d7d0c6e6e1d8ebeadfe9ebe0e7ecdee8eddde6ebdce7ecdc%
+RX:m-dut-passthrough(db b6a8d7d0c6e6e1d8ebeadfe9ebe0e7ecdee8eddde6ebdce7ecdc)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e8ebdcedebdfefeddfefeedbe6ece2e2e8dee2e7dedde6dcd5e0%
+RX:m-dut-passthrough(db e8ebdcedebdfefeddfefeedbe6ece2e2e8dee2e7dedde6dcd5e0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d5c5c9bd9590866a5a504d342a3c1e143b11083a0904400e0a46%
+RX:m-dut-passthrough(db d5c5c9bd9590866a5a504d342a3c1e143b11083a0904400e0a46)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 0e0c4f2420795d56aea296ccc9bbdcddcfe3e8dae6ebdae7e9d8%
+RX:m-dut-passthrough(db 0e0c4f2420795d56aea296ccc9bbdcddcfe3e8dae6ebdae7e9d8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e8e9d8eaeadaeaeadae9eadae6e9d8e4e8d7e6ead8ebead9eceb%
+RX:m-dut-passthrough(db e8e9d8eaeadaeaeadae9eadae6e9d8e4e8d7e6ead8ebead9eceb)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d9ecebd8%
+RX:m-dut-passthrough(db d9ecebd8)
+RX:m-ready
+RX:[dut]: m-load-done
+RX:[dut]: m-ready
+0601.161149 ulp-mlperf: Load complete.
+dut infer 2000 5%
+RX:m-dut-passthrough(infer 2000 5)
+RX:m-ready
+RX:[dut]: m-warmup-start-5
+RX:[dut]: m-warmup-done
+RX:[dut]: m-infer-start-2000
+RX:[dut]: m-infer-done
+RX:[dut]: m-results-[10.541,42.086,-15.278,-3.118,-2.094,-1.929,6.678,9.694,5.404,20.263]
+RX:[dut]: m-ready
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+Captured samples:13971 timestamps:2
+0601.161201 ulp-mlperf: Loading file accentor_s_001031.bin segment 0
+dut db load 3072%
+RX:m-dut-passthrough(db load 3072)
+RX:m-ready
+RX:[dut]: m-[Expecting 3072 bytes]
+RX:[dut]: m-ready
+dut db 677428606d1b5b69156e7b2a5e6a205a652165702d5a65205864%
+RX:m-dut-passthrough(db 677428606d1b5b69156e7b2a5e6a205a652165702d5a65205864)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1c5b671e56621959651a6471226f7b31586222626c2f7884406b%
+RX:m-dut-passthrough(db 1c5b671e56621959651a6471226f7b31586222626c2f7884406b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 782f67742c65722a5b681f57641b647027616e25556118606c22%
+RX:m-dut-passthrough(db 782f67742c65722a5b681f57641b647027616e25556118606c22)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 66722a6672266a772575802977812b6b782567732763701f5f6c%
+RX:m-dut-passthrough(db 66722a6672266a772575802977812b6b782567732763701f5f6c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1b6774255c681e5a65226e7937707b365e6a22525e1759641f60%
+RX:m-dut-passthrough(db 1b6774255c681e5a65226e7937707b365e6a22525e1759641f60)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b25606c23707b385b65294e571d6e793779853d6a762e5d6a22%
+RX:m-dut-passthrough(db 6b25606c23707b385b65294e571d6e793779853d6a762e5d6a22)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5460184b57105a661e6e7a3257631b65712966722a58641a6976%
+RX:m-dut-passthrough(db 5460184b57105a661e6e7a3257631b65712966722a58641a6976)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2469731d78812c707b2a677325677422667323606d1f5d691f54%
+RX:m-dut-passthrough(db 2469731d78812c707b2a677325677422667323606d1f5d691f54)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5f1b606b28737e39667229626e285a6521636e2c65702b707b39%
+RX:m-dut-passthrough(db 5f1b606b28737e39667229626e285a6521636e2c65702b707b39)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6f793d4d561b656f2c76813a636d26616c255f6a224e5a126b77%
+RX:m-dut-passthrough(db 6f793d4d561b656f2c76813a636d26616c255f6a224e5a126b77)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2f7581395e6a226a762d636f27535f1563701f6d7721787f2a78%
+RX:m-dut-passthrough(db 2f7581395e6a226a762d636f27535f1563701f6d7721787f2a78)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 82316b77286a77276c792a606c1f5d691f5965216973316d7833%
+RX:m-dut-passthrough(db 82316b77286a77276c792a606c1f5d691f5965216973316d7833)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6571276f7a34616c2a687232636e286b76327882435d67285b65%
+RX:m-dut-passthrough(db 6571276f7a34616c2a687232636e286b76327882435d67285b65)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 206d7730646e276b752e646f2856621a6b772f727e366c783065%
+RX:m-dut-passthrough(db 206d7730646e276b752e646f2856621a6b772f727e366c783065)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7128646f2759651a63701f767f297a812c7982316b78286a7728%
+RX:m-dut-passthrough(db 7128646f2759651a63701f767f297a812c7982316b78286a7728)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 737f35606c25636f246772286c7532727b356b762f606c26616c%
+RX:m-dut-passthrough(db 737f35606c25636f246772286c7532727b356b762f606c26616c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 29727d3a67722b6a742e6f773560672568702c6b722e686f2b64%
+RX:m-dut-passthrough(db 29727d3a67722b6a742e6f773560672568702c6b722e686f2b64)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b276e742f6c722b70782d778436758235656f26646c256f772c%
+RX:m-dut-passthrough(db 6b276e742f6c722b70782d778436758235656f26646c256f772c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7a832f7b832b747c28757e2e647120667324737f3875803c6975%
+RX:m-dut-passthrough(db 7a832f7b832b747c28757e2e647120667324737f3875803c6975)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 286672246c763077823a68742a606c24636f28646f2a727c3676%
+RX:m-dut-passthrough(db 286672246c763077823a68742a606c24636f28646f2a727c3676)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7f39737a366e73306e72337276377176346b702b6c712b737630%
+RX:m-dut-passthrough(db 7f39737a366e73306e72337276377176346b702b6c712b737630)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 777e317c89397986386a742a71782f81883c7e85307e852d7b82%
+RX:m-dut-passthrough(db 777e317c89397986386a742a71782f81883c7e85307e852d7b82)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 30747a2c6e7c2b6a77286d783078833d6a76276270246f7d3874%
+RX:m-dut-passthrough(db 30747a2c6e7c2b6a77286d783078833d6a76276270246f7d3874)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 82396e7a2d626e20646f25626d27727d3778833c757d397a813d%
+RX:m-dut-passthrough(db 82396e7a2d626e20646f25626d27727d3778833c757d397a813d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6e73357f83467b803e747a33686e276d732e757e337884367783%
+RX:m-dut-passthrough(db 6e73357f83467b803e747a33686e276d732e757e337884367783)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 39727d317b843a767e31737a277c812c7d80307d8032707d2e65%
+RX:m-dut-passthrough(db 39727d317b843a767e31737a277c812c7d80307d8032707d2e65)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 72236a762c6a762e677327646f2a6a74376c76346e7732667024%
+RX:m-dut-passthrough(db 72236a762c6a762e677327646f2a6a74376c76346e7732667024)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6f792e6c763078843d77833c6e79347b8440797f3f7e8344797e%
+RX:m-dut-passthrough(db 6f792e6c763078843d77833c6e79347b8440797f3f7e8344797e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3b6e742e707731707a32758133717d2e738033758234747f3375%
+RX:m-dut-passthrough(db 3b6e742e707731707a32758133717d2e738033758234747f3375)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7e31737b29767d297d82337a7f316b782a6976277a863a67742c%
+RX:m-dut-passthrough(db 7e31737b29767d297d82337a7f316b782a6976277a863a67742c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 606b24656b306d6c3b7676407a7f466a712b747c317079327885%
+RX:m-dut-passthrough(db 606b24656b306d6c3b7676407a7f466a712b747c317079327885)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3e77833d707b3678813d7c823e8489458085437a7f3d767e3971%
+RX:m-dut-passthrough(db 3e77833d707b3678813d7c823e8489458085437a7f3d767e3971)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7f3172802d6f7d296d7b2a707d2d6e7a2d727d31747d2c7c8633%
+RX:m-dut-passthrough(db 7f3172802d6f7d296d7b2a707d2d6e7a2d727d31747d2c7c8633)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7c87377e89396f7a2f637224717c33646e2d5e662e7a794f8e86%
+RX:m-dut-passthrough(db 7c87377e89396f7a2f637224717c33646e2d5e662e7a794f8e86)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6299916a9d9a778786556d6f2f71762d737c326e782f6b762f73%
+RX:m-dut-passthrough(db 6299916a9d9a778786556d6f2f71762d737c326e782f6b762f73)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7f3b76823d868f48878b4985864a787b3f6a762a64731e72812b%
+RX:m-dut-passthrough(db 7f3b76823d868f48878b4985864a787b3f6a762a64731e72812b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6e7c2a6d7a296f7b2e677226747e2f7681317480317c88386670%
+RX:m-dut-passthrough(db 6e7c2a6d7a296f7b2e677226747e2f7681317480317c88386670)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2a5b6a235a62216968375e5a3c63594a6b5f4e867965a09187a2%
+RX:m-dut-passthrough(db 2a5b6a235a62216968375e5a3c63594a6b5f4e867965a09187a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9183716244837547877b497f784374743c72793e71793e808347%
+RX:m-dut-passthrough(db 9183716244837547877b497f784374743c72793e71793e808347)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8e88508b82546f6a3c6c712f62701e6476206b7a2a707c2f737e%
+RX:m-dut-passthrough(db 8e88508b82546f6a3c6c712f62701e6476206b7a2a707c2f737e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 34657027727e31707c2d647023707c2d5a6222636e2f54571f50%
+RX:m-dut-passthrough(db 34657027727e31707c2d647023707c2d5a6222636e2f54571f50)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3e20351e1525101152413e6c5b527b64618769657b554c9a6f61%
+RX:m-dut-passthrough(db 3e20351e1525101152413e6c5b527b64618769657b554c9a6f61)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8f675582624b836b4d6f5c36827048907c5589734f8873558070%
+RX:m-dut-passthrough(db 8f675582624b836b4d6f5c36827048907c5589734f8873558070)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4d7671396e752d5b6a1b6c7b2f7a863c737e376c782e76833272%
+RX:m-dut-passthrough(db 4d7671396e752d5b6a1b6c7b2f7a863c737e376c782e76833272)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7f2d697527788534545a1f5a60286d693b61442c35130b371c1b%
+RX:m-dut-passthrough(db 7f2d697527788534545a1f5a60286d693b61442c35130b371c1b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5b453e664d4089655b996e58a97557bc8162a6704e9b6f51a07c%
+RX:m-dut-passthrough(db 5b453e664d4089655b996e58a97557bc8162a6704e9b6f51a07c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 618a684d7d593ca6826684664a5f452a725b3f766742605e2b67%
+RX:m-dut-passthrough(db 618a684d7d593ca6826684664a5f452a725b3f766742605e2b67)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6d31707839707835666d29626a23747d2e75802e758033798535%
+RX:m-dut-passthrough(db 6d31707839707835666d29626a23747d2e75802e758033798535)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5f652a666933685c3465462a452614462c215f43327d57419461%
+RX:m-dut-passthrough(db 5f652a666933685c3465462a452614462c215f43327d57419461)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4aad784db17744ae7143b27c549e755567463069473087614a7f%
+RX:m-dut-passthrough(db 4aad784db17744ae7143b27c549e755567463069473087614a7f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5d4a5e43317b644f8f78657965576c624a7d7956827f55727041%
+RX:m-dut-passthrough(db 5d4a5e43317b644f8f78657965576c624a7d7956827f55727041)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 605e31514f226563316c6d367a7d4682844c60652a686832564b%
+RX:m-dut-passthrough(db 605e31514f226563316c6d367a7d4682844c60652a686832564b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 22553f1e4d371d472e1c64422e8d5d438c4f309f6438a9704784%
+RX:m-dut-passthrough(db 22553f1e4d371d472e1c64422e8d5d438c4f309f6438a9704784)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4c3462352656342a41271e6e554171564331181238231d725e53%
+RX:m-dut-passthrough(db 4c3462352656342a41271e6e554171564331181238231d725e53)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 89736b826c6d7e6c667e705e6f644c685d485d523f4b402b5d54%
+RX:m-dut-passthrough(db 89736b826c6d7e6c667e705e6f644c685d485d523f4b402b5d54)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3a676042736f508c87675f632c62612964642f6b6b3a5a532953%
+RX:m-dut-passthrough(db 3a676042736f508c87675f632c62612964642f6b6b3a5a532953)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3d1e68462a885a3d793f1f834b25936347512e25200706341f1d%
+RX:m-dut-passthrough(db 3d1e68462a885a3d793f1f834b25936347512e25200706341f1d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5a4940594b386357425d4c463c2823402d1e5341375d4748674d%
+RX:m-dut-passthrough(db 5a4940594b386357425d4c463c2823402d1e5341375d4748674d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 496d5949514830534c395f593e56532b6562366766366567337a%
+RX:m-dut-passthrough(db 496d5949514830534c395f593e56532b6562366766366567337a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7c44676933676a2e687032606a2d63672f675d30614923795333%
+RX:m-dut-passthrough(db 7c44676933676a2e687032606a2d63672f675d30614923795333)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6c381b6c3915764e2f573c2c2f1b16372518493a2351442c5a4e%
+RX:m-dut-passthrough(db 6c381b6c3915764e2f573c2c2f1b16372518493a2351442c5a4e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 355e4c3f6b54476350344c3b245e4a3f78605066543a5a55305c%
+RX:m-dut-passthrough(db 355e4c3f6b54476350344c3b245e4a3f78605066543a5a55305c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5f30595e2761662a73793a6068266d77306a75275c5f2a565e20%
+RX:m-dut-passthrough(db 5f30595e2761662a73793a6068266d77306a75275c5f2a565e20)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 626c2b626d2d646f31595d26585121694e2b65341b6533136940%
+RX:m-dut-passthrough(db 626c2b626d2d646f31595d26585121694e2b65341b6533136940)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2173553d715645735b3c7a663b77643c7969457b674f8169517b%
+RX:m-dut-passthrough(db 2173553d715645735b3c7a663b77643c7969457b674f8169517b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 694272643f8a7a5f7667475d522a5c5b295b6424555f1d515b1b%
+RX:m-dut-passthrough(db 694272643f8a7a5f7667475d522a5c5b295b6424555f1d515b1b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6c75365e682e636e32606c275057225c672b51591e4a4e195a61%
+RX:m-dut-passthrough(db 6c75365e682e636e32606c275057225c672b51591e4a4e195a61)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2d556029575d2a594f26593b1b613c1a6e4b2b6f54377961417a%
+RX:m-dut-passthrough(db 2d556029575d2a594f26593b1b613c1a6e4b2b6f54377961417a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 633e84714482713d78693672613e6d593971623671683c655f37%
+RX:m-dut-passthrough(db 633e84714482713d78693672613e6d593971623671683c655f37)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5a572964653063682e5c67255d672a5b642b6e773f737c415863%
+RX:m-dut-passthrough(db 5a572964653063682e5c67255d672a5b642b6e773f737c415863)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1f667324464f1b535c274a4d1c38320d47461f4d58264f5b284b%
+RX:m-dut-passthrough(db 1f667324464f1b535c274a4d1c38320d47461f4d58264f5b284b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 51235f5c315c4f2664532f5c4e2d63593671674871694873703d%
+RX:m-dut-passthrough(db 51235f5c315c4f2664532f5c4e2d63593671674871694873703d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 706b2e7b6f427768426b61346560335354245d632d717a406873%
+RX:m-dut-passthrough(db 706b2e7b6f427768426b61346560335354245d632d717a406873)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 365f6a295b6428687039737c42717a3f5b6420636f1e49481947%
+RX:m-dut-passthrough(db 365f6a295b6428687039737c42717a3f5b6420636f1e49481947)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 461a413d193830133b3614575a2b4c541e49501c6367364f4f1f%
+RX:m-dut-passthrough(db 461a413d193830133b3614575a2b4c541e49501c6367364f4f1f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 514f254c4a274e4c2a5a5a3660613d686e3a686d2b7171376e6a%
+RX:m-dut-passthrough(db 514f254c4a274e4c2a5a5a3660613d686e3a686d2b7171376e6a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3967602f6665325e69315865286e7c3e65723756602758622260%
+RX:m-dut-passthrough(db 3967602f6665325e69315865286e7c3e65723756602758622260)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6a2b6f7939636d2d5a65226672254e4b1b4a461c3f3a1a26200a%
+RX:m-dut-passthrough(db 6a2b6f7939636d2d5a65226672254e4b1b4a461c3f3a1a26200a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2e280d58572c50551f5359235a5d2b474b174c4f1d4c4e215254%
+RX:m-dut-passthrough(db 2e280d58572c50551f5359235a5d2b474b174c4f1d4c4e215254)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 274f5220474c1e6168335e6924656d2b61642952521a585c215b%
+RX:m-dut-passthrough(db 274f5220474c1e6168335e6924656d2b61642952521a585c215b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6929556421606f2c5b682c6770396873315b66256b7636606b28%
+RX:m-dut-passthrough(db 6929556421606f2c5b682c6770396873315b66256b7636606b28)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5a661f6b782953521f565428403c1c1e1807302b134d4c235154%
+RX:m-dut-passthrough(db 5a661f6b782953521f565428403c1c1e1807302b134d4c235154)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 215a5f2a5f6330424710454a1153591f656b2e6c733250581f62%
+RX:m-dut-passthrough(db 215a5f2a5f6330424710454a1153591f656b2e6c733250581f62)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b3366732e6a762f626c28495012565f1e5e6b2558661d627029%
+RX:m-dut-passthrough(db 6b3366732e6a762f626c28495012565f1e5e6b2558661d627029)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6672326f793f5e6926636e2d6670315e6924626e246d7a2a5252%
+RX:m-dut-passthrough(db 6672326f793f5e6926636e2d6670315e6924626e246d7a2a5252)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1f5857294b49234743283e3a1c4c4b215859285b5e2a5d632d4a%
+RX:m-dut-passthrough(db 1f5857294b49234743283e3a1c4c4b215859285b5e2a5d632d4a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5019444b10555c1e636c28626d225a64225863275d6925616d25%
+RX:m-dut-passthrough(db 5019444b10555c1e636c28626d225a64225863275d6925616d25)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 67742b67732c65712c636f265a671b68742c6570316872365a65%
+RX:m-dut-passthrough(db 67742b67732c65712c636f265a671b68742c6570316872365a65)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 21636d2d5e682a5f6a236f7c2f6b782751532156582758582c5d%
+RX:m-dut-passthrough(db 21636d2d5e682a5f6a236f7c2f6b782751532156582758582c5d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5d3851512a4c4d1e4e4e1d5b5d2a5f662e555c27505721586025%
+RX:m-dut-passthrough(db 5d3851512a4c4d1e4e4e1d5b5d2a5f662e555c27505721586025)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 626b295c681b54601b4e5b1c5b6625656e2a646f266b7630636e%
+RX:m-dut-passthrough(db 626b295c681b54601b4e5b1c5b6625656e2a646f266b7630636e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 295b661e606c2267722d6a7437687235606b27555f20656f3366%
+RX:m-dut-passthrough(db 295b661e606c2267722d6a7437687235606b27555f20656f3366)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 722a6976276c79274d4f1b50521f5052235454295d5d2f494a18%
+RX:m-dut-passthrough(db 722a6976276c79274d4f1b50521f5052235454295d5d2f494a18)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 51511b5b5b266a6937666835525720575f24616b285d691f4f5b%
+RX:m-dut-passthrough(db 51511b5b5b266a6937666835525720575f24616b285d691f4f5b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 164d5a1c5862226f793567722b6f7a3365712a636f276c773064%
+RX:m-dut-passthrough(db 164d5a1c5862226f793567722b6f7a3365712a636f276c773064)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6f2a707b3966712f5b65234f591b636d316c78305b6818717e2d%
+RX:m-dut-passthrough(db 6f2a707b3966712f5b65234f591b636d316c78305b6818717e2d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5355255255214d4f1d58582b5b5a2e4a491a4444114e4d1a6b67%
+RX:m-dut-passthrough(db 5355255255214d4f1d58582b5b5a2e4a491a4444114e4d1a6b67)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3862622f4f531b575f235b6424545e1a5a6520505c1a5b662365%
+RX:m-dut-passthrough(db 3862622f4f531b575f235b6424545e1a5a6520505c1a5b662365)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 702b636f295e6a235f6b246a752f6f7a356b76316a7530616c27%
+RX:m-dut-passthrough(db 702b636f295e6a235f6b246a752f6f7a356b76316a7530616c27)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 55601e5a64256b76376a762e616e216e7b2d494a22474a175c5f%
+RX:m-dut-passthrough(db 55601e5a64256b76376a762e616e216e7b2d494a22474a175c5f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 275c5c2f4947203c3a1138370b4a491b5957275d5d2b494c164e%
+RX:m-dut-passthrough(db 275c5c2f4947203c3a1138370b4a491b5957275d5d2b494c164e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 53195a6025565f1e636e2857631d59641f5a65205b6621525d19%
+RX:m-dut-passthrough(db 53195a6025565f1e636e2857631d59641f5a65205b6621525d19)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5d68246c77326c77326c7731616d265a6620525d19606b276e79%
+RX:m-dut-passthrough(db 5d68246c77326c77326c7731616d265a6620525d19606b276e79)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 35646f2968742c717d3447481d56592460632a52522446441e40%
+RX:m-dut-passthrough(db 35646f2968742c717d3447481d56592460632a52522446441e40)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3e173f3d1649471e4b4a1c5e5d2d5254204f521b5e62295a6022%
+RX:m-dut-passthrough(db 3e173f3d1649471e4b4a1c5e5d2d5254204f521b5e62295a6022)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 616b2558631c5460195b662056611d55601f5c662567722f6a75%
+RX:m-dut-passthrough(db 616b2558631c5460195b662056611d55601f5c662567722f6a75)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 305c6820546016556119636f276c782f6e7a316b772f6e7a3368%
+RX:m-dut-passthrough(db 305c6820546016556119636f276c782f6e7a316b772f6e7a3368)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 742c67693464672f4d4f1a48491b46441b48461e46441d4b4a21%
+RX:m-dut-passthrough(db 742c67693464672f4d4f1a48491b46441b48461e46441d4b4a21)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4c4c204f50205f602d5e5f296a6c335d63235f6822535d185f6a%
+RX:m-dut-passthrough(db 4c4c204f50205f602d5e5f296a6c335d63235f6822535d185f6a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 235d69234d58165660225b6527687231636e295e6a215a671b5a%
+RX:m-dut-passthrough(db 235d69234d58165660225b6527687231636e295e6a215a671b5a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 661c687429707c2f626f20647024717d346672276a6f32595d23%
+RX:m-dut-passthrough(db 661c687429707c2f626f20647024717d346672276a6f32595d23)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4649144d4e20444319424118504f264242185050215557255a5c%
+RX:m-dut-passthrough(db 4649144d4e20444319424118504f264242185050215557255a5c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 285a5d2665692f616727606821565f1b616a265d66204a541155%
+RX:m-dut-passthrough(db 285a5d2665692f616727606821565f1b616a265d66204a541155)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 601e5a652367722e58631d57631b616d235662185864176e792a%
+RX:m-dut-passthrough(db 601e5a652367722e58631d57631b616d235662185864176e792a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6a77246976256b772d68732c616826565b20676c356c6f3f4546%
+RX:m-dut-passthrough(db 6a77246976256b772d68732c616826565b20676c356c6f3f4546)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1948491c5d5e315354265656235d602b5a5f28575d236b713363%
+RX:m-dut-passthrough(db 1948491c5d5e315354265656235d602b5a5f28575d236b713363)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6929636b21565e1b5058165b631a525c1556611b616c26657129%
+RX:m-dut-passthrough(db 6929636b21565e1b5058165b631a525c1556611b616c26657129)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5b671e56631a5b671f58651b606a1e747d2d7c8a336b7a236774%
+RX:m-dut-passthrough(db 5b671e56631a5b671f58651b606a1e747d2d7c8a336b7a236774)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 27647029%
+RX:m-dut-passthrough(db 27647029)
+RX:m-ready
+RX:[dut]: m-load-done
+RX:[dut]: m-ready
+0601.161203 ulp-mlperf: Load complete.
+dut infer 2000 5%
+RX:m-dut-passthrough(infer 2000 5)
+RX:m-ready
+RX:[dut]: m-warmup-start-5
+RX:[dut]: m-warmup-done
+RX:[dut]: m-infer-start-2000
+RX:[dut]: m-infer-done
+RX:[dut]: m-results-[19.804,14.918,25.412,28.733,25.910,25.506,28.604,19.769,9.086,6.773]
+RX:[dut]: m-ready
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+Captured samples:13929 timestamps:2
+0601.161215 ulp-mlperf: Loading file mongrel_s_000686.bin segment 0
+dut db load 3072%
+RX:m-dut-passthrough(db load 3072)
+RX:m-ready
+RX:[dut]: m-[Expecting 3072 bytes]
+RX:[dut]: m-ready
+dut db 5f5d47615f4861604863624a64644c65654d67664e6968506b6a%
+RX:m-dut-passthrough(db 5f5d47615f4861604863624a64644c65654d67664e6968506b6a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 526d6c546e6e5770705973725c6f6f596667536d6e5a797a657a%
+RX:m-dut-passthrough(db 526d6c546e6e5770705973725c6f6f596667536d6e5a797a657a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7b678b8c7bb9baacc6c8bbc3c5b7c2c4b6d3d5cadbddd4cbcdc2%
+RX:m-dut-passthrough(db 7b678b8c7bb9baacc6c8bbc3c5b7c2c4b6d3d5cadbddd4cbcdc2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b7b9ada6a79b95968a888a7d7d80717072615f5d476260486261%
+RX:m-dut-passthrough(db b7b9ada6a79b95968a888a7d7d80717072615f5d476260486261)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4864634a65654c67664d69684e6c6a516e6c536f6d5570705872%
+RX:m-dut-passthrough(db 4864634a65654c67664d69684e6c6a516e6c536f6d5570705872)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 725a74745c6769525b5e4b5e61506f715d7d7e698e8f7ebebfb1%
+RX:m-dut-passthrough(db 725a74745c6769525b5e4b5e61506f715d7d7e698e8f7ebebfb1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db cdcfc2caccbecaccbedddfd3e0e1d7ced0c4b7b9ac9ea1939a9d%
+RX:m-dut-passthrough(db cdcfc2caccbecaccbedddfd3e0e1d7ced0c4b7b9ac9ea1939a9d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 92a0a29a898c7f727462615f4764624964624a66654b68664d6a%
+RX:m-dut-passthrough(db 92a0a29a898c7f727462615f4764624964624a66654b68664d6a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 684f6b6a4f6e6d526f6e5472715773725775725878765e74745d%
+RX:m-dut-passthrough(db 684f6b6a4f6e6d526f6e5472715773725775725878765e74745d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6d6e596d6e5b7b7b677f806c90917fbfc0b1d0d2c4d0d2c4d2d4%
+RX:m-dut-passthrough(db 6d6e596d6e5b7b7b677f806c90917fbfc0b1d0d2c4d0d2c4d2d4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c7e8eadfe5e7dbd2d4c8b9bbae999c8db2b5abd4d6d1a1a29876%
+RX:m-dut-passthrough(db c7e8eadfe5e7dbd2d4c8b9bbae999c8db2b5abd4d6d1a1a29876)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 786662604665644966644a68674c6a684d6b6a4f6e6c4f6e6e52%
+RX:m-dut-passthrough(db 786662604665644966644a68674c6a684d6b6a4f6e6c4f6e6e52)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6f70566f6c4f5c5034493e2767624b7c7c637d7d6681806b8485%
+RX:m-dut-passthrough(db 6f70566f6c4f5c5034493e2767624b7c7c637d7d6681806b8485)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 70848673999c8bcfd2c5e2e4dae2e3d9e3e4dbf2f3eae9ebdfd5%
+RX:m-dut-passthrough(db 70848673999c8bcfd2c5e2e4dae2e3d9e3e4dbf2f3eae9ebdfd5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d7cabcbeaf9da090aeb1a6c8c9c49e9f94797b69636247676649%
+RX:m-dut-passthrough(db d7cabcbeaf9da090aeb1a6c8c9c49e9f94797b69636247676649)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 67664a69694c6b6a4e6d6c506f6d50707055746d4e5f4e303829%
+RX:m-dut-passthrough(db 67664a69694c6b6a4e6d6c506f6d50707055746d4e5f4e303829)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 162018103832246d6b5681826c8780628a76527d745b807a6cc0%
+RX:m-dut-passthrough(db 162018103832246d6b5681826c8780628a76527d745b807a6cc0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bcb4f7f7f5f7f7f5f0f0ecf8f9f2eff1e6d9dbcdbec0b2a0a394%
+RX:m-dut-passthrough(db bcb4f7f7f5f7f7f5f0f0ecf8f9f2eff1e6d9dbcdbec0b2a0a394)
+RX:m-ready
+RX:[dut]: m-ready
+dut db aeb1a7c4c7c1a2a49a7e7f6e64634667664968674a6b694c6c6b%
+RX:m-dut-passthrough(db aeb1a7c4c7c1a2a49a7e7f6e64634667664968674a6b694c6c6b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4e6e6c4f6e6e5172715478633b4e35183a261935231b231b115a%
+RX:m-dut-passthrough(db 4e6e6c4f6e6e5172715478633b4e35183a261935231b231b115a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4c33857450805f385c3d1f3d301f564e46c0bcb8fbfcfbf8f9f8%
+RX:m-dut-passthrough(db 4c33857450805f385c3d1f3d301f564e46c0bcb8fbfcfbf8f9f8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db f2f2effbfcf6f4f5ecdfe2d4c6c8bca6aa99bbc1b0d9e3d4acb0%
+RX:m-dut-passthrough(db f2f2effbfcf6f4f5ecdfe2d4c6c8bca6aa99bbc1b0d9e3d4acb0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a08182726463456766486967496c694b6e6b4d706d4f716e5379%
+RX:m-dut-passthrough(db a08182726463456766486967496c694b6e6b4d706d4f716e5379)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 704d7d592d492d153c271d553826674a2b835e3391633282582c%
+RX:m-dut-passthrough(db 704d7d592d492d153c271d553826674a2b835e3391633282582c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4030212a2722767469dfe0d6fdfef9f9f9f7f3f3effcfdf7f7f8%
+RX:m-dut-passthrough(db 4030212a2722767469dfe0d6fdfef9f9f9f7f3f3effcfdf7f7f8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db f0e5e7ddd1d2c9aeb2a1c2cab7e3eedcb0b7a684847566634469%
+RX:m-dut-passthrough(db f0e5e7ddd1d2c9aeb2a1c2cab7e3eedcb0b7a684847566634469)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 66466a67486d6a4b6f6c4d726e4f7370527c704b8c612b5d3b1b%
+RX:m-dut-passthrough(db 66466a67486d6a4b6f6c4d726e4f7370527c704b8c612b5d3b1b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4b331e8b6339ad80499573428262388e6c43745d384f45369b96%
+RX:m-dut-passthrough(db 4b331e8b6339ad80499573428262388e6c43745d384f45369b96)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 85dce0d4f9faf5f8f8f5f2f3eefbfcf8f8faf3eaede5d6d8d0b0%
+RX:m-dut-passthrough(db 85dce0d4f9faf5f8f8f5f2f3eefbfcf8f8faf3eaede5d6d8d0b0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b4a4c1c7b6e2ebdfb2b7ab8888786562436965446a66466c6949%
+RX:m-dut-passthrough(db b4a4c1c7b6e2ebdfb2b7ab8888786562436965446a66466c6949)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6f6c4c726e4e7270537c734c8e5f2a814c1d90602faa78429468%
+RX:m-dut-passthrough(db 6f6c4c726e4e7270537c734c8e5f2a814c1d90602faa78429468)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3b684c2d664a2b7b5d38654c2c735a3ba9a189dce0d1fbfcf3fa%
+RX:m-dut-passthrough(db 3b684c2d664a2b7b5d38654c2c735a3ba9a189dce0d1fbfcf3fa)
+RX:m-ready
+RX:[dut]: m-ready
+dut db fbf7f2f4ecfafbf7f9fbf6eceee7dadbd4b6baaac9cfbeeaeee8%
+RX:m-dut-passthrough(db fbf7f2f4ecfafbf7f9fbf6eceee7dadbd4b6baaac9cfbeeaeee8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b7b9b18c8b7c635f406762426864446b68476f6c4b726f4d7370%
+RX:m-dut-passthrough(db b7b9b18c8b7c635f406762426864446b68476f6c4b726f4d7370)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4f6c6243895a26a66e32b9874dab7f4c7c5a385341305c452d5c%
+RX:m-dut-passthrough(db 4f6c6243895a26a66e32b9874dab7f4c7c5a385341305c452d5c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 4426422d1c7e64429e987d989680a19e89b8b7b0cad0cbf1f3ef%
+RX:m-dut-passthrough(db 4426422d1c7e64429e987d989680a19e89b8b7b0cad0cbf1f3ef)
+RX:m-ready
+RX:[dut]: m-ready
+dut db f7f9f5eceee8dbdcd6bbbeb1b3b3a4b2aca0a5a498908f80605d%
+RX:m-dut-passthrough(db f7f9f5eceee8dbdcd6bbbeb1b3b3a4b2aca0a5a498908f80605d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3d646041666244686645696442675f3b66623f5a5236825c2ba6%
+RX:m-dut-passthrough(db 3d646041666244686645696442675f3b66623f5a5236825c2ba6)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 743cab824f7d623f60482c503d293e3121453620614223907653%
+RX:m-dut-passthrough(db 743cab824f7d623f60482c503d293e3121453620614223907653)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 98968171716256574b454c5d506082bbbfbfecefe7e7e9e5d9da%
+RX:m-dut-passthrough(db 98968171716256574b454c5d506082bbbfbfecefe7e7e9e5d9da)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d4b7b7ae7c796c615547918d819596885753365a56395450355a%
+RX:m-dut-passthrough(db d4b7b7ae7c796c615547918d819596885753365a56395450355a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 583a605b3a5f54316257336b633f735f37906b3dab8c656f5d45%
+RX:m-dut-passthrough(db 583a605b3a5f54316257336b633f735f37906b3dab8c656f5d45)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2e261d2620192b221b403024523a21866d4a9a9985878a7c6e72%
+RX:m-dut-passthrough(db 2e261d2620192b221b403024523a21866d4a9a9985878a7c6e72)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 695d63674f575e93958ed7d9d1e1e2dcd8d9d2b4b6ad66625b3c%
+RX:m-dut-passthrough(db 695d63674f575e93958ed7d9d1e1e2dcd8d9d2b4b6ad66625b3c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 36328889809a9a8d423f2b49473038301d3f372349442b5d5435%
+RX:m-dut-passthrough(db 36328889809a9a8d423f2b49473038301d3f372349442b5d5435)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6654306557326e5b36917147a48660816c4e3f3628412f2b7c45%
+RX:m-dut-passthrough(db 6654306557326e5b36917147a48660816c4e3f3628412f2b7c45)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 489f5c654e34296f4c267f6850696757585a4a5d6053585c5281%
+RX:m-dut-passthrough(db 489f5c654e34296f4c267f6850696757585a4a5d6053585c5281)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8578bcbeb3d4d6cdd3d4ccb4b5ac615e5837332d8b8a829d9c8f%
+RX:m-dut-passthrough(db 8578bcbeb3d4d6cdd3d4ccb4b5ac615e5837332d8b8a829d9c8f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3b3b2b464833352f1e372c1b383320423d27443c223f3923483d%
+RX:m-dut-passthrough(db 3b3b2b464833352f1e372c1b383320423d27443c223f3923483d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 26846a45a78b67967f5e6a583d5f40367d45468a4c485f361c6b%
+RX:m-dut-passthrough(db 26846a45a78b67967f5e6a583d5f40367d45468a4c485f361c6b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3d1379471f7b62448f8c7c90958c888b87a0a397bfc0b5cacbc4%
+RX:m-dut-passthrough(db 3d1379471f7b62448f8c7c90958c888b87a0a397bfc0b5cacbc4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c8c9c2b4b4ac7c7a73605c5495948a97978b3839284646323a32%
+RX:m-dut-passthrough(db c8c9c2b4b4ac7c7a73605c5495948a97978b3839284646323a32)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 1e3c2f183f351d42391f40391c3a351f38301c664f2ea2825b9b%
+RX:m-dut-passthrough(db 1e3c2f183f351d42391f40391c3a351f38301c664f2ea2825b9b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8464977c5a856440653d1e6235116b3e1277481a834e20895625%
+RX:m-dut-passthrough(db 8464977c5a856440653d1e6235116b3e1277481a834e20895625)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 95734fa0907aa39c8fafada2c0c1b9cccdc7c8c9c3b5b6b09495%
+RX:m-dut-passthrough(db 95734fa0907aa39c8fafada2c0c1b9cccdc7c8c9c3b5b6b09495)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8f87877f9f9f9796968d423d274a41274b3b1d4f3b1c4e3d2050%
+RX:m-dut-passthrough(db 8f87877f9f9f9796968d423d274a41274b3b1d4f3b1c4e3d2050)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 40245141245142275143287c603aae8653a2855faa8861ae8252%
+RX:m-dut-passthrough(db 40245141245142275143287c603aae8653a2855faa8861ae8252)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9c6b3495642e8f5f2a84521f875221905d2684501e78481f8f78%
+RX:m-dut-passthrough(db 9c6b3495642e8f5f2a84521f875221905d2684501e78481f8f78)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5eafaba0bbbbb3c6c7c0bdbfb7acada59a9c929c9e94a4a49c95%
+RX:m-dut-passthrough(db 5eafaba0bbbbb3c6c7c0bdbfb7acada59a9c929c9e94a4a49c95)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 958b5c4c2d615334655738665d4167624a6a664e6f684e736c53%
+RX:m-dut-passthrough(db 958b5c4c2d615334655738665d4167624a6a664e6f684e736c53)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 756e55937e5ab38d5ba78052ac8250b78b54bb8f58b98e59a173%
+RX:m-dut-passthrough(db 756e55937e5ab38d5ba78052ac8250b78b54bb8f58b98e59a173)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3b8f5f288d5c299463308a56267c461b987c61c8c9c1cccdc6c2%
+RX:m-dut-passthrough(db 3b8f5f288d5c299463308a56267c461b987c61c8c9c1cccdc6c2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c2bab6b7aeaaaca0b1b4a6bec1b4a9aaa08e8f8364614b6a6852%
+RX:m-dut-passthrough(db c2bab6b7aeaaaca0b1b4a6bec1b4a9aaa08e8f8364614b6a6852)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6d6c5472705977755e7b77607d78627f7c657d78658d836aaa8e%
+RX:m-dut-passthrough(db 6d6c5472705977755e7b77607d78627f7c657d78658d836aaa8e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 65967245956d3ea57b49b68b56ba925ea0733a8d5d268b5b288d%
+RX:m-dut-passthrough(db 65967245956d3ea57b49b68b56ba925ea0733a8d5d268b5b288d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5b298c5728824d208c6741c2c0b2bdbfb5bebfb4b3b5aaa6a89a%
+RX:m-dut-passthrough(db 5b298c5728824d208c6741c2c0b2bdbfb5bebfb4b3b5aaa6a89a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b9bdabc5c9b8a5a79a8b8c7e6b695472715b7775607d7b66827f%
+RX:m-dut-passthrough(db b9bdabc5c9b8a5a79a8b8c7e6b695472715b7775607d7b66827f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b84816d86836f87867186857289887599896ca07d549e7444a3%
+RX:m-dut-passthrough(db 6b84816d86836f87867186857289887599896ca07d549e7444a3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7b4bae8958b68d58946630845521895825905c288a56257e491d%
+RX:m-dut-passthrough(db 7b4bae8958b68d58946630845521895825905c288a56257e491d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 835b35bbb6a7807a6f8f8676aaaa9ca4a697b9bca9c1c5b3a1a3%
+RX:m-dut-passthrough(db 835b35bbb6a7807a6f8f8676aaaa9ca4a697b9bca9c1c5b3a1a3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 948b8a7c75725f7b7865807d6a8683708987738c8a768e8d7a90%
+RX:m-dut-passthrough(db 948b8a7c75725f7b7865807d6a8683708987738c8a768e8d7a90)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8f7d92917e91917f9a917aae9068ab82509f7746b28b5bb48a55%
+RX:m-dut-passthrough(db 8f7d92917e91917f9a917aae9068ab82509f7746b28b5bb48a55)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 94642e7e4f1f83511e8d572187521f7a4619784a24b8af9e7d75%
+RX:m-dut-passthrough(db 94642e7e4f1f83511e8d572187521f7a4619784a24b8af9e7d75)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6c4c341e8b7a609e9d8bb2b5a4b6b9a89b9c8d8a887a7f7d6b84%
+RX:m-dut-passthrough(db 6c4c341e8b7a609e9d8bb2b5a4b6b9a89b9c8d8a887a7f7d6b84)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 826f8885738c89778f8c7b93907e959383979686989786979685%
+RX:m-dut-passthrough(db 826f8885738c89778f8c7b93907e959383979686989786979685)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9c9682b29875b18c608f693c9a7344bb935f9a6f3b7e51218c5a%
+RX:m-dut-passthrough(db 9c9682b29875b18c608f693c9a7344bb935f9a6f3b7e51218c5a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2698642d95612d804a1d74421aa89a848c8a81422d167b614199%
+RX:m-dut-passthrough(db 2698642d95612d804a1d74421aa89a848c8a81422d167b614199)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 927da5a798a7a9999796868987788684738b8a788e8c7b929080%
+RX:m-dut-passthrough(db 927da5a798a7a9999796868987788684738b8a788e8c7b929080)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9693849996879b998a9e9c8d9e9c8c9b998a9b9887ac9878b08f%
+RX:m-dut-passthrough(db 9693849996879b998a9e9c8d9e9c8c9b998a9b9887ac9878b08f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 648c6e49987654b88f5f91673481582e986d419564328c59287d%
+RX:m-dut-passthrough(db 648c6e49987654b88f5f91673481582e986d419564328c59287d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 471b6f3b14927f6777736c472f187a654496917b9d9e8e9c9b8b%
+RX:m-dut-passthrough(db 471b6f3b14927f6777736c472f187a654496917b9d9e8e9c9b8b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 918f7e8684738b897a918f809391829696879a998b9d9c8ea09f%
+RX:m-dut-passthrough(db 918f7e8684738b897a918f809391829696879a998b9d9c8ea09f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 91a19f91a2a093a09d8f9b9a8ca9997cae8c608b69459f7e60b2%
+RX:m-dut-passthrough(db 91a19f91a2a093a09d8f9b9a8ca9997cae8c608b69459f7e60b2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 89588c5f2c876244a68463a67c50a0724390603475421d6b533e%
+RX:m-dut-passthrough(db 89588c5f2c876244a68463a67c50a0724390603475421d6b533e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3d342c422d197260448f8a759997889491828a8776817e6d9491%
+RX:m-dut-passthrough(db 3d342c422d197260448f8a759997889491828a8776817e6d9491)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 839997889a988a9c9c8f9f9f91a1a093a3a194a4a195a4a296a2%
+RX:m-dut-passthrough(db 839997889a988a9c9c8f9f9f91a1a093a3a194a4a195a4a296a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9f929c9a8da69479a68156846746977856ab7f4a7d5426826247%
+RX:m-dut-passthrough(db 9f929c9a8da69479a68156846746977856ab7f4a7d5426826247)
+RX:m-ready
+RX:[dut]: m-ready
+dut db aa8a65ab8151a97b4a9c7344794f25513219352415503d237c6e%
+RX:m-dut-passthrough(db aa8a65ab8151a97b4a9c7344794f25513219352415503d237c6e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 53908c7a9391828e8c7b8683727e7a6999968a9d9b8e9d9c8fa0%
+RX:m-dut-passthrough(db 53908c7a9391828e8c7b8683727e7a6999968a9d9b8e9d9c8fa0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9e92a2a094a3a195a3a195a4a296a4a297a2a0939d9b8e9e8c72%
+RX:m-dut-passthrough(db 9e92a2a094a3a195a3a195a4a296a4a297a2a0939d9b8e9e8c72)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 997449836c50977650a06c39744d286b4a388967429062318f5f%
+RX:m-dut-passthrough(db 997449836c50977650a06c39744d286b4a388967429062318f5f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 2f966c3c7d572f5e462d645a48756954857b688d8a7a8c8a7a87%
+RX:m-dut-passthrough(db 2f966c3c7d572f5e462d645a48756954857b688d8a7a8c8a7a87)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 857482806d7c79669a998d9e9d919f9e92a2a094a3a195a4a296%
+RX:m-dut-passthrough(db 857482806d7c79669a998d9e9d919f9e92a2a094a3a195a4a296)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a5a397a5a397a4a297a3a195a09e92a28e73967044684a2d8d63%
+RX:m-dut-passthrough(db a5a397a5a397a4a297a3a195a09e92a28e73967044684a2d8d63)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 388c5c2b725536684e3d765d498e7354916b458d60357e562f77%
+RX:m-dut-passthrough(db 388c5c2b725536684e3d765d498e7354916b458d60357e562f77)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 68527b776a7e7768867f70898474878373827e6e7e7a68787461%
+RX:m-dut-passthrough(db 68527b776a7e7768867f70898474878373827e6e7e7a68787461)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9c9b91a0a094a2a195a5a398a6a399a6a499a6a599a5a498a6a4%
+RX:m-dut-passthrough(db 9c9b91a0a094a2a195a5a398a6a399a6a499a6a599a5a498a6a4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 98a6a498a19786a3825c8b69426e5c46956e438d612d7b6b557e%
+RX:m-dut-passthrough(db 98a6a498a19786a3825c8b69426e5c46956e438d612d7b6b557e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6e5e7d654f7e61467e5431814f27784a24816a52857e717d7665%
+RX:m-dut-passthrough(db 6e5e7d654f7e61467e5431814f27784a24816a52857e717d7665)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 847e6c878172847e6e7f7a687c776476715e9e9e94a2a298a3a2%
+RX:m-dut-passthrough(db 847e6c878172847e6e7f7a687c776476715e9e9e94a2a298a3a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 98a6a39aa6a39aa7a599a6a69aa6a598a6a4999a9384846d5080%
+RX:m-dut-passthrough(db 98a6a39aa6a39aa7a599a6a69aa6a598a6a4999a9384846d5080)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 634086755e8d8271a17b4e946c3c7f74657863526d4f2e6e4f2e%
+RX:m-dut-passthrough(db 634086755e8d8271a17b4e946c3c7f74657863526d4f2e6e4f2e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7553387f614a87725e968a7b928c7f827b6a817a69857f6e817b%
+RX:m-dut-passthrough(db 7553387f614a87725e968a7b928c7f827b6a817a69857f6e817b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 697c7764797460736e5a9e9e96a3a39aa4a399a6a39aa7a49ba8%
+RX:m-dut-passthrough(db 697c7764797460736e5a9e9e96a3a39aa4a399a6a39aa7a49ba8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a69aa8a79ba8a89ca9a79ca19e90968f7f9790829e978d927c65%
+RX:m-dut-passthrough(db a69aa8a79ba8a89ca9a79ca19e90968f7f9790829e978d927c65)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 895d307f603c888175867d718176698d857b9b9389a2998f9f98%
+RX:m-dut-passthrough(db 895d307f603c888175867d718176698d857b9b9389a2998f9f98)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8f9c9589938c7f898272817b687e79667d786679746176715d71%
+RX:m-dut-passthrough(db 8f9c9589938c7f898272817b687e79667d786679746176715d71)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6c579e9e97a1a199a1a198a3a299a5a399a6a499a7a599a8a69a%
+RX:m-dut-passthrough(db 6c579e9e97a1a199a1a198a3a299a5a399a6a499a7a599a8a69a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a8a69aa9a79baaa89ca8a497a19a8c79654c634728796a549690%
+RX:m-dut-passthrough(db a8a69aa9a79baaa89ca8a497a19a8c79654c634728796a549690)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 849b968b9c968a9d968b9d968b9c95899b9489999489948e828c%
+RX:m-dut-passthrough(db 849b968b9c968a9d968b9d968b9c95899b9489999489948e828c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8678847d6c7d766478736075705d736e5a6e69549c9c969f9f97%
+RX:m-dut-passthrough(db 8678847d6c7d766478736075705d736e5a6e69549c9c969f9f97)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9d9e959fa095a0a096a2a196a4a296a5a397a5a397a4a296a4a2%
+RX:m-dut-passthrough(db 9d9e959fa095a0a096a2a196a4a296a5a397a5a397a4a296a4a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 96a29e92a19b8f90897c8983749a94869a958797918497918498%
+RX:m-dut-passthrough(db 96a29e92a19b8f90897c8983749a94869a958797918497918498)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 90849891859892869791869692879390848a8679817c6b7a7562%
+RX:m-dut-passthrough(db 90849891859892869791869692879390848a8679817c6b7a7562)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 77715e706b586f69556b6651999a939c9c959b9b939b9d939c9d%
+RX:m-dut-passthrough(db 77715e706b586f69556b6651999a939c9c959b9b939b9d939c9d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 929d9d929f9e92a09f93a09e929f9e929f9e929f9c909e9a8da1%
+RX:m-dut-passthrough(db 929d9d929f9e92a09f93a09e929f9e929f9e929f9c909e9a8da1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9d90a19c8f9e988a979384949081948d7f938c7e938c7f938c81%
+RX:m-dut-passthrough(db 9d90a19c8f9e988a979384949081948d7f938c7e938c7f938c81)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 948e83959086928e8489857a7f7b6d777260746f5d6f6a576a66%
+RX:m-dut-passthrough(db 948e83959086928e8489857a7f7b6d777260746f5d6f6a576a66)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5267634e%
+RX:m-dut-passthrough(db 5267634e)
+RX:m-ready
+RX:[dut]: m-load-done
+RX:[dut]: m-ready
+0601.161217 ulp-mlperf: Load complete.
+dut infer 2000 5%
+RX:m-dut-passthrough(infer 2000 5)
+RX:m-ready
+RX:[dut]: m-warmup-start-5
+RX:[dut]: m-warmup-done
+RX:[dut]: m-infer-start-2000
+RX:[dut]: m-infer-done
+RX:[dut]: m-results-[6.251,11.694,12.282,23.863,13.518,27.780,17.800,18.306,1.800,9.561]
+RX:[dut]: m-ready
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+Captured samples:13879 timestamps:2
+0601.161229 ulp-mlperf: Loading file stealth_bomber_s_002204.bin segment 0
+dut db load 3072%
+RX:m-dut-passthrough(db load 3072)
+RX:m-ready
+RX:[dut]: m-[Expecting 3072 bytes]
+RX:[dut]: m-ready
+dut db f5f7f9efeef0ebe7ebebe2e9e4dde2dfdbdce6dddae9ddd7e7db%
+RX:m-dut-passthrough(db f5f7f9efeef0ebe7ebebe2e9e4dde2dfdbdce6dddae9ddd7e7db)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d4efe6e1d9e2e6afcbda88b6cf73a9cb73a3c874a1c277a2c07e%
+RX:m-dut-passthrough(db d4efe6e1d9e2e6afcbda88b6cf73a9cb73a3c874a1c277a2c07e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a6c385a8c57f9ebb7a98b57999b77a95b18d9fb5b5becebcbecb%
+RX:m-dut-passthrough(db a6c385a8c57f9ebb7a98b57999b77a95b18d9fb5b5becebcbecb)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 979db1979caec1bcc2d6c6c8dfc8cedfc7d1f9fafcf2f0f3f2ec%
+RX:m-dut-passthrough(db 979db1979caec1bcc2d6c6c8dfc8cedfc7d1f9fafcf2f0f3f2ec)
+RX:m-ready
+RX:[dut]: m-ready
+dut db efefe6eae8e2e2e5e4dbeae1d8e9dcd5e9dcdae3dde2b4c9db86%
+RX:m-dut-passthrough(db efefe6eae8e2e2e5e4dbeae1d8e9dcd5e9dcdae3dde2b4c9db86)
+RX:m-ready
+RX:[dut]: m-ready
+dut db aec873a6c56fa3c3749fbd85a5c09eb5cbb9c9d7bfcdd89fb4c1%
+RX:m-dut-passthrough(db aec873a6c56fa3c3749fbd85a5c09eb5cbb9c9d7bfcdd89fb4c1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 87a2b38ea6bb8a9db29ba7b9a0a6b59c9eab9098ad9ca3b8b5b2%
+RX:m-dut-passthrough(db 87a2b38ea6bb8a9db29ba7b9a0a6b59c9eab9098ad9ca3b8b5b2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bec2b5bdd5c2ccd9c4d1f4f4f6efedefefe8eae6dcdde0d7d6df%
+RX:m-dut-passthrough(db bec2b5bdd5c2ccd9c4d1f4f4f6efedefefe8eae6dcdde0d7d6df)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d8d1e3d9d2e0dad6cfd4d8adbecb88a5bb7ba0bb7da6c17da1b7%
+RX:m-dut-passthrough(db d8d1e3d9d2e0dad6cfd4d8adbecb88a5bb7ba0bb7da6c17da1b7)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 92adbbb9c9d0dbe0e2e7e6e2cac9c9aab4bf95a8bb99a7b797a2%
+RX:m-dut-passthrough(db 92adbbb9c9d0dbe0e2e7e6e2cac9c9aab4bf95a8bb99a7b797a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b09ba2af9597a49797a38f98ac8a93a99493a4a69baac1b2c1c8%
+RX:m-dut-passthrough(db b09ba2af9597a49797a38f98ac8a93a99493a4a69baac1b2c1c8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b7c7e9e8ebede9ebebe2e2dfd5d3dccfcfdfd0d1e5dad7d1d2d0%
+RX:m-dut-passthrough(db b7c7e9e8ebede9ebebe2e2dfd5d3dccfcfdfd0d1e5dad7d1d2d0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9db6be7ba3b486a1b2a0b7c99eb6c6adbfc6ced8d4d7dbced7d7%
+RX:m-dut-passthrough(db 9db6be7ba3b486a1b2a0b7c99eb6c6adbfc6ced8d4d7dbced7d7)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c7cac8bda9a8aa8e94a77c89a2818b9a8b929e9599a494959f9a%
+RX:m-dut-passthrough(db c7cac8bda9a8aa8e94a77c89a2818b9a8b929e9599a494959f9a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 99a48c93a5767e948381959c92a4b6a9bac0b1c2eae8ece7e1e3%
+RX:m-dut-passthrough(db 99a48c93a5767e948381959c92a4b6a9bac0b1c2eae8ece7e1e3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e0d7d6e0d5d2e3d7d4e3d5d1e8dbd4cac8c391a7ad7ba0b1a4b6%
+RX:m-dut-passthrough(db e0d7d6e0d5d2e3d7d4e3d5d1e8dbd4cac8c391a7ad7ba0b1a4b6)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bfbfcad3a9b4bdb4bbbabec1b4bebcaaacac9f9aa1a08c98a473%
+RX:m-dut-passthrough(db bfbfcad3a9b4bdb4bbbabec1b4bebcaaacac9f9aa1a08c98a473)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7e92727d917984928a929f8b8f9a8e8e9697939b8589987a7f93%
+RX:m-dut-passthrough(db 7e92727d917984928a929f8b8f9a8e8e9697939b8589987a7f93)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 938da3a79bafb8aabcc4b5c7ece8ede1dbdcdbd2cfe3d8d2e9e0%
+RX:m-dut-passthrough(db 938da3a79bafb8aabcc4b5c7ece8ede1dbdcdbd2cfe3d8d2e9e0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d7e5ddd0ecddccece0d2c1c5c68f9facacb5b9b8bdc0a2a7aca7%
+RX:m-dut-passthrough(db d7e5ddd0ecddccece0d2c1c5c68f9facacb5b9b8bdc0a2a7aca7)
+RX:m-ready
+RX:[dut]: m-ready
+dut db aba8adafa2b0afa29da0a28598a76b85997789968a959d828f9d%
+RX:m-dut-passthrough(db aba8adafa2b0afa29da0a28598a76b85997789968a959d828f9d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7f8a997f859093939c959199787a87848699a39bb1ac9eb3b0a2%
+RX:m-dut-passthrough(db 7f8a997f859093939c959199787a87848699a39bb1ac9eb3b0a2)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b4c2b3c4e6dae7e8dde0e9dfdae6dcd3e4dad1eaddd0efddc6f8%
+RX:m-dut-passthrough(db b4c2b3c4e6dae7e8dde0e9dfdae6dcd3e4dad1eaddd0efddc6f8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e9d1dbd8ce9ba3a5b2b7b1c0c0b5b0ada3b2ada2b3afa3aaa9a3%
+RX:m-dut-passthrough(db e9d1dbd8ce9ba3a5b2b7b1c0c0b5b0ada3b2ada2b3afa3aaa9a3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8b959d728ca05c7c92768993858d9171809166778a697a887d8b%
+RX:m-dut-passthrough(db 8b959d728ca05c7c92768993858d9171809166778a697a887d8b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 987883916774837e84979a92a9a899afada1b3bcafc1e6d9e5ed%
+RX:m-dut-passthrough(db 987883916774837e84979a92a9a899afada1b3bcafc1e6d9e5ed)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e2e2f1e7dfeae0d6e4dad0e4d7c9ecdbc8ecdcc9d3cec3b1b4af%
+RX:m-dut-passthrough(db e2e2f1e7dfeae0d6e4dad0e4d7c9ecdbc8ecdcc9d3cec3b1b4af)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c8c4b9dbd1c3d2c6b9bbb1a6b4afa98b9295697e8b5f7b8e5a76%
+RX:m-dut-passthrough(db c8c4b9dbd1c3d2c6b9bbb1a6b4afa98b9295697e8b5f7b8e5a76)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8970828d78848d5e7285526a7d546b7b5c6f7d5361705766796b%
+RX:m-dut-passthrough(db 8970828d78848d5e7285526a7d546b7b5c6f7d5361705766796b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 73898f889faa9ab0b4a6b7b7a8b9eee3e8ebe1ddefe6dcf0e8dd%
+RX:m-dut-passthrough(db 73898f889faa9ab0b4a6b7b7a8b9eee3e8ebe1ddefe6dcf0e8dd)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ede6d8dfd9c7e2d5cadecec8cec5bfc8c5bbd1c3b9dbcac1cfc3%
+RX:m-dut-passthrough(db ede6d8dfd9c7e2d5cadecec8cec5bfc8c5bbd1c3b9dbcac1cfc3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bcafacaa969ca0677f8f5071895b75876c808f788b99657b8a52%
+RX:m-dut-passthrough(db bcafacaa969ca0677f8f5071895b75876c808f788b99657b8a52)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6f814664753b55643949562c333f2d374a4e566e928ba2b1a1b5%
+RX:m-dut-passthrough(db 6f814664753b55643949562c333f2d374a4e566e928ba2b1a1b5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bba9b8baa7b6f7ededf1e9e2ede5dae6ded5e6e2d3dedbcbd4ca%
+RX:m-dut-passthrough(db bba9b8baa7b6f7ededf1e9e2ede5dae6ded5e6e2d3dedbcbd4ca)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c8c7b8bec4bab8c6c0b4c7bbb1c8beb7b3b2ae909da167828e49%
+RX:m-dut-passthrough(db c8c7b8bec4bab8c6c0b4c7bbb1c8beb7b3b2ae909da167828e49)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 738d446e8d617a8b7c8d97708594516e824f6f8246687a3a5869%
+RX:m-dut-passthrough(db 738d446e8d617a8b7c8d97708594516e824f6f8246687a3a5869)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 304250191e2a21273a60657d9790a6ac9baeb9a4b2b9a3b2f2eb%
+RX:m-dut-passthrough(db 304250191e2a21273a60657d9790a6ac9baeb9a4b2b9a3b2f2eb)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e8e8e1dacfc8c0aca49fc5c0b8bab7acbeb6b8bbb0b8c3b9bac4%
+RX:m-dut-passthrough(db e8e8e1dacfc8c0aca49fc5c0b8bab7acbeb6b8bbb0b8c3b9bac4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bdb4b4b3aaa6aaa58e9d9d718f984d788a3d708f416c8c688091%
+RX:m-dut-passthrough(db bdb4b4b3aaa6aaa58e9d9d718f984d788a3d708f416c8c688091)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 82929c60788847677e4f6c8049697d43647951677a4c54655759%
+RX:m-dut-passthrough(db 82929c60788847677e4f6c8049697d43647951677a4c54655759)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6c87879c9a91a6a696a8b19babb29bace7e2dfa49e9869635f41%
+RX:m-dut-passthrough(db 6c87879c9a91a6a696a8b19babb29bace7e2dfa49e9869635f41)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3a3b665f60a09999b7b0b2bbb4b7c3bcbcbfbbb89ea6a3849191%
+RX:m-dut-passthrough(db 3a3b665f60a09999b7b0b2bbb4b7c3bcbcbfbbb89ea6a3849191)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 798e935f7f8f436f883e6d8d446a86728b9d7f939f5671834c6a%
+RX:m-dut-passthrough(db 798e935f7f8f436f883e6d8d446a86728b9d7f939f5671834c6a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 815a6e824d6780375975405c7758677f77778a958d9e988d9fa5%
+RX:m-dut-passthrough(db 815a6e824d6780375975405c7758677f77778a958d9e988d9fa5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 95a8aa95a8b099adfaf6f3d8d3cf6b65632f292c8c8289cdc3c8%
+RX:m-dut-passthrough(db 95a8aa95a8b099adfaf6f3d8d3cf6b65632f292c8c8289cdc3c8)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c4bdbdbfbab7c1bcbbb0adb08b94978191967c909d577289476a%
+RX:m-dut-passthrough(db c4bdbdbfbab7c1bcbbb0adb08b94978191967c909d577289476a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8b4a6d8b58778c748ea0647d8d5773865b75896673884d637d3b%
+RX:m-dut-passthrough(db 8b4a6d8b58778c748ea0647d8d5773865b75896673884d637d3b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5d7d3b5c7c4c637f828195938695958999a496a9a493a9ae9ab0%
+RX:m-dut-passthrough(db 5d7d3b5c7c4c637f828195938695958999a496a9a493a9ae9ab0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db fbf7f2f6efe9dad0cbbcafacdaceccdad1cdd6ccc3cfc5bbc8c1%
+RX:m-dut-passthrough(db fbf7f2f6efe9dad0cbbcafacdaceccdad1cdd6ccc3cfc5bbc8c1)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bbb7b4b1949c9b869aa16181944c708d5273955f788f8397a57e%
+RX:m-dut-passthrough(db bbb7b4b1949c9b869aa16181944c708d5273955f788f8397a57e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 95a55d7688677f8f6275855163784a637a4a6a8345647e4a637d%
+RX:m-dut-passthrough(db 95a55d7688677f8f6275855163784a637a4a6a8345647e4a637d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 74768c8d85979793a59e9bae9d95aca99bb2f9f2e8eae1d9e0d5%
+RX:m-dut-passthrough(db 74768c8d85979793a59e9bae9d95aca99bb2f9f2e8eae1d9e0d5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db cdded1cbdfd4cce2d8cde1d3c5dccdbed2c6bac7bfb6aba9aa83%
+RX:m-dut-passthrough(db cdded1cbdfd4cce2d8cde1d3c5dccdbed2c6bac7bfb6aba9aa83)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 929d4c70853f6c88446e8c5672887c90a17b93a75c74896b7f90%
+RX:m-dut-passthrough(db 929d4c70853f6c88446e8c5672887c90a17b93a75c74896b7f90)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 71829252677e4d687f4f6c8347647b49617a68708a8c8da68f94%
+RX:m-dut-passthrough(db 71829252677e4d687f4f6c8347647b49617a68708a8c8da68f94)
+RX:m-ready
+RX:[dut]: m-ready
+dut db ac8a8ea58d8ba39e94acf7efe6ebe4dedbd6d2d2cdccd7d3cfdc%
+RX:m-dut-passthrough(db ac8a8ea58d8ba39e94acf7efe6ebe4dedbd6d2d2cdccd7d3cfdc)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d4cbded2c5ddcec0d6c9bcccc1b8ada8ae8994a356768b3a677f%
+RX:m-dut-passthrough(db d4cbded2c5ddcec0d6c9bcccc1b8ada8ae8994a356768b3a677f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 38667f50728b68819a69839c4f667e5a6c807686996679935a73%
+RX:m-dut-passthrough(db 38667f50728b68819a69839c4f667e5a6c807686996679935a73)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8d56718a536d8661758f727e9a7c84a07a809a82839b908ba2a4%
+RX:m-dut-passthrough(db 8d56718a536d8661758f727e9a7c84a07a809a82839b908ba2a4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 98aee4e2e0c9cbccbcc2c6b9c1c9bec6cac4c6c5d1cfc9d3cec7%
+RX:m-dut-passthrough(db 98aee4e2e0c9cbccbcc2c6b9c1c9bec6cac4c6c5d1cfc9d3cec7)
+RX:m-ready
+RX:[dut]: m-ready
+dut db cbc7c1c1c0bf9ca3ad8396a668879c486c844e6f886684a06a85%
+RX:m-dut-passthrough(db cbc7c1c1c0bf9ca3ad8396a668879c486c844e6f886684a06a85)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a468819e5a6f895f6f867180966f829e6c839e69829b677c956a%
+RX:m-dut-passthrough(db a468819e5a6f895f6f867180966f829e6c839e69829b677c956a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7b946d778f777b927e7d91978fa1aa9aaaae9bacd2d6daafb7be%
+RX:m-dut-passthrough(db 7b946d778f777b927e7d91978fa1aa9aaaae9bacd2d6daafb7be)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9ba8b093a3ae94a4ad99a5aba6aeb1acb3b59ea8ad919fa87f98%
+RX:m-dut-passthrough(db 9ba8b093a3ae94a4ad99a5aba6aeb1acb3b59ea8ad919fa87f98)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a57695a67392a6688098697994677b99637c9a697e995f708851%
+RX:m-dut-passthrough(db a57695a67392a6688098697994677b99637c9a697e995f708851)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5f755b6b826c7f9a687f98637a906073885e6a7f717686888492%
+RX:m-dut-passthrough(db 5f755b6b826c7f9a687f98637a906073885e6a7f717686888492)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8e8290a6929fb298a2af97a4e8e8ecd8dbdfc4caceb1bbbea4ae%
+RX:m-dut-passthrough(db 8e8290a6929fb298a2af97a4e8e8ecd8dbdfc4caceb1bbbea4ae)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b3949ea38d959a8892987d8e98748c9b7390a47492a77793a75f%
+RX:m-dut-passthrough(db b3949ea38d959a8892987d8e98748c9b7390a47492a77793a75f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 74893b49605060795d7088677689566375414e61516278667a92%
+RX:m-dut-passthrough(db 74893b49605060795d7088677689566375414e61516278667a92)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5a6f84556a7b5b6c7b636d7c8a8d979b969e92838ea58d9bb197%
+RX:m-dut-passthrough(db 5a6f84556a7b5b6c7b636d7c8a8d979b969e92838ea58d9bb197)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a3ad96a4f9f0eeefe8e4e4dfd9d8d4ccd4d3cdcdcecdc2c4c3b3%
+RX:m-dut-passthrough(db a3ad96a4f9f0eeefe8e4e4dfd9d8d4ccd4d3cdcdcecdc2c4c3b3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db b9bc8d9ca46b7f8f6578916b829b6d889d6680925a738462778a%
+RX:m-dut-passthrough(db b9bc8d9ca46b7f8f6578916b829b6d889d6680925a738462778a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 56657668737f6d77836b798a5d7085546a7f5066775165736876%
+RX:m-dut-passthrough(db 56657668737f6d77836b798a5d7085546a7f5066775165736876)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 827379847b7f88908d989386949f8d9ea795a7a292a5faf0eef3%
+RX:m-dut-passthrough(db 827379847b7f88908d989386949f8d9ea795a7a292a5faf0eef3)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e8e3ebe1d8e2d8ccdfd8ccdcd9d0d8d6ced7d7d2b0b4b6888f95%
+RX:m-dut-passthrough(db e8e3ebe1d8e2d8ccdfd8ccdcd9d0d8d6ced7d7d2b0b4b6888f95)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7a869255758f446b8956748b5d7b915974896173826e79876a73%
+RX:m-dut-passthrough(db 7a869255758f446b8956748b5d7b915974896173826e79876a73)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 81677786597182496a794c67765869777c818e7e7c89696e7c81%
+RX:m-dut-passthrough(db 81677786597182496a794c67765869777c818e7e7c89696e7c81)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7f8ea897a4a0929ea297a99d91a9f6edecf0e6e2ebdfd8e6dacf%
+RX:m-dut-passthrough(db 7f8ea897a4a0929ea297a99d91a9f6edecf0e6e2ebdfd8e6dacf)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e1d8ccdbd6c9d5cfc4d1cbc4c0bfbfb1b4b99aaab44d75923765%
+RX:m-dut-passthrough(db e1d8ccdbd6c9d5cfc4d1cbc4c0bfbfb1b4b99aaab44d75923765)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8844647f4a678054708762758465707f6d76846d7c8b5e758654%
+RX:m-dut-passthrough(db 8844647f4a678054708762758465707f6d76846d7c8b5e758654)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6e8151687b5c6c7d6c7684707784636f7e7e7e8fa294a197909a%
+RX:m-dut-passthrough(db 6e8151687b5c6c7d6c7684707784636f7e7e7e8fa294a197909a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8d8b9a89859cede5e2e5dbd7e1d7d0e2d7ceded3c9dbd1c4d5ca%
+RX:m-dut-passthrough(db 8d8b9a89859cede5e2e5dbd7e1d7d0e2d7ceded3c9dbd1c4d5ca)
+RX:m-ready
+RX:[dut]: m-ready
+dut db bfccc4bdc0c0c1aeb7c07993a6416b8d37658a3f6380526f886a%
+RX:m-dut-passthrough(db bfccc4bdc0c0c1aeb7c07993a6416b8d37658a3f6380526f886a)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 82976e7e8e747e8b7c84917583916174865b6e8555697f576c7e%
+RX:m-dut-passthrough(db 82976e7e8e747e8b7c84917583916174865b6e8555697f576c7e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5c707e596d795968787c7c8e928797868490797d8c77778deae4%
+RX:m-dut-passthrough(db 5c707e596d795968787c7c8e928797868490797d8c77778deae4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db e1e1d9d6d9d0cbd9cec9dcd1c8ddcfc3daccc1d2cac3b8bdc07b%
+RX:m-dut-passthrough(db e1e1d9d6d9d0cbd9cec9dcd1c8ddcfc3daccc1d2cac3b8bdc07b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8e9c4a6d873964863561863f64865c78936d8296707e8d818895%
+RX:m-dut-passthrough(db 8e9c4a6d873964863561863f64865c78936d8296707e8d818895)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 888d99737e8c5f7181597185506b7e4e697a546b7c5566765e65%
+RX:m-dut-passthrough(db 888d99737e8c5f7181597185506b7e4e697a546b7c5566765e65)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 7880788d9384978882918583958e869eeee9e6e2dcd9d5cdc9d0%
+RX:m-dut-passthrough(db 7880788d9384978882918583958e869eeee9e6e2dcd9d5cdc9d0)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c6c3d8ccc7dccdc5dbccc3d6d0cc9ea9b2506c833a6281396180%
+RX:m-dut-passthrough(db c6c3d8ccc7dccdc5dbccc3d6d0cc9ea9b2506c833a6281396180)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 3b6385385f8455708d6d7f91788491878b987f818e7179876779%
+RX:m-dut-passthrough(db 3b6385385f8455708d6d7f91788491878b987f818e7179876779)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 87526f7e4465734c6a79566b7c5e677b68687c8a7d919c889c8e%
+RX:m-dut-passthrough(db 87526f7e4465734c6a79566b7c5e677b68687c8a7d919c889c8e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 81939183969e89a2efebe8ded9d6d2cac8c9c0bfcfc4c3d6c8c4%
+RX:m-dut-passthrough(db 81939183969e89a2efebe8ded9d6d2cac8c9c0bfcfc4c3d6c8c4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db d6c8c2c5c1c176899840678437608144637e4b6c8b355c834f6b%
+RX:m-dut-passthrough(db d6c8c2c5c1c176899840678437608144637e4b6c8b355c834f6b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 897383957f88968789957d7d89737a866674835b707e526d7a4d%
+RX:m-dut-passthrough(db 897383957f88968789957d7d89737a866674835b707e526d7a4d)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 6b775068765865766e7481968f9c9889998e83929584949e869b%
+RX:m-dut-passthrough(db 6b775068765865766e7481968f9c9889998e83929584949e869b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db eae7e3d8d5d2c9c2c2c3babcc4b9bac6b8b6c8bebabbbdbe7089%
+RX:m-dut-passthrough(db eae7e3d8d5d2c9c2c2c3babcc4b9bac6b8b6c8bebabbbdbe7089)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9b3a6688466c8c637c935e7a9740658b5975937b8a9b838c9886%
+RX:m-dut-passthrough(db 9b3a6688466c8c637c935e7a9740658b5975937b8a9b838c9886)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 879482808c7c808d7e85938386956f7c89506b7445646d4d6672%
+RX:m-dut-passthrough(db 879482808c7c808d7e85938386956f7c89506b7445646d4d6672)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5e7176777d837c78838e89949e909c9f8898e7e4e1d0d2cdc1bb%
+RX:m-dut-passthrough(db 5e7176777d837c78838e89949e909c9f8898e7e4e1d0d2cdc1bb)
+RX:m-ready
+RX:[dut]: m-ready
+dut db c0c0b8c1c1b7b8bdb3b0b2b6b6a3b0b26981933c60835a7a9274%
+RX:m-dut-passthrough(db c0c0b8c1c1b7b8bdb3b0b2b6b6a3b0b26981933c60835a7a9274)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8ea55c7897506e8c6c86977a8e96808e958c8e998d88958d8796%
+RX:m-dut-passthrough(db 8ea55c7897506e8c6c86977a8e96808e958c8e998d88958d8796)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 928b9a968c987c80885a6f7645626b536c79596d766471796a6c%
+RX:m-dut-passthrough(db 928b9a968c987c80885a6f7645626b536c79596d766471796a6c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 788e8694a28f9fa28a9be4e2ded0d1cbc6bfc4bdbdc4b0b7ba9b%
+RX:m-dut-passthrough(db 788e8694a28f9fa28a9be4e2ded0d1cbc6bfc4bdbdc4b0b7ba9b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a5ac8095a1687e89576f8053728c5d788c5f7c93486985527084%
+RX:m-dut-passthrough(db a5ac8095a1687e89576f8053728c5d788c5f7c93486985527084)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 82979f96a7a8909c9e92949c938e9b8f89988b83929088917c7f%
+RX:m-dut-passthrough(db 82979f96a7a8909c9e92949c938e9b8f89988b83929088917c7f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 875f7279526a73566b786473806d76817a7a86968b9aa08c9ca4%
+RX:m-dut-passthrough(db 875f7279526a73566b786473806d76817a7a86968b9aa08c9ca4)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 8d9ee5e2dddad3d0d2cbccb6c1c2819ea55f82975576905e7387%
+RX:m-dut-passthrough(db 8d9ee5e2dddad3d0d2cbccb6c1c2819ea55f82975576905e7387)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 798b96778f9a677e8e5c7c8f4a73855677828b9b9c9ea6a2989e%
+RX:m-dut-passthrough(db 798b96778f9a677e8e5c7c8f4a73855677828b9b9c9ea6a2989e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9c96989b97969f8f8f9d81808f8686907f878f64777d576c745f%
+RX:m-dut-passthrough(db 9c96989b97969f8f8f9d81808f8686907f878f64777d576c745f)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 707b737b877b7c888e8895988d99a08e9ca6919fe7e3e0ded5d5%
+RX:m-dut-passthrough(db 707b737b877b7c888e8895988d99a08e9ca6919fe7e3e0ded5d5)
+RX:m-ready
+RX:[dut]: m-ready
+dut db cdc9c499adab5a848f48789151738f848f9faaafac8b99927288%
+RX:m-dut-passthrough(db cdc9c499adab5a848f48789151738f848f9faaafac8b99927288)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9262869449757e6081848d98949d9e989ea19e929799868c947c%
+RX:m-dut-passthrough(db 9262869449757e6081848d98949d9e989ea19e929799868c947c)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 84906e77856f798479879064777e5a6c736b778172727e847d89%
+RX:m-dut-passthrough(db 84906e77856f798479879064777e5a6c736b778172727e847d89)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 968c979b8d98a3919cab96a1e2e2e2cdcccfb5b8b18ba3a2547e%
+RX:m-dut-passthrough(db 968c979b8d98a3919cab96a1e2e2e2cdcccfb5b8b18ba3a2547e)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9043718b607c8facafaec0bcad97a0936d888c597e87537a807b%
+RX:m-dut-passthrough(db 9043718b607c8facafaec0bcad97a0936d888c597e87537a807b)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 9697939b9791928e8b92917f8b8e6e7d84677782617380586d77%
+RX:m-dut-passthrough(db 9697939b9791928e8b92917f8b8e6e7d84677782617380586d77)
+RX:m-ready
+RX:[dut]: m-ready
+dut db 5e737b63757c6d7a81737a8276717b8e828d9d8e99a5939dae99%
+RX:m-dut-passthrough(db 5e737b63757c6d7a81737a8276717b8e828d9d8e99a5939dae99)
+RX:m-ready
+RX:[dut]: m-ready
+dut db a2b49ca5%
+RX:m-dut-passthrough(db a2b49ca5)
+RX:m-ready
+RX:[dut]: m-load-done
+RX:[dut]: m-ready
+0601.161231 ulp-mlperf: Load complete.
+dut infer 2000 5%
+RX:m-dut-passthrough(infer 2000 5)
+RX:m-ready
+RX:[dut]: m-warmup-start-5
+RX:[dut]: m-warmup-done
+RX:[dut]: m-infer-start-2000
+RX:[dut]: m-infer-done
+RX:[dut]: m-results-[31.416,10.027,19.247,19.690,25.325,19.729,27.427,24.224,17.220,16.839]
+RX:[dut]: m-ready
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+Captured samples:13910 timestamps:2
+SerialDevice exiting port /dev/cu.usbmodem11203, entry_count (before decrement) = 1
+--------------------
+DBG: Acq complete received from LPM.
+SerialDevice exiting port /dev/cu.usbmodem2061398A4D431, entry_count (before decrement) = 1
+Power Edition Output
+Energy data for trial 0
+Elapsed time  : 11.255999999999997
+Inferences    : 2000
+Power         : 25.3663 mW.
+Total Energy  : 285522.709 uJ
+Energy/Inf    : 142.761 uJ/inf
+Energy data for trial 1
+Elapsed time  : 11.257
+Inferences    : 2000
+Power         : 25.3257 mW.
+Total Energy  : 285091.230 uJ
+Energy/Inf    : 142.546 uJ/inf
+Energy data for trial 2
+Elapsed time  : 11.258
+Inferences    : 2000
+Power         : 25.3345 mW.
+Total Energy  : 285215.470 uJ
+Energy/Inf    : 142.608 uJ/inf
+Energy data for trial 3
+Elapsed time  : 11.254000000000001
+Inferences    : 2000
+Power         : 25.3664 mW.
+Total Energy  : 285473.440 uJ
+Energy/Inf    : 142.737 uJ/inf
+Energy data for trial 4
+Elapsed time  : 11.257
+Inferences    : 2000
+Power         : 25.3990 mW.
+Total Energy  : 285916.310 uJ
+Energy/Inf    : 142.958 uJ/inf
+---------------------------------------------------------
+Median energy cost is 142.7367 uJ/inf.
+---------------------------------------------------------
+Session logged in file sessions/20260601_161106/log.txt

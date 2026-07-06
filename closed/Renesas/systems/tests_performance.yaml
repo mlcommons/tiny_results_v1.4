@@ -1,0 +1,46 @@
+ad01:
+  name: anomoly_detection
+  model: ad01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 80000 10   # EK-RA8P1: ~7575 inf/s → 80000 iter ≈ 10.6 s (≥10 s required)
+ic01:
+  name: image_classification
+  model: ic01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 30000 5    # EK-RA8P1: ~2941 inf/s → 30000 iter ≈ 10.2 s (≥10 s required)
+ic02:
+  name: image_classification
+  model: ic01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 10000 5    # EK-RA8P1: ~882 inf/s → 10000 iter ≈ 11.3 s (≥10 s required)
+kws01:
+  name: keyword_spotting
+  model: kws01
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 110000 10  # EK-RA8P1: measured 9174 inf/s → 110000 iter = 11.99 s timed (≥10 s required)
+vww01:
+  name: person_detection
+  model: vww01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 30000 5    # EK-RA8P1: measured 2762 inf/s → 30000 iter = 10.86 s (≥10 s required)
+sww01:
+  name: streaming_wakeword
+  model: sww01
+  truth_file: sww_long_test.json
+  script:
+    - stream

@@ -1,0 +1,2 @@
+0505.161640 ulp-mlperf: Top 1% = 93.5
+0505.161640 ulp-mlperf: AUC = 0.990

@@ -1,0 +1,2 @@
+0513.165020 ulp-mlperf: Top 1% = 87.0
+0513.165020 ulp-mlperf: AUC = 0.988

@@ -1,0 +1,85 @@
+Logging initialized. Writing output to sessions/20260611_044634/log.txt
+Initializing SerialDevice on port: /dev/ttyACM0 at 115200 baud
+SerialDevice entering port /dev/ttyACM0, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: EK-RA8P1
+Device model retrieved: ad01
+Device profile retrieved: Renesas EK-RA8P1 AutoEncoder FP32
+SerialDevice exiting port /dev/ttyACM0, entry_count (before decrement) = 1
+SerialDevice entering port /dev/ttyACM0, entry_count (before increment) = 0
+0611.044636 ulp-mlperf: Loading file normal_id_01_00000003_hist_librosa.bin segment 0
+0611.044637 ulp-mlperf: Load complete.
+Running inference with 10/80000 (warmup/measured) iterations ...
+done
+0611.044648 ulp-mlperf: Performance results for window 1:
+0611.044648 ulp-mlperf:   # Inferences :         80000
+0611.044648 ulp-mlperf:   Runtime      :     10.560 sec.
+0611.044648 ulp-mlperf:   Throughput   :   7575.758 inf./sec.
+0611.044648 ulp-mlperf:   m-results    : [11.340067]
+0611.044648 ulp-mlperf: Loading file normal_id_01_00000013_hist_librosa.bin segment 0
+0611.044649 ulp-mlperf: Load complete.
+Running inference with 10/80000 (warmup/measured) iterations ...
+done
+0611.044701 ulp-mlperf: Performance results for window 2:
+0611.044701 ulp-mlperf:   # Inferences :         80000
+0611.044701 ulp-mlperf:   Runtime      :     10.560 sec.
+0611.044701 ulp-mlperf:   Throughput   :   7575.758 inf./sec.
+0611.044701 ulp-mlperf:   m-results    : [9.985515]
+0611.044701 ulp-mlperf: Loading file normal_id_01_00000023_hist_librosa.bin segment 0
+0611.044701 ulp-mlperf: Load complete.
+Running inference with 10/80000 (warmup/measured) iterations ...
+done
+0611.044713 ulp-mlperf: Performance results for window 3:
+0611.044713 ulp-mlperf:   # Inferences :         80000
+0611.044713 ulp-mlperf:   Runtime      :     10.560 sec.
+0611.044713 ulp-mlperf:   Throughput   :   7575.758 inf./sec.
+0611.044713 ulp-mlperf:   m-results    : [10.700908]
+0611.044713 ulp-mlperf: Loading file normal_id_01_00000033_hist_librosa.bin segment 0
+0611.044713 ulp-mlperf: Load complete.
+Running inference with 10/80000 (warmup/measured) iterations ...
+done
+0611.044725 ulp-mlperf: Performance results for window 4:
+0611.044725 ulp-mlperf:   # Inferences :         80000
+0611.044725 ulp-mlperf:   Runtime      :     10.560 sec.
+0611.044725 ulp-mlperf:   Throughput   :   7575.758 inf./sec.
+0611.044725 ulp-mlperf:   m-results    : [9.41679]
+0611.044725 ulp-mlperf: Loading file normal_id_01_00000043_hist_librosa.bin segment 0
+0611.044726 ulp-mlperf: Load complete.
+Running inference with 10/80000 (warmup/measured) iterations ...
+done
+0611.044737 ulp-mlperf: Performance results for window 5:
+0611.044737 ulp-mlperf:   # Inferences :         80000
+0611.044737 ulp-mlperf:   Runtime      :     10.560 sec.
+0611.044737 ulp-mlperf:   Throughput   :   7575.758 inf./sec.
+0611.044737 ulp-mlperf:   m-results    : [10.742883]
+SerialDevice exiting port /dev/ttyACM0, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 80000
+Runtime: 10.56 sec.
+Throughput: 7575.757575757575 inf./sec.
+Runtime requirements have been met.
+Performance results for window 2
+# Inferences : 80000
+Runtime: 10.56 sec.
+Throughput: 7575.757575757575 inf./sec.
+Runtime requirements have been met.
+Performance results for window 3
+# Inferences : 80000
+Runtime: 10.56 sec.
+Throughput: 7575.757575757575 inf./sec.
+Runtime requirements have been met.
+Performance results for window 4
+# Inferences : 80000
+Runtime: 10.56 sec.
+Throughput: 7575.757575757575 inf./sec.
+Runtime requirements have been met.
+Performance results for window 5
+# Inferences : 80000
+Runtime: 10.56 sec.
+Throughput: 7575.757575757575 inf./sec.
+Runtime requirements have been met.
+0611.044737 ulp-mlperf: ---------------------------------------------------------
+0611.044737 ulp-mlperf: Median throughput is   7575.758 inf./sec.
+0611.044737 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260611_044634/log.txt

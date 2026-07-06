@@ -1,0 +1,4 @@
+Accuracy: 44 True positives, 6 False negatives, 4 False positives
+Average duty cycle: 0.95859
+Average period: 0.032067 s
+Estimated throughput: 32.532 inf./sec.

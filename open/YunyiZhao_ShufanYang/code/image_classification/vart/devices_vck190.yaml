@@ -1,0 +1,14 @@
+# Device manifest for VCK190 + DPUCVDX8G + custom BN-kernel DUT.
+# The DUT is a Linux process running on VCK190 that listens on the PS UART
+# /dev/ttyPS0 (which appears as /dev/ttyUSB1 on the host through the on-board FTDI).
+- name: vck190_acap
+  type: dut
+  baud:
+    performance: 115200
+    accuracy:    115200
+  # FTDI FT4232HL channel B → /dev/ttyUSB1 on the host
+  usb:
+    0x0403: 0x6011
+  # The DUT firmware will reply to "name%" with this string; used to disambiguate
+  # the 4 FTDI channels (A=JTAG, B=PS-UART, C=PMC, D=unused).
+  check_name: "VCK190_DPU_BN"

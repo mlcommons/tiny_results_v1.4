@@ -1,0 +1,2 @@
+0618.234441 ulp-mlperf: Top 1% = 90.1
+0618.234441 ulp-mlperf: AUC = 0.995

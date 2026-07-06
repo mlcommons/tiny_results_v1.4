@@ -1,0 +1,2 @@
+0513.175753 ulp-mlperf: Top 1% = 85.2
+0513.175753 ulp-mlperf: AUC = 0.936

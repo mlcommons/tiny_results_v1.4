@@ -1,0 +1,85 @@
+Logging initialized. Writing output to sessions/20260615_215610/log.txt
+Initializing SerialDevice on port: /dev/ttyACM0 at 115200 baud
+SerialDevice entering port /dev/ttyACM0, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: EK-RA8P1
+Device model retrieved: vww01
+Device profile retrieved: Renesas EK-RA8P1 VWW INT8
+SerialDevice exiting port /dev/ttyACM0, entry_count (before decrement) = 1
+SerialDevice entering port /dev/ttyACM0, entry_count (before increment) = 0
+0615.215612 ulp-mlperf: Loading file 000000343218.bin segment 0
+0615.215620 ulp-mlperf: Load complete.
+Running inference with 5/30000 (warmup/measured) iterations ...
+done
+0615.215741 ulp-mlperf: Performance results for window 1:
+0615.215741 ulp-mlperf:   # Inferences :         30000
+0615.215741 ulp-mlperf:   Runtime      :     10.861 sec.
+0615.215741 ulp-mlperf:   Throughput   :   2762.287 inf./sec.
+0615.215741 ulp-mlperf:   m-results    : [0.282988, 0.717012]
+0615.215741 ulp-mlperf: Loading file 000000332570.bin segment 0
+0615.215748 ulp-mlperf: Load complete.
+Running inference with 5/30000 (warmup/measured) iterations ...
+done
+0615.215909 ulp-mlperf: Performance results for window 2:
+0615.215909 ulp-mlperf:   # Inferences :         30000
+0615.215909 ulp-mlperf:   Runtime      :     10.861 sec.
+0615.215909 ulp-mlperf:   Throughput   :   2762.201 inf./sec.
+0615.215909 ulp-mlperf:   m-results    : [0.705785, 0.294215]
+0615.215909 ulp-mlperf: Loading file 000000352684.bin segment 0
+0615.215916 ulp-mlperf: Load complete.
+Running inference with 5/30000 (warmup/measured) iterations ...
+done
+0615.220037 ulp-mlperf: Performance results for window 3:
+0615.220037 ulp-mlperf:   # Inferences :         30000
+0615.220037 ulp-mlperf:   Runtime      :     10.861 sec.
+0615.220037 ulp-mlperf:   Throughput   :   2762.173 inf./sec.
+0615.220037 ulp-mlperf:   m-results    : [0.375706, 0.624294]
+0615.220037 ulp-mlperf: Loading file 000000003934.bin segment 0
+0615.220045 ulp-mlperf: Load complete.
+Running inference with 5/30000 (warmup/measured) iterations ...
+done
+0615.220206 ulp-mlperf: Performance results for window 4:
+0615.220206 ulp-mlperf:   # Inferences :         30000
+0615.220206 ulp-mlperf:   Runtime      :     10.860 sec.
+0615.220206 ulp-mlperf:   Throughput   :   2762.348 inf./sec.
+0615.220206 ulp-mlperf:   m-results    : [0.32595, 0.67405]
+0615.220206 ulp-mlperf: Loading file 000000272566.bin segment 0
+0615.220213 ulp-mlperf: Load complete.
+Running inference with 5/30000 (warmup/measured) iterations ...
+done
+0615.220335 ulp-mlperf: Performance results for window 5:
+0615.220335 ulp-mlperf:   # Inferences :         30000
+0615.220335 ulp-mlperf:   Runtime      :     10.860 sec.
+0615.220335 ulp-mlperf:   Throughput   :   2762.348 inf./sec.
+0615.220335 ulp-mlperf:   m-results    : [0.426322, 0.573678]
+SerialDevice exiting port /dev/ttyACM0, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 30000
+Runtime: 10.860564 sec.
+Throughput: 2762.2874834124636 inf./sec.
+Runtime requirements have been met.
+Performance results for window 2
+# Inferences : 30000
+Runtime: 10.860903 sec.
+Throughput: 2762.201264480495 inf./sec.
+Runtime requirements have been met.
+Performance results for window 3
+# Inferences : 30000
+Runtime: 10.861016 sec.
+Throughput: 2762.1725260325557 inf./sec.
+Runtime requirements have been met.
+Performance results for window 4
+# Inferences : 30000
+Runtime: 10.860326 sec.
+Throughput: 2762.348017914011 inf./sec.
+Runtime requirements have been met.
+Performance results for window 5
+# Inferences : 30000
+Runtime: 10.860326 sec.
+Throughput: 2762.348017914011 inf./sec.
+Runtime requirements have been met.
+0615.220335 ulp-mlperf: ---------------------------------------------------------
+0615.220335 ulp-mlperf: Median throughput is   2762.287 inf./sec.
+0615.220335 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260615_215610/log.txt

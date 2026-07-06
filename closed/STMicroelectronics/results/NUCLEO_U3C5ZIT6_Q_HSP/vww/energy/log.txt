@@ -1,0 +1,72 @@
+Logging initialized. Writing output to sessions\20260417_120421\log.txt
+Initializing SerialDevice on port: COM6 at 3686400 baud
+SerialDevice entering port COM6, entry_count (before increment) = 0
+Initializing SerialDevice on port: COM10 at 115200 baud
+SerialDevice entering port COM10, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: dut
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: vww01
+0417.120426 ulp-mlperf: Loading file 000000343218.bin segment 0
+0417.120554 ulp-mlperf: Load complete.
+Running inference with 1/300 (warmup/measured) iterations ...
+done
+Captured samples:101421 timestamps:2
+0417.120605 ulp-mlperf: Loading file 000000332570.bin segment 0
+0417.120733 ulp-mlperf: Load complete.
+Running inference with 1/300 (warmup/measured) iterations ...
+done
+Captured samples:99263 timestamps:2
+0417.120744 ulp-mlperf: Loading file 000000352684.bin segment 0
+0417.120912 ulp-mlperf: Load complete.
+Running inference with 1/300 (warmup/measured) iterations ...
+done
+Captured samples:99338 timestamps:2
+0417.120924 ulp-mlperf: Loading file 000000003934.bin segment 0
+0417.121052 ulp-mlperf: Load complete.
+Running inference with 1/300 (warmup/measured) iterations ...
+done
+Captured samples:99503 timestamps:2
+0417.121103 ulp-mlperf: Loading file 000000272566.bin segment 0
+0417.121231 ulp-mlperf: Load complete.
+Running inference with 1/300 (warmup/measured) iterations ...
+done
+Captured samples:99604 timestamps:2
+SerialDevice exiting port COM10, entry_count (before decrement) = 1
+--------------------
+SerialDevice exiting port COM6, entry_count (before decrement) = 1
+Power Edition Output
+Energy data for trial 0
+Elapsed time  : 11.10799999999999
+Inferences    : 300
+Power         : 17.5513 mW.
+Total Energy  : 194959.704 uJ
+Energy/Inf    : 649.866 uJ/inf
+Energy data for trial 1
+Elapsed time  : 11.107
+Inferences    : 300
+Power         : 17.5477 mW.
+Total Energy  : 194902.777 uJ
+Energy/Inf    : 649.676 uJ/inf
+Energy data for trial 2
+Elapsed time  : 11.107
+Inferences    : 300
+Power         : 17.6035 mW.
+Total Energy  : 195521.670 uJ
+Energy/Inf    : 651.739 uJ/inf
+Energy data for trial 3
+Elapsed time  : 11.107
+Inferences    : 300
+Power         : 17.5831 mW.
+Total Energy  : 195295.456 uJ
+Energy/Inf    : 650.985 uJ/inf
+Energy data for trial 4
+Elapsed time  : 11.107
+Inferences    : 300
+Power         : 17.5692 mW.
+Total Energy  : 195140.610 uJ
+Energy/Inf    : 650.469 uJ/inf
+---------------------------------------------------------
+Median energy cost is 650.4687 uJ/inf.
+---------------------------------------------------------
+Session logged in file sessions\20260417_120421\log.txt

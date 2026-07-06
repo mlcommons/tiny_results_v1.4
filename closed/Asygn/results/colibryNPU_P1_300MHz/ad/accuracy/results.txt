@@ -1,0 +1,2 @@
+0521.154141 ulp-mlperf: Top 1% = 81.9
+0521.154141 ulp-mlperf: AUC = 0.855

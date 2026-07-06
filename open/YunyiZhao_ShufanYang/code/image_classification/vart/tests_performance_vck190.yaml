@@ -1,0 +1,55 @@
+# Modified tests_performance.yaml for VCK190 + DPUCVDX8G_ISA3_C32B3.
+#
+# Upstream tests_performance.yaml uses `infer 20 5` which targets 30-50 inf/sec
+# MCUs and finishes in well under 1 s on this hardware — that violates the
+# MLPerf Tiny rule that each performance window must run for at least 10 s.
+#
+# We bump to `infer 20000 100` so each of the 5 windows runs ~10.8 s at the
+# board's measured ~1849 inf/sec (5 windows * 20000 = 100000 inferences total).
+
+ic01:
+  name: image_classification
+  model: ic01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 20000 100
+ic02:
+  name: image_classification
+  model: ic01
+  truth_file: y_labels.csv
+  script:
+    - loop:
+      - download
+      - infer 20000 100
+ad01:
+  name: anomoly_detection
+  model: ad01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 1500 10 
+kws01:
+  name: keyword_spotting
+  model: kws01
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 70 10
+vww01:
+  name: person_detection
+  model: vww01
+  truth_file: y_labels.csv
+  script:
+    - loop 5:
+      - download
+      - infer 20 5
+sww01:
+  name: streaming_wakeword
+  model: sww01
+  truth_file: sww_long_test.json
+  script:
+    - stream

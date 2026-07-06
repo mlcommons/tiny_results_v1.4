@@ -1,0 +1,85 @@
+Logging initialized. Writing output to sessions\20260513_171839\log.txt
+Initializing SerialDevice on port: COM26 at 921600 baud
+SerialDevice entering port COM26, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: dut
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: ic02
+SerialDevice exiting port COM26, entry_count (before decrement) = 1
+SerialDevice entering port COM26, entry_count (before increment) = 0
+0513.171841 ulp-mlperf: Loading file emu_s_002009.bin segment 0
+0513.171841 ulp-mlperf: Load complete.
+Running inference with 1/50 (warmup/measured) iterations ...
+done
+0513.171853 ulp-mlperf: Performance results for window 1:
+0513.171853 ulp-mlperf:   # Inferences :            50
+0513.171853 ulp-mlperf:   Runtime      :     11.452 sec.
+0513.171853 ulp-mlperf:   Throughput   :      4.366 inf./sec.
+0513.171853 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.996, 0.0, 0.0]
+0513.171853 ulp-mlperf: Loading file taxi_s_001241.bin segment 0
+0513.171853 ulp-mlperf: Load complete.
+Running inference with 1/50 (warmup/measured) iterations ...
+done
+0513.171905 ulp-mlperf: Performance results for window 2:
+0513.171905 ulp-mlperf:   # Inferences :            50
+0513.171905 ulp-mlperf:   Runtime      :     11.452 sec.
+0513.171905 ulp-mlperf:   Throughput   :      4.366 inf./sec.
+0513.171905 ulp-mlperf:   m-results    : [0.0, 0.996, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0513.171905 ulp-mlperf: Loading file accentor_s_001031.bin segment 0
+0513.171905 ulp-mlperf: Load complete.
+Running inference with 1/50 (warmup/measured) iterations ...
+done
+0513.171916 ulp-mlperf: Performance results for window 3:
+0513.171916 ulp-mlperf:   # Inferences :            50
+0513.171916 ulp-mlperf:   Runtime      :     11.452 sec.
+0513.171916 ulp-mlperf:   Throughput   :      4.366 inf./sec.
+0513.171916 ulp-mlperf:   m-results    : [0.0, 0.0, 0.957, 0.012, 0.008, 0.0, 0.027, 0.0, 0.0, 0.0]
+0513.171916 ulp-mlperf: Loading file mongrel_s_000686.bin segment 0
+0513.171917 ulp-mlperf: Load complete.
+Running inference with 1/50 (warmup/measured) iterations ...
+done
+0513.171928 ulp-mlperf: Performance results for window 4:
+0513.171928 ulp-mlperf:   # Inferences :            50
+0513.171928 ulp-mlperf:   Runtime      :     11.452 sec.
+0513.171928 ulp-mlperf:   Throughput   :      4.366 inf./sec.
+0513.171928 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.996, 0.0, 0.0, 0.0, 0.0]
+0513.171928 ulp-mlperf: Loading file stealth_bomber_s_002204.bin segment 0
+0513.171928 ulp-mlperf: Load complete.
+Running inference with 1/50 (warmup/measured) iterations ...
+done
+0513.171940 ulp-mlperf: Performance results for window 5:
+0513.171940 ulp-mlperf:   # Inferences :            50
+0513.171940 ulp-mlperf:   Runtime      :     11.452 sec.
+0513.171940 ulp-mlperf:   Throughput   :      4.366 inf./sec.
+0513.171940 ulp-mlperf:   m-results    : [0.98, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.016]
+SerialDevice exiting port COM26, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 50
+Runtime: 11.452018 sec.
+Throughput: 4.3660427358741485 inf./sec.
+Runtime requirements have been met.
+Performance results for window 2
+# Inferences : 50
+Runtime: 11.451641 sec.
+Throughput: 4.366186470567842 inf./sec.
+Runtime requirements have been met.
+Performance results for window 3
+# Inferences : 50
+Runtime: 11.451889 sec.
+Throughput: 4.3660919172374095 inf./sec.
+Runtime requirements have been met.
+Performance results for window 4
+# Inferences : 50
+Runtime: 11.451673 sec.
+Throughput: 4.366174269907987 inf./sec.
+Runtime requirements have been met.
+Performance results for window 5
+# Inferences : 50
+Runtime: 11.451937 sec.
+Throughput: 4.36607361706583 inf./sec.
+Runtime requirements have been met.
+0513.171940 ulp-mlperf: ---------------------------------------------------------
+0513.171940 ulp-mlperf: Median throughput is      4.366 inf./sec.
+0513.171940 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions\20260513_171839\log.txt

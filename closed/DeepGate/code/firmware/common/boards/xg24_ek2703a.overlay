@@ -1,0 +1,13 @@
+/* xG24 Explorer Kit (BRD2703A, EFR32MG24B210F1536IM48) overlay for
+ * MLPerf Tiny.
+ *
+ * USART0 is the board's WSTK J-Link OB virtual COM port and the
+ * default zephyr,console. The Silicon Labs J-Link OB only bridges
+ * VCOM cleanly at 115200.
+ *
+ * CPU runs at the chip's max 78 MHz from the upstream default.
+ */
+
+&usart0 {
+    current-speed = <115200>;
+};

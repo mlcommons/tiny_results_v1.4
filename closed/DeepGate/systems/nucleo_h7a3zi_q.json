@@ -1,0 +1,38 @@
+{
+    "Submitter": "DeepGate",
+    "Division": "Closed",
+    "Status": "Available",
+
+    "Board Name": "NUCLEO-H7A3ZI-Q",
+    "Board Memory capacity (not including SoC, processor, or accelerator)": "",
+    "Board Memory type": "",
+    "Board storage capacity": "",
+    "Board storage type": "",
+    "SoC Name": "STM32H7A3ZIT6Q",
+    "SoC Memory capacity (not including processor or accelerator)": "1.19MB",
+    "SoC Memory type": "RAM",
+    "SoC storage capacity": "2MB",
+    "SoC storage type": "Flash",
+    "Processor(s) Name": "32-Bit ARM Cortex-M7",
+    "Processor(s) Frequencies": "280 MHz",
+    "Processor memory type and capacity": "1.19 MB RAM",
+    "Processor storage type and capacity": "2MB Flash",
+    "Accelerator": "",
+    "Accelerator(s) Frequencies": "",
+    "Accelerator memory type and capacity": "",
+    "Accelerator storage type and capacity": "",
+    "Hardware Notes": "Standard NUCLEO-H7A3ZI-Q board configuration. Onboard ST-LINK V3 used for flashing and serial-over-USB. Core clocked at 280 MHz from the internal HSE-driven PLL; 3.3 V VDD supplied through the ST-LINK USB.",
+
+    "Inference Framework": "DeepGate libmodel (precompiled per-(board, task) static library)",
+    "Software Libraries": "Zephyr RTOS v4.4.0, picolibc",
+    "Operating System": "Zephyr RTOS",
+    "Other Software Stack": "",
+    "Software Notes": "Compiler reachable via DeepGate's online platform at https://bitweaver.deepgate.ai (see Quantization Method section for the technique).",
+
+    "Quantization Method": "Per-tensor int8. For ic01, ic02, vww01, and ad01 we use the benchmark owner's supplied int8 reference TFLite directly (bit-identical weights). For KWS01 we re-quantize from the fp32 reference using post-training quantization (PTQ) on the official calibration set. Full description in this submission's README.md, section 'Quantization method'.",
+    "Training framework (open division)": "",
+    "ML Model Compiler(s)": "DeepGate Bitweaver v0.14.0 (git 5f6ff3c)",
+    "General Compiler(s)": "arm-zephyr-eabi-gcc (Zephyr SDK 1.0.1) 14.3.0",
+    "Other Software": "",
+    "Training and Quantization Notes": ""
+}

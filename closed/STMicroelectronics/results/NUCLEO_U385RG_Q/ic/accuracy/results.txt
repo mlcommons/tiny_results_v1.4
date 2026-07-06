@@ -1,0 +1,2 @@
+0520.143736 ulp-mlperf: Top 1% = 87.0
+0520.143736 ulp-mlperf: AUC = 0.988

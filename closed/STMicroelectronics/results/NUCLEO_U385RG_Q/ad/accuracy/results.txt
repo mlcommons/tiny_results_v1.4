@@ -1,0 +1,2 @@
+0521.184258 ulp-mlperf: Top 1% = 77.8
+0521.184258 ulp-mlperf: AUC = 0.862

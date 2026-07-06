@@ -1,0 +1,42 @@
+{
+    "Submitter": "Mr Yunyi Zhao, Dr Shufan Yang",
+    "Division": "open",
+    "Status": "Available",
+
+    "Board Name": "Xilinx VCK190 (Versal AI Core series evaluation kit)",
+    "Board Memory capacity (not including SoC, processor, or accelerator)": "8 GiB LPDDR4 (PS) + 4 GiB DDR4 (PL)",
+    "Board Memory type": "LPDDR4-4266 (PS), DDR4-2666 (PL)",
+    "Board storage capacity": "MicroSDXC",
+    "Board storage type": "MicroSDXC card",
+
+    "SoC Name": "Xilinx Versal ACAP XCVC1902-2MSEVSVA2197",
+    "SoC Memory capacity (not including processor or accelerator)": "On-chip BRAM/URAM",
+    "SoC Memory type": "BRAM, URAM",
+    "SoC storage capacity": "N/A",
+    "SoC storage type": "N/A",
+
+    "Processor(s) Name": "Quad-core ARM Cortex-A72 (APU) + dual-core Cortex-R5 (RPU) + Versal PMC",
+    "Processor(s) Frequencies": "1.7 GHz APU, 533 MHz RPU",
+    "Processor memory type and capacity": "L1 32 KiB I+D per core, 1 MiB shared L2",
+    "Processor storage type and capacity": "Boots from QSPI (BOOT.BIN) + SD (rootfs)",
+
+    "Accelerator": "DPUCVDX8G ISA3 (C32B3) — DPU-only inference path; BN folded into Conv at quantisation",
+    "Accelerator(s) Frequencies": "DPU 250 MHz",
+    "Accelerator memory type and capacity": "DPU on-chip caches in PL BRAM/URAM",
+    "Accelerator storage type and capacity": "N/A",
+
+    "Hardware Notes": "Inference runs entirely on the DPUCVDX8G; the on-board custom INT8 BN-Kernel mapped at 0x80000000 is present but not invoked at inference (it is provided for training). Vitis-AI NNDCT folds every BatchNorm2d into the preceding Conv2d during quantisation, so the deployed xmodel contains zero BN ops.",
+
+    "Inference Framework": "Vitis-AI Runtime (VART) 3.0",
+    "Software Libraries": "VART 3.0, XRT 2.14, glog, libxir",
+    "Operating System ": "PetaLinux 2022.2 (kernel 5.15.36 LTS)",
+    "Other Software Stack": "MLCommons Tiny benchmark/runner @ master, driven via a thin wrapper that bypasses USB auto-discovery and points the upstream DUT class at /dev/ttyUSB1 (FT4232HL channel B → VCK190 PS UART /dev/ttyAMA0).",
+    "Software Notes": "Single C++ binary (vck190_mlperf_dut, built from dut_main.cpp) implements the EEMBC IO protocol and runs in both accuracy and performance modes.",
+
+    "Quantisation Method": "Post-training INT8 via Vitis-AI NNDCT (200 calibration batches × 1 image of real CIFAR-10 train data); BN folded into Conv during graph optimisation.",
+    "Training framework (open division)": "PyTorch 2.2 + torchvision 0.17 (CPU). Started from torchvision ResNet18 ImageNet weights, fine-tuned on CIFAR-10 with SGD + OneCycleLR for 4 epochs.",
+    "ML Model Compiler(s)": "Vitis-AI compiler vai_c_xir (DPUCVDX8G_ISA3_C32B3 fingerprint 0x101000016010404)",
+    "General Compiler(s)": "GCC 11.2 (aarch64-linux-gnu, native on the board)",
+    "Other Software": "MLCommons Tiny benchmark/runner from https://github.com/mlcommons/tiny @ master, commit 5dae329.",
+    "Training and Quantisation Notes": "Open division: standard ResNet-18 architecture modified for CIFAR-10 (3x3 conv1 stride 1, no maxpool); native 32x32x3 input. Standard CIFAR-10 normalisation used for both training and quantisation calibration: mean=(0.4914, 0.4822, 0.4465), std=(0.2470, 0.2435, 0.2616)."
+}

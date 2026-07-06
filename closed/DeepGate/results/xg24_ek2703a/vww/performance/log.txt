@@ -1,0 +1,85 @@
+Logging initialized. Writing output to sessions/20260519_185350/log.txt
+Initializing SerialDevice on port: /dev/cu.usbmodem0004403632511 at 115200 baud
+SerialDevice entering port /dev/cu.usbmodem0004403632511, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: DeepGate
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: vww01
+SerialDevice exiting port /dev/cu.usbmodem0004403632511, entry_count (before decrement) = 1
+SerialDevice entering port /dev/cu.usbmodem0004403632511, entry_count (before increment) = 0
+0519.185352 ulp-mlperf: Loading file 000000343218.bin segment 0
+0519.185401 ulp-mlperf: Load complete.
+Running inference with 20/100 (warmup/measured) iterations ...
+done
+0519.185415 ulp-mlperf: Performance results for window 1:
+0519.185415 ulp-mlperf:   # Inferences :           100
+0519.185415 ulp-mlperf:   Runtime      :     11.072 sec.
+0519.185415 ulp-mlperf:   Throughput   :      9.032 inf./sec.
+0519.185415 ulp-mlperf:   m-results    : [0.977, 0.023]
+0519.185415 ulp-mlperf: Loading file 000000332570.bin segment 0
+0519.185424 ulp-mlperf: Load complete.
+Running inference with 20/100 (warmup/measured) iterations ...
+done
+0519.185437 ulp-mlperf: Performance results for window 2:
+0519.185437 ulp-mlperf:   # Inferences :           100
+0519.185437 ulp-mlperf:   Runtime      :     11.072 sec.
+0519.185437 ulp-mlperf:   Throughput   :      9.032 inf./sec.
+0519.185437 ulp-mlperf:   m-results    : [0.977, 0.023]
+0519.185437 ulp-mlperf: Loading file 000000352684.bin segment 0
+0519.185446 ulp-mlperf: Load complete.
+Running inference with 20/100 (warmup/measured) iterations ...
+done
+0519.185459 ulp-mlperf: Performance results for window 3:
+0519.185459 ulp-mlperf:   # Inferences :           100
+0519.185459 ulp-mlperf:   Runtime      :     11.072 sec.
+0519.185459 ulp-mlperf:   Throughput   :      9.032 inf./sec.
+0519.185459 ulp-mlperf:   m-results    : [0.977, 0.023]
+0519.185459 ulp-mlperf: Loading file 000000003934.bin segment 0
+0519.185508 ulp-mlperf: Load complete.
+Running inference with 20/100 (warmup/measured) iterations ...
+done
+0519.185521 ulp-mlperf: Performance results for window 4:
+0519.185521 ulp-mlperf:   # Inferences :           100
+0519.185521 ulp-mlperf:   Runtime      :     11.072 sec.
+0519.185521 ulp-mlperf:   Throughput   :      9.032 inf./sec.
+0519.185521 ulp-mlperf:   m-results    : [0.977, 0.023]
+0519.185521 ulp-mlperf: Loading file 000000272566.bin segment 0
+0519.185530 ulp-mlperf: Load complete.
+Running inference with 20/100 (warmup/measured) iterations ...
+done
+0519.185544 ulp-mlperf: Performance results for window 5:
+0519.185544 ulp-mlperf:   # Inferences :           100
+0519.185544 ulp-mlperf:   Runtime      :     11.072 sec.
+0519.185544 ulp-mlperf:   Throughput   :      9.032 inf./sec.
+0519.185544 ulp-mlperf:   m-results    : [0.977, 0.023]
+SerialDevice exiting port /dev/cu.usbmodem0004403632511, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 100
+Runtime: 11.072239 sec.
+Throughput: 9.031596951619271 inf./sec.
+Runtime requirements have been met.
+Performance results for window 2
+# Inferences : 100
+Runtime: 11.072239 sec.
+Throughput: 9.031596951619271 inf./sec.
+Runtime requirements have been met.
+Performance results for window 3
+# Inferences : 100
+Runtime: 11.072238 sec.
+Throughput: 9.031597767316779 inf./sec.
+Runtime requirements have been met.
+Performance results for window 4
+# Inferences : 100
+Runtime: 11.072238 sec.
+Throughput: 9.031597767316779 inf./sec.
+Runtime requirements have been met.
+Performance results for window 5
+# Inferences : 100
+Runtime: 11.072337 sec.
+Throughput: 9.03151701397817 inf./sec.
+Runtime requirements have been met.
+0519.185544 ulp-mlperf: ---------------------------------------------------------
+0519.185544 ulp-mlperf: Median throughput is      9.032 inf./sec.
+0519.185544 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260519_185350/log.txt

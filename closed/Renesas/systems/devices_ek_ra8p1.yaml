@@ -1,0 +1,19 @@
+# EK-RA8P1 device configuration for MLCommons Runner v1.4-rc
+# Power: Joulescope JS220
+# Baud:  115200 (MLPERF_UART_BAUD_RATE in src/common/common.h)
+
+- name: ek-ra8p1
+  type: dut
+  baud:
+    energy: 115200
+    performance: 115200
+    accuracy: 115200
+  usb:
+    0x1366: 0x1024
+
+- name: js220
+  type: power
+  interface: direct_usb
+  preference: 1
+  usb:
+    0x16D0: 0x10BA

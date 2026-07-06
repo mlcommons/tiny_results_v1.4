@@ -1,0 +1,38 @@
+{
+	"Submitter": "Asygn",
+	"Division": "Closed",
+	"Status": "Preview",
+
+	"Board Name": "EvalboardTiny_rev0",
+	"Board Memory capacity (not including SoC, processor, or accelerator)": "",
+	"Board Memory type": "N/A",
+	"Board storage capacity": "64MBit",
+	"Board storage type": "Flash",
+	"SoC Name": "ColibryNPU_P1",
+	"SoC Memory capacity (not including processor or accelerator)": "",
+	"SoC Memory type": "",
+	"SoC storage capacity": "",
+	"SoC storage type": "",
+	"Processor(s) Name": "32-Bit RISC-V",
+	"Processor(s) Frequencies": "300MHz",
+	"Processor memory type and capacity": "128KB SRAM",
+	"Processor storage type and capacity": "",
+	"Accelerator": "NNPA_16x",
+	"Accelerator(s) Frequencies": "300MHz",
+	"Accelerator memory type and capacity": "640KB SRAM",
+	"Accelerator storage type and capacity": "",
+	"Hardware Notes": "VDD=1.2V, VDDIO=1.8V",
+
+	"Inference Framework": "ColibryNPU SDK",
+	"Software Libraries": "ColibryNPU SDK",
+	"Operating System ": "N/A",
+	"Other Software Stack": "N/A",
+	"Software Notes": "",
+
+	"Quantization Method": "TensorFlow uint8 PTQ",
+	"Training framework (open division)": "",
+	"ML Model Compiler(s)": "NNPA Compiler",
+	"General Compiler(s)": "GNU GCC for RISCV",
+	"Other Software": "",
+	"Training and Quantization Notes": ""
+}

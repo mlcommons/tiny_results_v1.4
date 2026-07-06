@@ -1,0 +1,2 @@
+0529.043337 ulp-mlperf: Top 1% = 78.0
+0529.043337 ulp-mlperf: AUC = 0.860

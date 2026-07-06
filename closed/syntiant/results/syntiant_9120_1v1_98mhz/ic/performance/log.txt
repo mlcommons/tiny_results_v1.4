@@ -1,0 +1,92 @@
+Logging initialized. Writing output to sessions/20260531_172913/log.txt
+Initializing SerialDevice on port: /dev/cu.usbserial-140 at 230400 baud
+Device discovery results:
+Detected device: dut
+SerialDevice entering port /dev/cu.usbserial-140, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: syntiant
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: ic01
+SerialDevice exiting port /dev/cu.usbserial-140, entry_count (before decrement) = 1
+SerialDevice entering port /dev/cu.usbserial-140, entry_count (before increment) = 0
+0531.172916 ulp-mlperf: Loading file emu_s_002009.bin segment 0
+0531.172916 ulp-mlperf: Load complete.
+Running inference with 5/300 (warmup/measured) iterations ...
+done
+0531.172918 ulp-mlperf: Performance results for window 1:
+0531.172918 ulp-mlperf:   # Inferences :           300
+0531.172918 ulp-mlperf:   Runtime      :      1.660 sec.
+0531.172918 ulp-mlperf:   Throughput   :    180.691 inf./sec.
+0531.172918 ulp-mlperf:   m-results    : [17.894, 18.125, 8.867, 19.545, 12.863, 29.408, 5.016, 28.082, 10.086, 19.455]
+0531.172918 ulp-mlperf: Loading file taxi_s_001241.bin segment 0
+0531.172919 ulp-mlperf: Load complete.
+Running inference with 5/300 (warmup/measured) iterations ...
+done
+0531.172920 ulp-mlperf: Performance results for window 2:
+0531.172920 ulp-mlperf:   # Inferences :           300
+0531.172920 ulp-mlperf:   Runtime      :      1.661 sec.
+0531.172920 ulp-mlperf:   Throughput   :    180.641 inf./sec.
+0531.172920 ulp-mlperf:   m-results    : [10.541, 42.086, -15.278, -3.118, -2.094, -1.929, 6.678, 9.694, 5.404, 20.263]
+0531.172920 ulp-mlperf: Loading file accentor_s_001031.bin segment 0
+0531.172921 ulp-mlperf: Load complete.
+Running inference with 5/300 (warmup/measured) iterations ...
+done
+0531.172923 ulp-mlperf: Performance results for window 3:
+0531.172923 ulp-mlperf:   # Inferences :           300
+0531.172923 ulp-mlperf:   Runtime      :      1.660 sec.
+0531.172923 ulp-mlperf:   Throughput   :    180.705 inf./sec.
+0531.172923 ulp-mlperf:   m-results    : [19.804, 14.918, 25.412, 28.733, 25.91, 25.506, 28.604, 19.769, 9.086, 6.773]
+0531.172923 ulp-mlperf: Loading file mongrel_s_000686.bin segment 0
+0531.172924 ulp-mlperf: Load complete.
+Running inference with 5/300 (warmup/measured) iterations ...
+done
+0531.172925 ulp-mlperf: Performance results for window 4:
+0531.172925 ulp-mlperf:   # Inferences :           300
+0531.172925 ulp-mlperf:   Runtime      :      1.660 sec.
+0531.172925 ulp-mlperf:   Throughput   :    180.739 inf./sec.
+0531.172925 ulp-mlperf:   m-results    : [6.251, 11.694, 12.282, 23.863, 13.518, 27.78, 17.8, 18.306, 1.8, 9.561]
+0531.172925 ulp-mlperf: Loading file stealth_bomber_s_002204.bin segment 0
+0531.172926 ulp-mlperf: Load complete.
+Running inference with 5/300 (warmup/measured) iterations ...
+done
+0531.172928 ulp-mlperf: Performance results for window 5:
+0531.172928 ulp-mlperf:   # Inferences :           300
+0531.172928 ulp-mlperf:   Runtime      :      1.660 sec.
+0531.172928 ulp-mlperf:   Throughput   :    180.674 inf./sec.
+0531.172928 ulp-mlperf:   m-results    : [31.416, 10.027, 19.247, 19.69, 25.325, 19.729, 27.427, 24.224, 17.22, 16.839]
+SerialDevice exiting port /dev/cu.usbserial-140, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 300
+Runtime: 1.660297 sec.
+Throughput: 180.69056319441643 inf./sec.
+JHDBG: (before norm) results for file emu_s_002009.bin: [17.894, 18.125, 8.867, 19.545, 12.863, 29.408, 5.016, 28.082, 10.086, 19.455]
+JHDBG: (after norm) results for file emu_s_002009.bin: [0.10566844414524537, 0.10703255561263958, 0.05236180251681519, 0.11541800272822295, 0.07595915932940044, 0.17366142871484164, 0.02962070614913104, 0.16583107457733212, 0.059560295498432156, 0.11488653072793947]
+Performance results for window 2
+# Inferences : 300
+Runtime: 1.660748 sec.
+Throughput: 180.64149407375473 inf./sec.
+JHDBG: (before norm) results for file taxi_s_001241.bin: [10.541, 42.086, -15.278, -3.118, -2.094, -1.929, 6.678, 9.694, 5.404, 20.263]
+JHDBG: (after norm) results for file taxi_s_001241.bin: [0.1459022519966227, 0.5825293783824934, -0.21146898833169545, -0.043157501349537004, -0.028983902445776293, -0.026700070591166417, 0.0924329037883926, 0.13417858180962533, 0.07479895358976843, 0.28046839315127275]
+Performance results for window 3
+# Inferences : 300
+Runtime: 1.660168 sec.
+Throughput: 180.70460338953646 inf./sec.
+JHDBG: (before norm) results for file accentor_s_001031.bin: [19.804, 14.918, 25.412, 28.733, 25.91, 25.506, 28.604, 19.769, 9.086, 6.773]
+JHDBG: (after norm) results for file accentor_s_001031.bin: [0.09683397305821087, 0.0729433048920617, 0.12425494462508861, 0.14049336234506027, 0.12668997384054959, 0.12471456861354913, 0.1398626017651517, 0.09666283646676281, 0.04442705913991639, 0.03311737525364887]
+Performance results for window 4
+# Inferences : 300
+Runtime: 1.659855 sec.
+Throughput: 180.73867898099533 inf./sec.
+JHDBG: (before norm) results for file mongrel_s_000686.bin: [6.251, 11.694, 12.282, 23.863, 13.518, 27.78, 17.8, 18.306, 1.8, 9.561]
+JHDBG: (after norm) results for file mongrel_s_000686.bin: [0.04375765636484547, 0.08185922788841832, 0.08597528962934443, 0.16704350565258477, 0.09462741941129116, 0.19446291694375414, 0.12460186902803541, 0.12814392215883239, 0.01260018900283504, 0.06692800392005879]
+Performance results for window 5
+# Inferences : 300
+Runtime: 1.660451 sec.
+Throughput: 180.67380488794913 inf./sec.
+JHDBG: (before norm) results for file stealth_bomber_s_002204.bin: [31.416, 10.027, 19.247, 19.69, 25.325, 19.729, 27.427, 24.224, 17.22, 16.839]
+JHDBG: (after norm) results for file stealth_bomber_s_002204.bin: [0.14878945174856972, 0.04748891751600803, 0.09115579888606828, 0.09325389307771001, 0.11994184063956354, 0.0934386011442428, 0.12989713181525406, 0.11472738983821469, 0.08155571553063312, 0.07975125980373585]
+0531.172928 ulp-mlperf: ---------------------------------------------------------
+0531.172928 ulp-mlperf: Median throughput is    180.691 inf./sec.
+0531.172928 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260531_172913/log.txt

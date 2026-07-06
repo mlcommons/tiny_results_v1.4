@@ -1,0 +1,2 @@
+0428.162752 ulp-mlperf: Top 1% = 90.7
+0428.162752 ulp-mlperf: AUC = 0.996

@@ -1,0 +1,2 @@
+0507.205437 ulp-mlperf: Top 1% = 85.2
+0507.205437 ulp-mlperf: AUC = 0.936

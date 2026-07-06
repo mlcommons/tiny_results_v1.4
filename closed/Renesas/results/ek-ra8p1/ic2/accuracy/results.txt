@@ -1,0 +1,2 @@
+0611.050242 ulp-mlperf: Top 1% = 91.5
+0611.050242 ulp-mlperf: AUC = 0.987

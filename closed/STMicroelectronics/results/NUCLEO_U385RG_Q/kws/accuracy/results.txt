@@ -1,0 +1,2 @@
+0520.152328 ulp-mlperf: Top 1% = 90.2
+0520.152328 ulp-mlperf: AUC = 0.995

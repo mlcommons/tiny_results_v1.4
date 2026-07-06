@@ -1,0 +1,2 @@
+0417.114605 ulp-mlperf: Top 1% = 85.2
+0417.114605 ulp-mlperf: AUC = 0.936

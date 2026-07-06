@@ -1,0 +1,2 @@
+0611.030823 ulp-mlperf: Top 1% = 78.9
+0611.030823 ulp-mlperf: AUC = 0.874

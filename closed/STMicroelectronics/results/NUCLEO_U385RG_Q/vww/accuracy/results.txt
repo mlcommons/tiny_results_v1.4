@@ -1,0 +1,2 @@
+0520.160842 ulp-mlperf: Top 1% = 85.2
+0520.160842 ulp-mlperf: AUC = 0.936

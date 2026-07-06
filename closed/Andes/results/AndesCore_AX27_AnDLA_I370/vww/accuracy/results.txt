@@ -1,0 +1,2 @@
+0529.022820 ulp-mlperf: Top 1% = 85.6
+0529.022820 ulp-mlperf: AUC = 0.937

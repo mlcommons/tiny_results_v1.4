@@ -1,0 +1,14 @@
+Power Edition Output
+Energy data for trial 0
+  Elapsed time  : 1202.1609999999998
+  Inferences    : 1
+  Power         : 0.3279 mW.
+  Total Energy  : 394145.276 uJ
+  Energy/Inf    : 394145.276 uJ/inf
+---------------------------------------------------------
+Median energy cost is 394145.2759 uJ/inf.
+---------------------------------------------------------
+Accuracy: 44 True positives, 6 False negatives, 6 False positives
+Average duty cycle: 0.032859
+Average period: 0.0080983 s
+Estimated throughput: 3758.0 inf./sec.

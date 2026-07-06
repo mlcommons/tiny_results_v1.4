@@ -1,0 +1,2 @@
+0528.170525 ulp-mlperf: Top 1% = 90.2
+0528.170525 ulp-mlperf: AUC = 0.995

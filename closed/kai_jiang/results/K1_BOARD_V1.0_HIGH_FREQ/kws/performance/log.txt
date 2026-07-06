@@ -1,0 +1,80 @@
+Logging initialized. Writing output to sessions\20260428_162619\log.txt
+Initializing SerialDevice on port: COM6 at 921600 baud
+SerialDevice entering port COM6, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: unspecified
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: kws01
+SerialDevice exiting port COM6, entry_count (before decrement) = 1
+SerialDevice entering port COM6, entry_count (before increment) = 0
+0428.162621 ulp-mlperf: Loading file tst_000000_Stop_7.bin segment 0
+0428.162621 ulp-mlperf: Load complete.
+Running inference with 10/5000 (warmup/measured) iterations ...
+done
+0428.162624 ulp-mlperf: Performance results for window 1:
+0428.162624 ulp-mlperf:   # Inferences :          5000
+0428.162624 ulp-mlperf:   Runtime      :      2.899 sec.
+0428.162624 ulp-mlperf:   Throughput   :   1725.022 inf./sec.
+0428.162624 ulp-mlperf:   m-results    : [0.0, 0.0, 0.005, 0.0, 0.0, 0.0, 0.001, 0.971, 0.0, 0.0, 0.0, 0.022]
+0428.162624 ulp-mlperf: Loading file tst_000001_Left_2.bin segment 0
+0428.162624 ulp-mlperf: Load complete.
+Running inference with 10/5000 (warmup/measured) iterations ...
+done
+0428.162627 ulp-mlperf: Performance results for window 2:
+0428.162627 ulp-mlperf:   # Inferences :          5000
+0428.162627 ulp-mlperf:   Runtime      :      2.889 sec.
+0428.162627 ulp-mlperf:   Throughput   :   1730.483 inf./sec.
+0428.162627 ulp-mlperf:   m-results    : [0.0, 0.0, 0.987, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.001, 0.0, 0.011]
+0428.162627 ulp-mlperf: Loading file tst_000002_Right_6.bin segment 0
+0428.162627 ulp-mlperf: Load complete.
+Running inference with 10/5000 (warmup/measured) iterations ...
+done
+0428.162630 ulp-mlperf: Performance results for window 3:
+0428.162630 ulp-mlperf:   # Inferences :          5000
+0428.162630 ulp-mlperf:   Runtime      :      2.885 sec.
+0428.162630 ulp-mlperf:   Throughput   :   1733.126 inf./sec.
+0428.162630 ulp-mlperf:   m-results    : [0.0, 0.0, 0.001, 0.0, 0.0, 0.0, 0.999, 0.0, 0.0, 0.0, 0.0, 0.001]
+0428.162630 ulp-mlperf: Loading file tst_000003_Up_8.bin segment 0
+0428.162630 ulp-mlperf: Load complete.
+Running inference with 10/5000 (warmup/measured) iterations ...
+done
+0428.162633 ulp-mlperf: Performance results for window 4:
+0428.162633 ulp-mlperf:   # Inferences :          5000
+0428.162633 ulp-mlperf:   Runtime      :      2.883 sec.
+0428.162633 ulp-mlperf:   Throughput   :   1734.495 inf./sec.
+0428.162633 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]
+0428.162633 ulp-mlperf: Loading file tst_000004_On_5.bin segment 0
+0428.162633 ulp-mlperf: Load complete.
+Running inference with 10/5000 (warmup/measured) iterations ...
+done
+0428.162636 ulp-mlperf: Performance results for window 5:
+0428.162636 ulp-mlperf:   # Inferences :          5000
+0428.162636 ulp-mlperf:   Runtime      :      2.882 sec.
+0428.162636 ulp-mlperf:   Throughput   :   1734.648 inf./sec.
+0428.162636 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+SerialDevice exiting port COM6, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 5000
+Runtime: 2.898514 sec.
+Throughput: 1725.0218560269159 inf./sec.
+Performance results for window 2
+# Inferences : 5000
+Runtime: 2.889367 sec.
+Throughput: 1730.4828358598959 inf./sec.
+Performance results for window 3
+# Inferences : 5000
+Runtime: 2.884961 sec.
+Throughput: 1733.125681768315 inf./sec.
+Performance results for window 4
+# Inferences : 5000
+Runtime: 2.882684 sec.
+Throughput: 1734.49465845025 inf./sec.
+Performance results for window 5
+# Inferences : 5000
+Runtime: 2.88243 sec.
+Throughput: 1734.6475022810616 inf./sec.
+0428.162636 ulp-mlperf: ---------------------------------------------------------
+0428.162636 ulp-mlperf: Median throughput is   1733.126 inf./sec.
+0428.162636 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions\20260428_162619\log.txt

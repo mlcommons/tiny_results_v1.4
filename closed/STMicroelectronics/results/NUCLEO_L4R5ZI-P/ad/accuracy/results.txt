@@ -1,0 +1,2 @@
+0508.033703 ulp-mlperf: Top 1% = 77.8
+0508.033703 ulp-mlperf: AUC = 0.862

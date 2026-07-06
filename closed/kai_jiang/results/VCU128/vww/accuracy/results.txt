@@ -1,0 +1,2 @@
+0424.131255 ulp-mlperf: Top 1% = 84.9
+0424.131255 ulp-mlperf: AUC = 0.957

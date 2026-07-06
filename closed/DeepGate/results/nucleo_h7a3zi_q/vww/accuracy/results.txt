@@ -1,0 +1,2 @@
+0519.193354 ulp-mlperf: Top 1% = 85.8
+0519.193354 ulp-mlperf: AUC = 0.937

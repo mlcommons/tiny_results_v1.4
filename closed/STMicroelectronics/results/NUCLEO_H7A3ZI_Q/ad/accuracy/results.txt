@@ -1,0 +1,2 @@
+0517.200407 ulp-mlperf: Top 1% = 77.8
+0517.200407 ulp-mlperf: AUC = 0.862

@@ -1,0 +1,2 @@
+0527.161152 ulp-mlperf: Top 1% = 92.4
+0527.161152 ulp-mlperf: AUC = 0.985

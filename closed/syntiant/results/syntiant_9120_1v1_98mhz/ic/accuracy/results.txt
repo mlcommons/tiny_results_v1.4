@@ -1,0 +1,2 @@
+0531.174101 ulp-mlperf: Top 1% = 86.5
+0531.174101 ulp-mlperf: AUC = 0.961

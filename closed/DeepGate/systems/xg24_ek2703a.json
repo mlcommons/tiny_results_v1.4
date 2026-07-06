@@ -1,0 +1,38 @@
+{
+    "Submitter": "DeepGate",
+    "Division": "Closed",
+    "Status": "Available",
+
+    "Board Name": "xG24-EK2703A",
+    "Board Memory capacity (not including SoC, processor, or accelerator)": "",
+    "Board Memory type": "",
+    "Board storage capacity": "",
+    "Board storage type": "",
+    "SoC Name": "Silicon Labs EFR32MG24B210F1536IM48",
+    "SoC Memory capacity (not including processor or accelerator)": "256KB",
+    "SoC Memory type": "RAM",
+    "SoC storage capacity": "1.5MB",
+    "SoC storage type": "Flash",
+    "Processor(s) Name": "32-Bit ARM Cortex-M33",
+    "Processor(s) Frequencies": "78 MHz",
+    "Processor memory type and capacity": "256KB RAM",
+    "Processor storage type and capacity": "1.5MB Flash",
+    "Accelerator": "Silicon Labs MVP (Matrix Vector Processor)",
+    "Accelerator(s) Frequencies": "",
+    "Accelerator memory type and capacity": "",
+    "Accelerator storage type and capacity": "",
+    "Hardware Notes": "Standard EFR32xG24 Explorer Kit (xG24-EK2703A) board configuration. Integrated SEGGER J-Link OB used for flashing and serial-over-USB. Core clocked at 78 MHz; 3.3 V VDD supplied through the J-Link USB. The SoC integrates a Silicon Labs MVP (Matrix Vector Processor) accelerator, used by the DeepGate compiler for operator offload.",
+
+    "Inference Framework": "DeepGate libmodel (precompiled per-(board, task) static library)",
+    "Software Libraries": "Zephyr RTOS v4.4.0, picolibc",
+    "Operating System": "Zephyr RTOS",
+    "Other Software Stack": "",
+    "Software Notes": "Compiler reachable via DeepGate's online platform at https://bitweaver.deepgate.ai (see Quantization Method section for the technique).",
+
+    "Quantization Method": "Per-tensor int8. For ic01, ic02, vww01, and ad01 we use the benchmark owner's supplied int8 reference TFLite directly (bit-identical weights). For KWS01 we re-quantize from the fp32 reference using post-training quantization (PTQ) on the official calibration set. Full description in this submission's README.md, section 'Quantization method'.",
+    "Training framework (open division)": "",
+    "ML Model Compiler(s)": "DeepGate Bitweaver v0.14.0 (git 5f6ff3c)",
+    "General Compiler(s)": "arm-zephyr-eabi-gcc (Zephyr SDK 1.0.1) 14.3.0",
+    "Other Software": "",
+    "Training and Quantization Notes": ""
+}

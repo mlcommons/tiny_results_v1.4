@@ -1,0 +1,29 @@
+- name: stm32h573i-dk
+  type: interface
+  echo: False
+  preference: 2
+  baud: 115200 # Baudrate for the interface (IO) board
+  usb:
+    0x0483: 0x374E
+    
+- name: lpm01a
+  type: power
+  baud: 3686400
+  echo: False
+  preference: 2
+  voltage: 2.0   # <-- Voltage for DUT
+  usb:
+    0x0483: 0x5740  # Ensures detection by VID/PID
+
+- name: colibry
+  type: dut 
+  baud:
+    energy: 9600
+    performance: 115200
+    accuracy: 115200
+  echo : False
+  usb:
+    0x0403: 0x6043
+
+
+

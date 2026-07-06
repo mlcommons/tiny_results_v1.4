@@ -1,0 +1,16 @@
+/* NUCLEO-H7A3ZI-Q overlay for MLPerf Tiny.
+ *
+ * USART3 is the board's ST-Link VCP UART (PD8 TX / PD9 RX), the
+ * default zephyr,console for nucleo_h7a3zi_q. The newer ST-Link V3
+ * probe handles 921600 reliably; see runner/devices.yaml.
+ */
+
+&usart3 {
+    current-speed = <921600>;
+};
+
+/* Extend sram0 to include sram1 and sram2 so we have a single contiguous
+ * 1 MB region for libmodel.a's static buffers. */
+&sram0 {
+    reg = <0x24000000 DT_SIZE_K(1024)>;
+};

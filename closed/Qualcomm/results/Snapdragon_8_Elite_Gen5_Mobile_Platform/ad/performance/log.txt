@@ -1,0 +1,91 @@
+Logging initialized. Writing output to sessions\20260520_154050\log.txt
+Initializing SerialDevice on port: COM11 at 115200 baud
+SerialDevice entering port COM11, entry_count (before increment) = 0
+Retrieving name from DUT ...
+WARNING: Failed to get name.
+Retrying _get_name (1/3)...
+Retrieving name from DUT ...
+WARNING: Failed to get name.
+Retrying _get_name (2/3)...
+Retrieving name from DUT ...
+WARNING: Failed to get name.
+Device model retrieved: ad01
+Device model retrieved: ad01
+SerialDevice exiting port COM11, entry_count (before decrement) = 1
+SerialDevice entering port COM11, entry_count (before increment) = 0
+0520.154053 ulp-mlperf: Loading file normal_id_01_00000003_hist_librosa.bin segment 0
+0520.154059 ulp-mlperf: Load complete.
+Running inference with 10/150000 (warmup/measured) iterations ...
+done
+0520.154109 ulp-mlperf: Performance results for window 1:
+0520.154109 ulp-mlperf:   # Inferences :        150000
+0520.154109 ulp-mlperf:   Runtime      :     10.349 sec.
+0520.154109 ulp-mlperf:   Throughput   :  14494.024 inf./sec.
+0520.154109 ulp-mlperf:   m-results    : [53.592]
+0520.154109 ulp-mlperf: Loading file normal_id_01_00000013_hist_librosa.bin segment 0
+0520.154116 ulp-mlperf: Load complete.
+Running inference with 10/150000 (warmup/measured) iterations ...
+done
+0520.154126 ulp-mlperf: Performance results for window 2:
+0520.154126 ulp-mlperf:   # Inferences :        150000
+0520.154126 ulp-mlperf:   Runtime      :     10.345 sec.
+0520.154126 ulp-mlperf:   Throughput   :  14500.116 inf./sec.
+0520.154126 ulp-mlperf:   m-results    : [24.2]
+0520.154126 ulp-mlperf: Loading file normal_id_01_00000023_hist_librosa.bin segment 0
+0520.154133 ulp-mlperf: Load complete.
+Running inference with 10/150000 (warmup/measured) iterations ...
+done
+0520.154143 ulp-mlperf: Performance results for window 3:
+0520.154143 ulp-mlperf:   # Inferences :        150000
+0520.154143 ulp-mlperf:   Runtime      :     10.343 sec.
+0520.154143 ulp-mlperf:   Throughput   :  14503.073 inf./sec.
+0520.154143 ulp-mlperf:   m-results    : [38.892]
+0520.154143 ulp-mlperf: Loading file normal_id_01_00000033_hist_librosa.bin segment 0
+0520.154150 ulp-mlperf: Load complete.
+Running inference with 10/150000 (warmup/measured) iterations ...
+done
+0520.154200 ulp-mlperf: Performance results for window 4:
+0520.154200 ulp-mlperf:   # Inferences :        150000
+0520.154200 ulp-mlperf:   Runtime      :     10.350 sec.
+0520.154200 ulp-mlperf:   Throughput   :  14492.758 inf./sec.
+0520.154200 ulp-mlperf:   m-results    : [35.822]
+0520.154200 ulp-mlperf: Loading file normal_id_01_00000043_hist_librosa.bin segment 0
+0520.154206 ulp-mlperf: Load complete.
+Running inference with 10/150000 (warmup/measured) iterations ...
+done
+0520.154217 ulp-mlperf: Performance results for window 5:
+0520.154217 ulp-mlperf:   # Inferences :        150000
+0520.154217 ulp-mlperf:   Runtime      :     10.338 sec.
+0520.154217 ulp-mlperf:   Throughput   :  14509.242 inf./sec.
+0520.154217 ulp-mlperf:   m-results    : [49.268]
+SerialDevice exiting port COM11, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 150000
+Runtime: 10.349093 sec.
+Throughput: 14494.023775803349 inf./sec.
+Runtime requirements have been met.
+Performance results for window 2
+# Inferences : 150000
+Runtime: 10.344745 sec.
+Throughput: 14500.115759257478 inf./sec.
+Runtime requirements have been met.
+Performance results for window 3
+# Inferences : 150000
+Runtime: 10.342636 sec.
+Throughput: 14503.072524257837 inf./sec.
+Runtime requirements have been met.
+Performance results for window 4
+# Inferences : 150000
+Runtime: 10.349997 sec.
+Throughput: 14492.757823987775 inf./sec.
+Runtime requirements have been met.
+Performance results for window 5
+# Inferences : 150000
+Runtime: 10.338238 sec.
+Throughput: 14509.242290610837 inf./sec.
+Runtime requirements have been met.
+0520.154217 ulp-mlperf: ---------------------------------------------------------
+0520.154217 ulp-mlperf: Median throughput is  14500.116 inf./sec.
+0520.154217 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions\20260520_154050\log.txt

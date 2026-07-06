@@ -1,0 +1,2 @@
+0420.000413 ulp-mlperf: Top 1% = 77.8
+0420.000413 ulp-mlperf: AUC = 0.862

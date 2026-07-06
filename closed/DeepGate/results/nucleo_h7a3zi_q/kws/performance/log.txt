@@ -1,0 +1,85 @@
+Logging initialized. Writing output to sessions/20260519_184916/log.txt
+Initializing SerialDevice on port: /dev/cu.usbmodem113203 at 921600 baud
+SerialDevice entering port /dev/cu.usbmodem113203, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: DeepGate
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: kws01
+SerialDevice exiting port /dev/cu.usbmodem113203, entry_count (before decrement) = 1
+SerialDevice entering port /dev/cu.usbmodem113203, entry_count (before increment) = 0
+0519.184918 ulp-mlperf: Loading file tst_000000_Stop_7.bin segment 0
+0519.184918 ulp-mlperf: Load complete.
+Running inference with 100/1000 (warmup/measured) iterations ...
+done
+0519.184934 ulp-mlperf: Performance results for window 1:
+0519.184934 ulp-mlperf:   # Inferences :          1000
+0519.184934 ulp-mlperf:   Runtime      :     14.239 sec.
+0519.184934 ulp-mlperf:   Throughput   :     70.230 inf./sec.
+0519.184934 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.793]
+0519.184934 ulp-mlperf: Loading file tst_000001_Left_2.bin segment 0
+0519.184934 ulp-mlperf: Load complete.
+Running inference with 100/1000 (warmup/measured) iterations ...
+done
+0519.184950 ulp-mlperf: Performance results for window 2:
+0519.184950 ulp-mlperf:   # Inferences :          1000
+0519.184950 ulp-mlperf:   Runtime      :     14.238 sec.
+0519.184950 ulp-mlperf:   Throughput   :     70.233 inf./sec.
+0519.184950 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.145, 0.0, 0.0, 0.0, 0.0, 0.0, 0.855]
+0519.184950 ulp-mlperf: Loading file tst_000002_Right_6.bin segment 0
+0519.184950 ulp-mlperf: Load complete.
+Running inference with 100/1000 (warmup/measured) iterations ...
+done
+0519.185005 ulp-mlperf: Performance results for window 3:
+0519.185005 ulp-mlperf:   # Inferences :          1000
+0519.185005 ulp-mlperf:   Runtime      :     14.238 sec.
+0519.185005 ulp-mlperf:   Throughput   :     70.232 inf./sec.
+0519.185005 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.145, 0.0, 0.0, 0.0, 0.0, 0.0, 0.855]
+0519.185005 ulp-mlperf: Loading file tst_000003_Up_8.bin segment 0
+0519.185005 ulp-mlperf: Load complete.
+Running inference with 100/1000 (warmup/measured) iterations ...
+done
+0519.185021 ulp-mlperf: Performance results for window 4:
+0519.185021 ulp-mlperf:   # Inferences :          1000
+0519.185021 ulp-mlperf:   Runtime      :     14.238 sec.
+0519.185021 ulp-mlperf:   Throughput   :     70.232 inf./sec.
+0519.185021 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.184, 0.0, 0.0, 0.0, 0.0, 0.0, 0.816]
+0519.185021 ulp-mlperf: Loading file tst_000004_On_5.bin segment 0
+0519.185021 ulp-mlperf: Load complete.
+Running inference with 100/1000 (warmup/measured) iterations ...
+done
+0519.185037 ulp-mlperf: Performance results for window 5:
+0519.185037 ulp-mlperf:   # Inferences :          1000
+0519.185037 ulp-mlperf:   Runtime      :     14.239 sec.
+0519.185037 ulp-mlperf:   Throughput   :     70.232 inf./sec.
+0519.185037 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.0, 0.0, 0.184, 0.0, 0.0, 0.0, 0.0, 0.0, 0.816]
+SerialDevice exiting port /dev/cu.usbmodem113203, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 1000
+Runtime: 14.238845 sec.
+Throughput: 70.2304154585572 inf./sec.
+Runtime requirements have been met.
+Performance results for window 2
+# Inferences : 1000
+Runtime: 14.23832 sec.
+Throughput: 70.23300501744588 inf./sec.
+Runtime requirements have been met.
+Performance results for window 3
+# Inferences : 1000
+Runtime: 14.238479 sec.
+Throughput: 70.23222073088003 inf./sec.
+Runtime requirements have been met.
+Performance results for window 4
+# Inferences : 1000
+Runtime: 14.238494 sec.
+Throughput: 70.23214674248555 inf./sec.
+Runtime requirements have been met.
+Performance results for window 5
+# Inferences : 1000
+Runtime: 14.238508 sec.
+Throughput: 70.23207768679134 inf./sec.
+Runtime requirements have been met.
+0519.185037 ulp-mlperf: ---------------------------------------------------------
+0519.185037 ulp-mlperf: Median throughput is     70.232 inf./sec.
+0519.185037 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260519_184916/log.txt

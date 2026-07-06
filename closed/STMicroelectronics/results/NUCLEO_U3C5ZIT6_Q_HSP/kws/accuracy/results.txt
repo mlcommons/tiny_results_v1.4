@@ -1,0 +1,2 @@
+0417.091307 ulp-mlperf: Top 1% = 90.2
+0417.091307 ulp-mlperf: AUC = 0.995

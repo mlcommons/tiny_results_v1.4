@@ -1,0 +1,2 @@
+0530.012521 ulp-mlperf: Top 1% = 78.0
+0530.012521 ulp-mlperf: AUC = 0.860

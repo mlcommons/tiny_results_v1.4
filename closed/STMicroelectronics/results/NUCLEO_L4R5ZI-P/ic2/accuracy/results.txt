@@ -1,0 +1,2 @@
+0507.213717 ulp-mlperf: Top 1% = 93.5
+0507.213717 ulp-mlperf: AUC = 0.990

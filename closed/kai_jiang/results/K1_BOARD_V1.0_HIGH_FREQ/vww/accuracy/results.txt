@@ -1,0 +1,2 @@
+0428.170108 ulp-mlperf: Top 1% = 85.4
+0428.170108 ulp-mlperf: AUC = 0.936

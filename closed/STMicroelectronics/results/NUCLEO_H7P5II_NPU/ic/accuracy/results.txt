@@ -1,0 +1,2 @@
+0505.171513 ulp-mlperf: Top 1% = 88.0
+0505.171513 ulp-mlperf: AUC = 0.988

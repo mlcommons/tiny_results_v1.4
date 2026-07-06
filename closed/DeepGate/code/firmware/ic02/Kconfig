@@ -1,0 +1,3 @@
+mainmenu "MLPerf Tiny IC01 (Image Classification) Configuration"
+
+source "Kconfig.zephyr"

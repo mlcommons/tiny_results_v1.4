@@ -1,0 +1,80 @@
+Logging initialized. Writing output to sessions\20260428_161340\log.txt
+Initializing SerialDevice on port: COM6 at 921600 baud
+SerialDevice entering port COM6, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: unspecified
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: ic01
+SerialDevice exiting port COM6, entry_count (before decrement) = 1
+SerialDevice entering port COM6, entry_count (before increment) = 0
+0428.161342 ulp-mlperf: Loading file emu_s_002009.bin segment 0
+0428.161342 ulp-mlperf: Load complete.
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+0428.161347 ulp-mlperf: Performance results for window 1:
+0428.161347 ulp-mlperf:   # Inferences :          2000
+0428.161347 ulp-mlperf:   Runtime      :      4.523 sec.
+0428.161347 ulp-mlperf:   Throughput   :    442.197 inf./sec.
+0428.161347 ulp-mlperf:   m-results    : [0.002, 0.003, 0.0, 0.004, 0.0, 0.574, 0.0, 0.41, 0.0, 0.006]
+0428.161347 ulp-mlperf: Loading file taxi_s_001241.bin segment 0
+0428.161347 ulp-mlperf: Load complete.
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+0428.161352 ulp-mlperf: Performance results for window 2:
+0428.161352 ulp-mlperf:   # Inferences :          2000
+0428.161352 ulp-mlperf:   Runtime      :      4.520 sec.
+0428.161352 ulp-mlperf:   Throughput   :    442.526 inf./sec.
+0428.161352 ulp-mlperf:   m-results    : [0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0428.161352 ulp-mlperf: Loading file accentor_s_001031.bin segment 0
+0428.161352 ulp-mlperf: Load complete.
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+0428.161356 ulp-mlperf: Performance results for window 3:
+0428.161356 ulp-mlperf:   # Inferences :          2000
+0428.161356 ulp-mlperf:   Runtime      :      4.518 sec.
+0428.161356 ulp-mlperf:   Throughput   :    442.663 inf./sec.
+0428.161356 ulp-mlperf:   m-results    : [0.002, 0.0, 0.053, 0.397, 0.087, 0.062, 0.397, 0.001, 0.0, 0.0]
+0428.161356 ulp-mlperf: Loading file mongrel_s_000686.bin segment 0
+0428.161357 ulp-mlperf: Load complete.
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+0428.161401 ulp-mlperf: Performance results for window 4:
+0428.161401 ulp-mlperf:   # Inferences :          2000
+0428.161401 ulp-mlperf:   Runtime      :      4.520 sec.
+0428.161401 ulp-mlperf:   Throughput   :    442.493 inf./sec.
+0428.161401 ulp-mlperf:   m-results    : [0.0, 0.0, 0.0, 0.134, 0.001, 0.856, 0.005, 0.004, 0.0, 0.0]
+0428.161401 ulp-mlperf: Loading file stealth_bomber_s_002204.bin segment 0
+0428.161401 ulp-mlperf: Load complete.
+Running inference with 5/2000 (warmup/measured) iterations ...
+done
+0428.161406 ulp-mlperf: Performance results for window 5:
+0428.161406 ulp-mlperf:   # Inferences :          2000
+0428.161406 ulp-mlperf:   Runtime      :      4.523 sec.
+0428.161406 ulp-mlperf:   Throughput   :    442.155 inf./sec.
+0428.161406 ulp-mlperf:   m-results    : [0.785, 0.0, 0.003, 0.003, 0.063, 0.003, 0.123, 0.019, 0.001, 0.001]
+SerialDevice exiting port COM6, entry_count (before decrement) = 1
+--------------------
+Performance results for window 1
+# Inferences : 2000
+Runtime: 4.522872 sec.
+Throughput: 442.19690497542274 inf./sec.
+Performance results for window 2
+# Inferences : 2000
+Runtime: 4.519512 sec.
+Throughput: 442.5256532121167 inf./sec.
+Performance results for window 3
+# Inferences : 2000
+Runtime: 4.518114 sec.
+Throughput: 442.6625800057281 inf./sec.
+Performance results for window 4
+# Inferences : 2000
+Runtime: 4.519848 sec.
+Throughput: 442.49275639357785 inf./sec.
+Performance results for window 5
+# Inferences : 2000
+Runtime: 4.523305 sec.
+Throughput: 442.1545750286572 inf./sec.
+0428.161406 ulp-mlperf: ---------------------------------------------------------
+0428.161406 ulp-mlperf: Median throughput is    442.493 inf./sec.
+0428.161406 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions\20260428_161340\log.txt

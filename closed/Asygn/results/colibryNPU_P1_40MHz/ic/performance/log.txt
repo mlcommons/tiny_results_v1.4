@@ -1,0 +1,81 @@
+Logging initialized. Writing output to sessions/20260527_151710/log.txt
+Initializing SerialDevice on port: /dev/ttyACM0 at 115200 baud
+Initializing SerialDevice on port: /dev/ttyACM1 at 3686400 baud
+SerialDevice entering port /dev/ttyACM1, entry_count (before increment) = 0
+SerialDevice entering port /dev/ttyACM0, entry_count (before increment) = 0
+Retrieving name from DUT ...
+Device name retrieved: unspecified
+Device profile retrieved: ULPMark for tinyML Firmware V0.0.1
+Device model retrieved: ic01
+0527.151714 ulp-mlperf: Loading file emu_s_002009.bin segment 0
+0527.151717 ulp-mlperf: Load complete.
+Running inference with 5/100 (warmup/measured) iterations ...
+done
+0527.151719 ulp-mlperf: Performance results for window 1:
+0527.151719 ulp-mlperf:   # Inferences :           100
+0527.151719 ulp-mlperf:   Runtime      :      2.025 sec.
+0527.151719 ulp-mlperf:   Throughput   :     49.388 inf./sec.
+0527.151719 ulp-mlperf:   m-results    : [0.104, 0.102, 0.09, 0.102, 0.094, 0.112, 0.086, 0.114, 0.094, 0.104]
+0527.151719 ulp-mlperf: Loading file taxi_s_001241.bin segment 0
+0527.151721 ulp-mlperf: Load complete.
+Running inference with 5/100 (warmup/measured) iterations ...
+done
+0527.151724 ulp-mlperf: Performance results for window 2:
+0527.151724 ulp-mlperf:   # Inferences :           100
+0527.151724 ulp-mlperf:   Runtime      :      2.025 sec.
+0527.151724 ulp-mlperf:   Throughput   :     49.394 inf./sec.
+0527.151724 ulp-mlperf:   m-results    : [0.105, 0.144, 0.077, 0.088, 0.088, 0.087, 0.095, 0.103, 0.102, 0.113]
+0527.151724 ulp-mlperf: Loading file accentor_s_001031.bin segment 0
+0527.151726 ulp-mlperf: Load complete.
+Running inference with 5/100 (warmup/measured) iterations ...
+done
+0527.151728 ulp-mlperf: Performance results for window 3:
+0527.151728 ulp-mlperf:   # Inferences :           100
+0527.151728 ulp-mlperf:   Runtime      :      2.025 sec.
+0527.151728 ulp-mlperf:   Throughput   :     49.385 inf./sec.
+0527.151728 ulp-mlperf:   m-results    : [0.099, 0.092, 0.107, 0.108, 0.108, 0.106, 0.108, 0.096, 0.09, 0.084]
+0527.151728 ulp-mlperf: Loading file mongrel_s_000686.bin segment 0
+0527.151731 ulp-mlperf: Load complete.
+Running inference with 5/100 (warmup/measured) iterations ...
+done
+0527.151733 ulp-mlperf: Performance results for window 4:
+0527.151733 ulp-mlperf:   # Inferences :           100
+0527.151733 ulp-mlperf:   Runtime      :      2.025 sec.
+0527.151733 ulp-mlperf:   Throughput   :     49.378 inf./sec.
+0527.151733 ulp-mlperf:   m-results    : [0.09, 0.098, 0.097, 0.11, 0.1, 0.115, 0.103, 0.104, 0.089, 0.094]
+0527.151733 ulp-mlperf: Loading file stealth_bomber_s_002204.bin segment 0
+0527.151735 ulp-mlperf: Load complete.
+Running inference with 5/100 (warmup/measured) iterations ...
+done
+0527.151737 ulp-mlperf: Performance results for window 5:
+0527.151737 ulp-mlperf:   # Inferences :           100
+0527.151737 ulp-mlperf:   Runtime      :      2.026 sec.
+0527.151737 ulp-mlperf:   Throughput   :     49.364 inf./sec.
+0527.151737 ulp-mlperf:   m-results    : [0.112, 0.091, 0.097, 0.095, 0.104, 0.096, 0.107, 0.106, 0.096, 0.096]
+SerialDevice exiting port /dev/ttyACM0, entry_count (before decrement) = 1
+--------------------
+SerialDevice exiting port /dev/ttyACM1, entry_count (before decrement) = 1
+Performance results for window 1
+# Inferences : 100
+Runtime: 2.02478 sec.
+Throughput: 49.38808166813185 inf./sec.
+Performance results for window 2
+# Inferences : 100
+Runtime: 2.024536 sec.
+Throughput: 49.39403399099844 inf./sec.
+Performance results for window 3
+# Inferences : 100
+Runtime: 2.024902 sec.
+Throughput: 49.38510604463821 inf./sec.
+Performance results for window 4
+# Inferences : 100
+Runtime: 2.025207 sec.
+Throughput: 49.377668554374935 inf./sec.
+Performance results for window 5
+# Inferences : 100
+Runtime: 2.025757 sec.
+Throughput: 49.36426234735953 inf./sec.
+0527.151737 ulp-mlperf: ---------------------------------------------------------
+0527.151737 ulp-mlperf: Median throughput is     49.385 inf./sec.
+0527.151737 ulp-mlperf: ---------------------------------------------------------
+Session logged in file sessions/20260527_151710/log.txt

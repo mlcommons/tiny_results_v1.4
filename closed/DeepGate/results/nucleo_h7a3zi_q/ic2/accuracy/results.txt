@@ -1,0 +1,2 @@
+0519.190516 ulp-mlperf: Top 1% = 94.0
+0519.190516 ulp-mlperf: AUC = 0.990

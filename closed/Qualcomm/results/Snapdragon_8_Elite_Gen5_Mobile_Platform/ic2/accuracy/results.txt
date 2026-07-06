@@ -1,0 +1,2 @@
+0522.194642 ulp-mlperf: Top 1% = 91.0
+0522.194642 ulp-mlperf: AUC = 0.995

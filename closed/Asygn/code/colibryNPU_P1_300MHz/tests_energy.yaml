@@ -1,0 +1,40 @@
+ad01:
+  name: anomoly_detection
+  model: ad01
+  truth_file: y_labels_alt.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 250000 5      # The total number of inferences must last more than 10 seconds.
+ic01:
+  name: image_classification
+  model: ic01
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 6000 5      # The total number of inferences must last more than 10 seconds.
+ic02:
+  name: image_classification
+  model: ic01
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 1000 5      # The total number of inferences must last more than 10 seconds.
+kws01:
+  name: keyword_spotting
+  model: kws01
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 25000 10      # The total number of inferences must last more than 10 seconds.
+vww01:
+  name: person_detection
+  model: vww01
+  truth_file: y_labels.csv
+  script:
+    - loop 5: 
+      - download
+      - infer 10000 5    # The total number of inferences must last more than 10 seconds.

@@ -1,0 +1,2 @@
+0511.193939 ulp-mlperf: Top 1% = 91.3
+0511.193939 ulp-mlperf: AUC = 0.978
