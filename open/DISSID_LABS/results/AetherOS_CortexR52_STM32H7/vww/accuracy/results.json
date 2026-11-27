@@ -1,0 +1,7 @@
+{
+  "model": "visual_wake_words",
+  "metric": "Top-1 Accuracy",
+  "value": 0.825,
+  "threshold": 0.800,
+  "status": "PASS"
+}

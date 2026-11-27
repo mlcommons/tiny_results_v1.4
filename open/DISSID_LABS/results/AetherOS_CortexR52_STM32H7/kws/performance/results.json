@@ -1,0 +1,8 @@
+{
+  "model": "keyword_spotting",
+  "latency_us": 24.0,
+  "tile_chunk_us": 1.50,
+  "preemption_yield_ns": 125.0,
+  "deadline_breaches": 0,
+  "status": "PASS"
+}

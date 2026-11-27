@@ -1,0 +1,7 @@
+{
+  "model": "anomaly_detection",
+  "metric": "AUC",
+  "value": 0.884,
+  "threshold": 0.850,
+  "status": "PASS"
+}

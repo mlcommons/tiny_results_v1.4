@@ -1,0 +1,7 @@
+{
+  "model": "keyword_spotting",
+  "metric": "Top-1 Accuracy",
+  "value": 0.912,
+  "threshold": 0.900,
+  "status": "PASS"
+}
